@@ -1,0 +1,36 @@
+\begin{thebibliography}{}
+
+\bibitem[Gomez-Cabrero et~al., 2014]{Gomez-Cabrero2014}
+Gomez-Cabrero, D., Abugessaisa, I., Maier, D., Teschendorff, A.,
+  Merkenschlager, M., Gisel, A., Ballestar, E., Bongcam-Rudloff, E., Conesa,
+  A., and Tegn\'{e}r, J. (2014).
+\newblock {Data integration in the era of omics: current and future
+  challenges}.
+\newblock {\em BMC Syst. Biol.}, 8(Suppl 2):I1.
+
+\bibitem[Huttenhower and Hofmann, 2010]{Huttenhower2010}
+Huttenhower, C. and Hofmann, O. (2010).
+\newblock {A quick guide to large-scale genomic data mining.}
+\newblock {\em PLoS Comput. Biol.}, 6(5):e1000779.
+
+\bibitem[Low et~al., 2013]{Low2013}
+Low, T.~Y., van Heesch, S., van~den Toorn, H., Giansanti, P., Cristobal, A.,
+  Toonen, P., Schafer, S., H\"{u}bner, N., van Breukelen, B., Mohammed, S.,
+  Cuppen, E., Heck, A. J.~R., and Guryev, V. (2013).
+\newblock {Quantitative and qualitative proteome characteristics extracted from
+  in-depth integrated genomics and proteomics analysis.}
+\newblock {\em Cell Rep.}, 5(5):1469--78.
+
+\bibitem[Sahoo et~al., 2008]{Sahoo2008}
+Sahoo, S.~S., Bodenreider, O., Rutter, J.~L., Skinner, K.~J., and Sheth, A.~P.
+  (2008).
+\newblock {An ontology-driven semantic mashup of gene and biological pathway
+  information: application to the domain of nicotine dependence.}
+\newblock {\em J. Biomed. Inform.}, 41(5):752--65.
+
+\bibitem[Searls, 2005]{Searls2005}
+Searls, D.~B. (2005).
+\newblock {Data integration: challenges for drug discovery.}
+\newblock {\em Nat. Rev. Drug Discov.}, 4(1):45--58.
+
+\end{thebibliography}
