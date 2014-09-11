@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.30)  11 SEP 2014 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.30)  11 SEP 2014 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,11 +500,11 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 9527 strings out of 493117
- 146605 string characters out of 6135433
- 366839 words of memory out of 5000000
- 12781 multiletter control sequences out of 15000+600000
- 21855 words of font info for 82 fonts, out of 8000000 for 9000
+ 9513 strings out of 493117
+ 146444 string characters out of 6135433
+ 366810 words of memory out of 5000000
+ 12778 multiletter control sequences out of 15000+600000
+ 21565 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,11n,43p,1102b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -521,10 +521,10 @@ e/2014/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Proposal.pdf (5 pages, 245847 bytes).
+Output written on Proposal.pdf (5 pages, 244270 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 100 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  24065 words of extra memory for PDF output out of 24883 (max. 10000000)
 
