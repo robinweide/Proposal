@@ -1,0 +1,191 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.3 (9/9/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twoside,fontsize=10pt]{article}
+%\documentclass[oneside]{article}
+
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+\usepackage{graphicx}
+
+%\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+%\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+%\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+\usepackage{chngcntr}
+\counterwithout{figure}{section}
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty}
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+\titleformat*{\section}{\LARGE\scshape\centering}
+\renewcommand{\bibsection}{\section*{\refname}}
+\titleformat{\section}[block]{\LARGE\scshape\centering}{\thesection}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large\bfseries}{\thesubsection}{1em}{} % Change the look of the section titles
+\titleformat{\subsubsection}[block]{\bfseries\textit}{\thesubsubsection}{0.1mm}{} % Change the look of the section titles
+
+\usepackage{caption}
+
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+%\fancyhead[C]{Running title $\bullet$ November 2012 $\bullet$ Vol. XXI, No. 1} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{\vspace{-15mm}\fontsize{18pt}{10pt}\normalfont\textbf{Everything should be linked: linking and visualising data for dynamic multilevel and multidimensional biological data interpretation.\\ \vspace{4 mm} {{\footnotesize \textit{Exploring multi-level effects of structural variations in non-coding genomic regions in cancer}}}}} % Article title
+
+\author{
+\large
+\textsc{RHWE (Robin) van der Weide}\thanks{Supervisor: Joep de Ligt, PhD}\\[2mm] % Your name
+\normalsize   Cancer Stem cells \& Developmental biology \\ % Your institution
+\normalsize  Utrecht Graduate School of Life Sciences \\ % Your institution
+%\normalsize \href{mailto:john@smith.com}{john@smith.com} % Your email address
+\vspace{-5mm}
+}
+\date{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert title
+
+\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+\newpage
+\mbox{   }
+\newpage
+\renewcommand{\abstractname}{\begin{center}
+Summary of the research
+\end{center}}    % clear the title
+\begin{abstract}
+\noindent With the increase in popularity and cost-effectiveness of various omics-approaches, more and more data is becoming available to researchers of different fields. The complexity of integrating and analysing information of these approaches increases with every added omics-layer and/or other dimension (e.g. time-series, treatments). The current tools and frameworks for these approaches have two major limitations in their design: scalability and generality (i.e. the possibility to add of more levels and/or dimensions). Moreover, there isn't an option to overview a dataset without filtering, dividing or structuring the data. These limitations restrict the integration of complex dataset, needed to truly understand biology.
+\medskip
+
+\noindent Enter the Semantic Web and its Resource Description Framework (RDF): a general and simple framework for making statements about subjects.  RDF is already heavily used in fields outside of biology, enabling users to integrate and search data based on semantics. Every RDF-statement (i.e. a Triple) has three parts, in which anyone can say anything about anything: a subject, a predicate and an object. An example of such a Triple is "BRAF1 has the molecular function of binding calcium ion", which has these three parts: a subject (BRAF1), a predicate (molecular function) and an object (binding calcium ion). Another Triple can then say something about the phosphorylated protein levels of this gene in a sample. Connecting these two Triples would enable a researcher to find a possible pattern in the data (i.e. a gene, responsible for calcium ion binding, has a low phosphorylation level in the investigated sample). Since every type of data can be translated to RDF, integration of large datasets of different levels and dimensions becomes possible and a lot more feasible. 
+\medskip
+
+\noindent One of the other big advantages of using RDF is the ability to combine local and remote RDF-databases (EMBL-EBI has already launched six databases, including UniProt and Reactome), which makes analyses even more powerful. By using the SPARQL Protocol and RDF Query Language (SPARQL), retrieving and manipulating data in RDF is easily readable by both humans and computers. The SPARQL-results can subsequently be visualized as a whole, or filtered by the user. 
+\medskip
+
+\noindent Here, we propose the use of semantic web technologies and visual analytics to decrease the complexity of integrating and visualizing multi-level and -dimensional biological data. Firstly, we will create the framework needed to design the missing tools for converting the most-used NGS-formats to RDF. Next, methods and tools for visual analytics of the biological RDF-data will be created. With this, we can perform many difficult, previously unmanageable, data-integration studies. Examples of these include analyses on multi-omic networks versus treatments, finding the consequences of complex genomic structural variations, connecting nuclear and mitochondrial data and combining ribosomal profiling with codon-bias, RNA-editing and allele-specific expression.
+\end{abstract}
+\medskip
+\renewcommand{\abstractname}{\begin{center}
+Layman's summary
+\end{center}}    % clear the title
+\begin{abstract}\noindent 
+\lipsum[1]
+\medskip
+\noindent \textbf{Keywords:} structural variation, multi-level data integration, next-generation sequencing, cancer, visual analytics
+\end{abstract}
+
+
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+\section*{Background, aims and approach}
+\subsection*{Overall aim}
+The aim of this project is to integrate and visualise multiple levels and dimensions of (NGS-based) omics-data with methods of the semantic web and, using these methods, further understand the consequences of structural variations in the non-coding regions of the genome on other biological levels, like the transcriptome and proteome. Thus, this proposal has two sub-projects, which rely heavily on each other:
+
+\begin{enumerate}
+\item \textbf{Integration and visualisation} \\
+Integration of NGS-based data by using semantic web-methodologies and W3C-compliant dynamic visual analytics to improve integrative bioinformatics in general and NGS-based multi-level and -dimensional research in particular.
+\item \textbf{Multi-level analysis} \\
+Multi-level and -dimensional integrative bioinformatical analysis to elucidate the consequences of genomic structural variations in non-coding regions in cancer.
+\end{enumerate}
+\subsection*{Scientific relevance and challenges} % inleiding: complex bio at the moment/problemen stellen (eindigen met "in this proposal, Will.. etc)
+%=================================================
+%=================================================
+%Explain the importance of the problem or critical barrier to progress in the field that the proposed project addresses.
+%Explain how the proposed project will improve scientific knowledge, technical capability, and/or clinical practice in one or more broad fields.
+%Describe how the concepts, methods, technologies, treatments, services, or preventative interventions that drive this field will be changed if the proposed aims are achieved.
+%=================================================
+%=================================================
+The amount of (public) biological data has exploded in the last years, even outpacing Moore's law, which is the result in the current advances in technology (both in performance and costs).
+%\cite{Gomez-Cabrero2014} geeft mooie inleiding (en over de wensen van de community)
+\subsection*{Originality and innovative character} 
+%=================================================
+%=================================================
+%Explain how the application challenges and seeks to shift current research or clinical practice paradigms.
+%Describe any novel theoretical concepts, approaches or methodologies, instrumentation or interventions to be developed or used, and any advantage over existing methodologies, instrumentation, or interventions.
+%Explain any refinements, improvements, or new applications of theoretical concepts, approaches or methodologies, instrumentation, or interventions.
+%=================================================
+%=================================================
+\cite{Sahoo2008} geeft heel veel info over BIO-RDF. Information gain through entailment reasoning is an important advantage of ontology-based data integration.
+\subsection*{Methods and techniques} %M&M
+\section*{Research plan}
+%=================================================
+%=================================================
+%Describe the overall strategy, methodology, and analyses to be used to accomplish the specific aims of the project. Include how the data will be collected, analyzed, and interpreted as well as any resource sharing plans as appropriate.
+%Discuss potential problems, alternative strategies, and benchmarks for success anticipated to achieve the aims.
+%As applicable, also include the following information as part of the Research Strategy, keeping within the three sections listed above: Significance, Innovation, and Approach.
+%=================================================
+%=================================================
+\subsection*{Timetable}
+\subsection*{Collaboration}
+\section*{Knowledge utilisation}
+\cite{Gomez-Cabrero2014} geeft wensen van de community aan
+
+%-------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+%\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+
+%\renewcommand{\refname}{\LARGE\scshape\centering References} %
+%\titleformat*{\section}{\LARGE\scshape\centering}
+%\titleformat{\section}[block]{\LARGE\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\bibliography{library}
+ 
+%\end{thebibliography}
+%
+%%----------------------------------------------------------------------------------------
+%
+%%\end{multicols}
+
+\end{document}
