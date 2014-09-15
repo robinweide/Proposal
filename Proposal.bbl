@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\bibitem[Belleau et~al., 2008]{Belleau2008}
+Belleau, F., Nolin, M.-A., Tourigny, N., Rigault, P., and Morissette, J.
+  (2008).
+\newblock {Bio2RDF: towards a mashup to build bioinformatics knowledge
+  systems.}
+\newblock {\em J. Biomed. Inform.}, 41(5):706--16.
+
 \bibitem[Gomez-Cabrero et~al., 2014]{Gomez-Cabrero2014}
 Gomez-Cabrero, D., Abugessaisa, I., Maier, D., Teschendorff, A.,
   Merkenschlager, M., Gisel, A., Ballestar, E., Bongcam-Rudloff, E., Conesa,
@@ -8,10 +15,65 @@ Gomez-Cabrero, D., Abugessaisa, I., Maier, D., Teschendorff, A.,
   challenges}.
 \newblock {\em BMC Syst. Biol.}, 8(Suppl 2):I1.
 
+\bibitem[Hamid et~al., 2009]{Hamid2009}
+Hamid, J.~S., Hu, P., Roslin, N.~M., Ling, V., Greenwood, C. M.~T., and Beyene,
+  J. (2009).
+\newblock {Data integration in genetics and genomics: methods and challenges.}
+\newblock {\em Hum. Genomics Proteomics}, 2009(1):869093--.
+
 \bibitem[Huttenhower and Hofmann, 2010]{Huttenhower2010}
 Huttenhower, C. and Hofmann, O. (2010).
 \newblock {A quick guide to large-scale genomic data mining.}
 \newblock {\em PLoS Comput. Biol.}, 6(5):e1000779.
+
+\bibitem[Jupp et~al., 2014]{Jupp2014}
+Jupp, S., Malone, J., Bolleman, J., Brandizi, M., Davies, M., Garcia, L.,
+  Gaulton, A., Gehant, S., Laibe, C., Redaschi, N., Wimalaratne, S.~M., Martin,
+  M., {Le Nov\`{e}re}, N., Parkinson, H., Birney, E., and Jenkinson, A.~M.
+  (2014).
+\newblock {The EBI RDF platform: linked open data for the life sciences.}
+\newblock {\em Bioinformatics}, 30(9):1338--9.
+
+\bibitem[Karr et~al., 2012]{Karr2012}
+Karr, J.~R., Sanghvi, J.~C., Macklin, D.~N., Gutschow, M.~V., Jacobs, J.~M.,
+  Bolival, B., Assad-Garcia, N., Glass, J.~I., and Covert, M.~W. (2012).
+\newblock {A whole-cell computational model predicts phenotype from genotype.}
+\newblock {\em Cell}, 150(2):389--401.
+
+\bibitem[Lerman et~al., 2012]{Lerman2012}
+Lerman, J.~A., Hyduke, D.~R., Latif, H., Portnoy, V.~A., Lewis, N.~E., Orth,
+  J.~D., Schrimpe-Rutledge, A.~C., Smith, R.~D., Adkins, J.~N., Zengler, K.,
+  and Palsson, B.~O. (2012).
+\newblock {In silico method for modelling metabolism and gene product
+  expression at genome scale.}
+\newblock {\em Nat. Commun.}, 3:929.
+
+\bibitem[Low et~al., 2013]{Low2013}
+Low, T.~Y., van Heesch, S., van~den Toorn, H., Giansanti, P., Cristobal, A.,
+  Toonen, P., Schafer, S., H\"{u}bner, N., van Breukelen, B., Mohammed, S.,
+  Cuppen, E., Heck, A. J.~R., and Guryev, V. (2013).
+\newblock {Quantitative and qualitative proteome characteristics extracted from
+  in-depth integrated genomics and proteomics analysis.}
+\newblock {\em Cell Rep.}, 5(5):1469--78.
+
+\bibitem[Neumann and Quan, 2006]{Neumann2006}
+Neumann, E.~K. and Quan, D. (2006).
+\newblock {BioDash: a Semantic Web dashboard for drug development.}
+\newblock {\em Pac. Symp. Biocomput.}, pages 176--87.
+
+\bibitem[Pavlopoulos et~al., 2008]{Pavlopoulos2008}
+Pavlopoulos, G.~A., Wegener, A.-L., and Schneider, R. (2008).
+\newblock {A survey of visualization tools for biological network analysis.}
+\newblock {\em BioData Min.}, 1:12.
+
+\bibitem[Ruttenberg et~al., 2007]{Ruttenberg2007}
+Ruttenberg, A., Clark, T., Bug, W., Samwald, M., Bodenreider, O., Chen, H.,
+  Doherty, D., Forsberg, K., Gao, Y., Kashyap, V., Kinoshita, J., Luciano, J.,
+  Marshall, M.~S., Ogbuji, C., Rees, J., Stephens, S., Wong, G.~T., Wu, E.,
+  Zaccagnini, D., Hongsermeier, T., Neumann, E., Herman, I., and Cheung, K.-H.
+  (2007).
+\newblock {Advancing translational research with the Semantic Web.}
+\newblock {\em BMC Bioinformatics}, 8 Suppl 3(Suppl 3):S2.
 
 \bibitem[Sahoo et~al., 2008]{Sahoo2008}
 Sahoo, S.~S., Bodenreider, O., Rutter, J.~L., Skinner, K.~J., and Sheth, A.~P.
@@ -24,5 +86,17 @@ Sahoo, S.~S., Bodenreider, O., Rutter, J.~L., Skinner, K.~J., and Sheth, A.~P.
 Searls, D.~B. (2005).
 \newblock {Data integration: challenges for drug discovery.}
 \newblock {\em Nat. Rev. Drug Discov.}, 4(1):45--58.
+
+\bibitem[Szpakowski et~al., 2009]{Szpakowski2009}
+Szpakowski, S., McCusker, J., and Krauthammer, M. (2009).
+\newblock {Using semantic web technologies to annotate and align microarray
+  designs.}
+\newblock {\em Cancer Inform.}, 8:65--73.
+
+\bibitem[Thomas and Cook, 2005]{Thomas2005}
+Thomas, J. and Cook, K. (2005).
+\newblock {Illuminating the path: The research and development agenda for
+  visual analytics}.
+\newblock {\em IEEE Comput. Soc.}, pages 19--32.
 
 \end{thebibliography}
