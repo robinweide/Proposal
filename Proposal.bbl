@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -165,6 +165,15 @@ JJ~Thomas and KA~Cook.
   \url{http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Illuminating+the+Path:+The+Research+and+Development+Agenda+for+Visual+Analytics\#0
   http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Illuminating+the+path:+The+research+and+development+agenda+for+visual+analytics\#0}.
 
+\bibitem[Cao et~al.(2008)Cao, Maloney, and Brusic]{Cao2008}
+Xiaohong Cao, Karen~B Maloney, and Vladimir Brusic.
+\newblock {Data mining of cancer vaccine trials: a bird's-eye view.}
+\newblock \emph{Immunome Res.}, 4:\penalty0 7, January 2008.
+\newblock ISSN 1745-7580.
+\newblock \doi{10.1186/1745-7580-4-7}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2639543\&tool=pmcentrez\&rendertype=abstract}.
+
 \bibitem[Bostock et~al.(2011)Bostock, Ogievetsky, and Heer]{Bostock2011}
 Michael Bostock, Vadim Ogievetsky, and Jeffrey Heer.
 \newblock {D³: Data-Driven Documents.}
@@ -310,5 +319,25 @@ Sebastiaan van Heesch, Maarten van Iterson, Jetse Jacobi, Sander Boymans,
 \newblock ISSN 1465-6914.
 \newblock \doi{10.1186/gb-2014-15-1-r6}.
 \newblock URL \url{http://genomebiology.com/2014/15/1/R6}.
+
+\bibitem[Tarasov(2014)]{Tarasov2014}
+Artem Tarasov.
+\newblock {Sambamba}, 2014.
+
+\bibitem[Goto et~al.(2010)Goto, Prins, Nakao, and Bonnal]{Goto2010}
+Naohisa Goto, Pjotr Prins, Mitsuteru Nakao, and Raoul Bonnal.
+\newblock {BioRuby: bioinformatics software for the Ruby programming language}.
+\newblock \emph{\ldots}, 26\penalty0 (20):\penalty0 2617--9, October 2010.
+\newblock ISSN 1367-4811.
+\newblock \doi{10.1093/bioinformatics/btq475}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2951089\&tool=pmcentrez\&rendertype=abstract
+  http://bioinformatics.oxfordjournals.org/content/26/20/2617.short}.
+
+\bibitem[Baran()]{Baran}
+Joachim Baran.
+\newblock {BioInterchange: An Open Source Framework for Transforming
+  Heterogeneous Data Formats Into RDF.}
+\newblock \emph{In preperation}.
 
 \end{thebibliography}

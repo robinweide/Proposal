@@ -4,45 +4,47 @@ The top-level auxiliary file: Proposal.aux
 The style file: unsrtnat.bst
 Database file #1: library.bib
 Warning--empty author in ENCODE
-You've used 26 entries,
+Warning--empty year in Baran
+Warning--empty year in Baran
+You've used 30 entries,
             2481 wiz_defined-function locations,
-            807 strings with 14721 characters,
-and the built_in function-call counts, 15057 in all, are:
-= -- 1079
-> -- 1411
-< -- 6
-+ -- 498
-- -- 446
-* -- 1617
-:= -- 2721
-add.period$ -- 149
-call.type$ -- 26
-change.case$ -- 52
-chr.to.int$ -- 26
-cite$ -- 28
-duplicate$ -- 509
-empty$ -- 939
-format.name$ -- 477
-if$ -- 2951
+            833 strings with 15538 characters,
+and the built_in function-call counts, 16417 in all, are:
+= -- 1198
+> -- 1473
+< -- 8
++ -- 524
+- -- 464
+* -- 1721
+:= -- 2945
+add.period$ -- 166
+call.type$ -- 30
+change.case$ -- 60
+chr.to.int$ -- 30
+cite$ -- 34
+duplicate$ -- 579
+empty$ -- 1065
+format.name$ -- 499
+if$ -- 3236
 int.to.chr$ -- 1
-int.to.str$ -- 27
-missing$ -- 26
-newline$ -- 209
-num.names$ -- 75
-pop$ -- 117
+int.to.str$ -- 31
+missing$ -- 29
+newline$ -- 234
+num.names$ -- 87
+pop$ -- 150
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 30
 quote$ -- 0
-skip$ -- 267
+skip$ -- 306
 stack$ -- 0
-substring$ -- 517
-swap$ -- 91
+substring$ -- 550
+swap$ -- 101
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 182
-warning$ -- 1
-while$ -- 94
+type$ -- 210
+warning$ -- 3
+while$ -- 105
 width$ -- 0
-write$ -- 486
-(There was 1 warning)
+write$ -- 545
+(There were 3 warnings)
