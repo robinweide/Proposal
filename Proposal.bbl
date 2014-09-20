@@ -1,9 +1,152 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Lander et~al.(2001)Lander, Linton, Birren, Nusbaum, Zody, Baldwin,
+  Devon, Dewar, Doyle, FitzHugh, Funke, Gage, Harris, Heaford, Howland, Kann,
+  Lehoczky, LeVine, McEwan, McKernan, Meldrim, Mesirov, Miranda, Morris,
+  Naylor, Raymond, Rosetti, Santos, Sheridan, Sougnez, Stange-Thomann,
+  Stojanovic, Subramanian, Wyman, Rogers, Sulston, Ainscough, Beck, Bentley,
+  Burton, Clee, Carter, Coulson, Deadman, Deloukas, Dunham, Dunham, Durbin,
+  French, Grafham, Gregory, Hubbard, Humphray, Hunt, Jones, Lloyd, McMurray,
+  Matthews, Mercer, Milne, Mullikin, Mungall, Plumb, Ross, Shownkeen, Sims,
+  Waterston, Wilson, Hillier, McPherson, Marra, Mardis, Fulton, Chinwalla,
+  Pepin, Gish, Chissoe, Wendl, Delehaunty, Miner, Delehaunty, Kramer, Cook,
+  Fulton, Johnson, Minx, Clifton, Hawkins, Branscomb, Predki, Richardson,
+  Wenning, Slezak, Doggett, Cheng, Olsen, Lucas, Elkin, Uberbacher, Frazier,
+  Gibbs, Muzny, Scherer, Bouck, Sodergren, Worley, Rives, Gorrell, Metzker,
+  Naylor, Kucherlapati, Nelson, Weinstock, Sakaki, Fujiyama, Hattori, Yada,
+  Toyoda, Itoh, Kawagoe, Watanabe, Totoki, Taylor, Weissenbach, Heilig, Saurin,
+  Artiguenave, Brottier, Bruls, Pelletier, Robert, Wincker, Smith,
+  Doucette-Stamm, Rubenfield, Weinstock, Lee, Dubois, Rosenthal, Platzer,
+  Nyakatura, Taudien, Rump, Yang, Yu, Wang, Huang, Gu, Hood, Rowen, Madan, Qin,
+  Davis, Federspiel, Abola, Proctor, Myers, Schmutz, Dickson, Grimwood, Cox,
+  Olson, Kaul, Shimizu, Kawasaki, Minoshima, Evans, Athanasiou, Schultz, Roe,
+  Chen, Pan, Ramser, Lehrach, Reinhardt, McCombie, de~la Bastide, Dedhia,
+  Bl\"{o}cker, Hornischer, Nordsiek, Agarwala, Aravind, Bailey, Bateman,
+  Batzoglou, Birney, Bork, Brown, Burge, Cerutti, Chen, Church, Clamp, Copley,
+  Doerks, Eddy, Eichler, Furey, Galagan, Gilbert, Harmon, Hayashizaki,
+  Haussler, Hermjakob, Hokamp, Jang, Johnson, Jones, Kasif, Kaspryzk, Kennedy,
+  Kent, Kitts, Koonin, Korf, Kulp, Lancet, Lowe, McLysaght, Mikkelsen, Moran,
+  Mulder, Pollara, Ponting, Schuler, Schultz, Slater, Smit, Stupka,
+  Szustakowski, Thierry-Mieg, Thierry-Mieg, Wagner, Wallis, Wheeler, Williams,
+  Wolf, Wolfe, Yang, Yeh, Collins, Guyer, Peterson, Felsenfeld, Wetterstrand,
+  Patrinos, Morgan, de~Jong, Catanese, Osoegawa, Shizuya, Choi, Chen, and
+  Szustakowki]{Lander2001}
+E~S Lander, L~M Linton, B~Birren, C~Nusbaum, M~C Zody, J~Baldwin, K~Devon,
+  K~Dewar, M~Doyle, W~FitzHugh, R~Funke, D~Gage, K~Harris, A~Heaford,
+  J~Howland, L~Kann, J~Lehoczky, R~LeVine, P~McEwan, K~McKernan, J~Meldrim, J~P
+  Mesirov, C~Miranda, W~Morris, J~Naylor, C~Raymond, M~Rosetti, R~Santos,
+  A~Sheridan, C~Sougnez, N~Stange-Thomann, N~Stojanovic, A~Subramanian,
+  D~Wyman, J~Rogers, J~Sulston, R~Ainscough, S~Beck, D~Bentley, J~Burton,
+  C~Clee, N~Carter, A~Coulson, R~Deadman, P~Deloukas, A~Dunham, I~Dunham,
+  R~Durbin, L~French, D~Grafham, S~Gregory, T~Hubbard, S~Humphray, A~Hunt,
+  M~Jones, C~Lloyd, A~McMurray, L~Matthews, S~Mercer, S~Milne, J~C Mullikin,
+  A~Mungall, R~Plumb, M~Ross, R~Shownkeen, S~Sims, R~H Waterston, R~K Wilson,
+  L~W Hillier, J~D McPherson, M~A Marra, E~R Mardis, L~A Fulton, A~T Chinwalla,
+  K~H Pepin, W~R Gish, S~L Chissoe, M~C Wendl, K~D Delehaunty, T~L Miner,
+  A~Delehaunty, J~B Kramer, L~L Cook, R~S Fulton, D~L Johnson, P~J Minx, S~W
+  Clifton, T~Hawkins, E~Branscomb, P~Predki, P~Richardson, S~Wenning, T~Slezak,
+  N~Doggett, J~F Cheng, A~Olsen, S~Lucas, C~Elkin, E~Uberbacher, M~Frazier, R~A
+  Gibbs, D~M Muzny, S~E Scherer, J~B Bouck, E~J Sodergren, K~C Worley, C~M
+  Rives, J~H Gorrell, M~L Metzker, S~L Naylor, R~S Kucherlapati, D~L Nelson,
+  G~M Weinstock, Y~Sakaki, A~Fujiyama, M~Hattori, T~Yada, A~Toyoda, T~Itoh,
+  C~Kawagoe, H~Watanabe, Y~Totoki, T~Taylor, J~Weissenbach, R~Heilig, W~Saurin,
+  F~Artiguenave, P~Brottier, T~Bruls, E~Pelletier, C~Robert, P~Wincker, D~R
+  Smith, L~Doucette-Stamm, M~Rubenfield, K~Weinstock, H~M Lee, J~Dubois,
+  A~Rosenthal, M~Platzer, G~Nyakatura, S~Taudien, A~Rump, H~Yang, J~Yu, J~Wang,
+  G~Huang, J~Gu, L~Hood, L~Rowen, A~Madan, S~Qin, R~W Davis, N~A Federspiel,
+  A~P Abola, M~J Proctor, R~M Myers, J~Schmutz, M~Dickson, J~Grimwood, D~R Cox,
+  M~V Olson, R~Kaul, N~Shimizu, K~Kawasaki, S~Minoshima, G~A Evans,
+  M~Athanasiou, R~Schultz, B~A Roe, F~Chen, H~Pan, J~Ramser, H~Lehrach,
+  R~Reinhardt, W~R McCombie, M~de~la Bastide, N~Dedhia, H~Bl\"{o}cker,
+  K~Hornischer, G~Nordsiek, R~Agarwala, L~Aravind, J~A Bailey, A~Bateman,
+  S~Batzoglou, E~Birney, P~Bork, D~G Brown, C~B Burge, L~Cerutti, H~C Chen,
+  D~Church, M~Clamp, R~R Copley, T~Doerks, S~R Eddy, E~E Eichler, T~S Furey,
+  J~Galagan, J~G Gilbert, C~Harmon, Y~Hayashizaki, D~Haussler, H~Hermjakob,
+  K~Hokamp, W~Jang, L~S Johnson, T~A Jones, S~Kasif, A~Kaspryzk, S~Kennedy, W~J
+  Kent, P~Kitts, E~V Koonin, I~Korf, D~Kulp, D~Lancet, T~M Lowe, A~McLysaght,
+  T~Mikkelsen, J~V Moran, N~Mulder, V~J Pollara, C~P Ponting, G~Schuler,
+  J~Schultz, G~Slater, A~F Smit, E~Stupka, J~Szustakowski, D~Thierry-Mieg,
+  J~Thierry-Mieg, L~Wagner, J~Wallis, R~Wheeler, A~Williams, Y~I Wolf, K~H
+  Wolfe, S~P Yang, R~F Yeh, F~Collins, M~S Guyer, J~Peterson, A~Felsenfeld, K~A
+  Wetterstrand, A~Patrinos, M~J Morgan, P~de~Jong, J~J Catanese, K~Osoegawa,
+  H~Shizuya, S~Choi, Y~J Chen, and J~Szustakowki.
+\newblock {Initial sequencing and analysis of the human genome.}
+\newblock \emph{Nature}, 409\penalty0 (6822):\penalty0 860--921, February 2001.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/35057062}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/11237011}.
+
+\bibitem[ENC(2004)]{ENCODE}
+{The ENCODE (ENCyclopedia Of DNA Elements) Project.}
+\newblock \emph{Science}, 306\penalty0 (5696):\penalty0 636--40, October 2004.
+\newblock ISSN 1095-9203.
+\newblock \doi{10.1126/science.1105136}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/15499007}.
+
+\bibitem[Benko et~al.(2009)Benko, Fantes, Amiel, Kleinjan, Thomas, Ramsay,
+  Jamshidi, Essafi, Heaney, Gordon, McBride, Golzio, Fisher, Perry, Abadie,
+  Ayuso, Holder-Espinasse, Kilpatrick, Lees, Picard, Temple, Thomas, Vazquez,
+  Vekemans, {Roest Crollius}, Hastie, Munnich, Etchevers, Pelet, Farlie,
+  Fitzpatrick, and Lyonnet]{Benko2009}
+Sabina Benko, Judy~A Fantes, Jeanne Amiel, Dirk-Jan Kleinjan, Sophie Thomas,
+  Jacqueline Ramsay, Negar Jamshidi, Abdelkader Essafi, Simon Heaney,
+  Christopher~T Gordon, David McBride, Christelle Golzio, Malcolm Fisher, Paul
+  Perry, V\'{e}ronique Abadie, Carmen Ayuso, Muriel Holder-Espinasse, Nicky
+  Kilpatrick, Melissa~M Lees, Arnaud Picard, I~Karen Temple, Paul Thomas,
+  Marie-Paule Vazquez, Michel Vekemans, Hugues {Roest Crollius}, Nicholas~D
+  Hastie, Arnold Munnich, Heather~C Etchevers, Anna Pelet, Peter~G Farlie,
+  David~R Fitzpatrick, and Stanislas Lyonnet.
+\newblock {Highly conserved non-coding elements on either side of SOX9
+  associated with Pierre Robin sequence.}
+\newblock \emph{Nat. Genet.}, 41\penalty0 (3):\penalty0 359--64, March 2009.
+\newblock ISSN 1546-1718.
+\newblock \doi{10.1038/ng.329}.
+\newblock URL
+  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n3/abs/ng.329.html}.
+
+\bibitem[Kurth et~al.(2009)Kurth, Klopocki, Stricker, van Oosterwijk, Vanek,
+  Altmann, Santos, van Harssel, de~Ravel, Wilkie, Gal, and Mundlos]{Kurth2009}
+Ingo Kurth, Eva Klopocki, Sigmar Stricker, Jolieke van Oosterwijk, Sebastian
+  Vanek, Jens Altmann, Heliosa~G Santos, Jeske J~T van Harssel, Thomy de~Ravel,
+  Andrew O~M Wilkie, Andreas Gal, and Stefan Mundlos.
+\newblock {Duplications of noncoding elements 5' of SOX9 are associated with
+  brachydactyly-anonychia.}
+\newblock \emph{Nat. Genet.}, 41\penalty0 (8):\penalty0 862--3, August 2009.
+\newblock ISSN 1546-1718.
+\newblock \doi{10.1038/ng0809-862}.
+\newblock URL
+  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n8/full/ng0809-862.html}.
+
+\bibitem[Ongen et~al.(2014)Ongen, Andersen, Bramsen, Oster, Rasmussen,
+  Ferreira, Sandoval, Vidal, Whiffin, Planchon, Padioleau, Bielser, Romano,
+  Tomlinson, Houlston, Esteller, Orntoft, and Dermitzakis]{Ongen2014}
+Halit Ongen, Claus~L. Andersen, Jesper~B. Bramsen, Bodil Oster, Mads~H.
+  Rasmussen, Pedro~G. Ferreira, Juan Sandoval, Enrique Vidal, Nicola Whiffin,
+  Alexandra Planchon, Ismael Padioleau, Deborah Bielser, Luciana Romano, Ian
+  Tomlinson, Richard~S. Houlston, Manel Esteller, Torben~F. Orntoft, and
+  Emmanouil~T. Dermitzakis.
+\newblock {Putative cis-regulatory drivers in colorectal cancer}.
+\newblock \emph{Nature}, July 2014.
+\newblock ISSN 0028-0836.
+\newblock \doi{10.1038/nature13602}.
+\newblock URL
+  \url{http://www.nature.com.proxy.library.uu.nl/nature/journal/vaop/ncurrent/full/nature13602.html}.
+
+\bibitem[Huang et~al.(2013)Huang, Hodis, Xu, Kryukov, Chin, and
+  Garraway]{Huang2013}
+Franklin~W Huang, Eran Hodis, Mary~Jue Xu, Gregory~V Kryukov, Lynda Chin, and
+  Levi~A Garraway.
+\newblock {Highly recurrent TERT promoter mutations in human melanoma.}
+\newblock \emph{Science}, 339\penalty0 (6122):\penalty0 957--9, February 2013.
+\newblock ISSN 1095-9203.
+\newblock \doi{10.1126/science.1229259}.
+\newblock URL
+  \url{http://www.sciencemag.org.proxy.library.uu.nl/content/339/6122/957.short}.
 
 \bibitem[Gomez-Cabrero et~al.(2014)Gomez-Cabrero, Abugessaisa, Maier,
   Teschendorff, Merkenschlager, Gisel, Ballestar, Bongcam-Rudloff, Conesa, and
@@ -242,32 +385,6 @@ Martin Kircher, Daniela~M Witten, Preti Jain, Brian~J O'Roak, Gregory~M Cooper,
 \newblock \doi{10.1038/ng.2892}.
 \newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/24487276}.
 
-\bibitem[Ongen et~al.(2014)Ongen, Andersen, Bramsen, Oster, Rasmussen,
-  Ferreira, Sandoval, Vidal, Whiffin, Planchon, Padioleau, Bielser, Romano,
-  Tomlinson, Houlston, Esteller, Orntoft, and Dermitzakis]{Ongen2014}
-Halit Ongen, Claus~L. Andersen, Jesper~B. Bramsen, Bodil Oster, Mads~H.
-  Rasmussen, Pedro~G. Ferreira, Juan Sandoval, Enrique Vidal, Nicola Whiffin,
-  Alexandra Planchon, Ismael Padioleau, Deborah Bielser, Luciana Romano, Ian
-  Tomlinson, Richard~S. Houlston, Manel Esteller, Torben~F. Orntoft, and
-  Emmanouil~T. Dermitzakis.
-\newblock {Putative cis-regulatory drivers in colorectal cancer}.
-\newblock \emph{Nature}, July 2014.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/nature13602}.
-\newblock URL
-  \url{http://www.nature.com.proxy.library.uu.nl/nature/journal/vaop/ncurrent/full/nature13602.html}.
-
-\bibitem[Huang et~al.(2013)Huang, Hodis, Xu, Kryukov, Chin, and
-  Garraway]{Huang2013}
-Franklin~W Huang, Eran Hodis, Mary~Jue Xu, Gregory~V Kryukov, Lynda Chin, and
-  Levi~A Garraway.
-\newblock {Highly recurrent TERT promoter mutations in human melanoma.}
-\newblock \emph{Science}, 339\penalty0 (6122):\penalty0 957--9, February 2013.
-\newblock ISSN 1095-9203.
-\newblock \doi{10.1126/science.1229259}.
-\newblock URL
-  \url{http://www.sciencemag.org.proxy.library.uu.nl/content/339/6122/957.short}.
-
 \bibitem[Szpakowski et~al.(2009)Szpakowski, McCusker, and
   Krauthammer]{Szpakowski2009}
 Sebastian Szpakowski, James McCusker, and Michael Krauthammer.
@@ -300,13 +417,6 @@ Daniel Keim, Florian Mansmann, and Jim Thomas.
 \newblock \emph{ACM SIGKDD Explor. \ldots}, 11\penalty0 (2):\penalty0 5--8,
   2010.
 \newblock URL \url{http://dl.acm.org/citation.cfm?id=1809403}.
-
-\bibitem[ENC(2004)]{ENCODE}
-{The ENCODE (ENCyclopedia Of DNA Elements) Project.}
-\newblock \emph{Science}, 306\penalty0 (5696):\penalty0 636--40, October 2004.
-\newblock ISSN 1095-9203.
-\newblock \doi{10.1126/science.1105136}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/15499007}.
 
 \bibitem[van Heesch et~al.(2014)van Heesch, van Iterson, Jacobi, Boymans,
   Essers, de~Bruijn, Hao, Macinnes, Cuppen, and Simonis]{VanHeesch2014}
