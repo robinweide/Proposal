@@ -81,6 +81,19 @@ E~S Lander, L~M Linton, B~Birren, C~Nusbaum, M~C Zody, J~Baldwin, K~Devon,
 \newblock \doi{10.1038/35057062}.
 \newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/11237011}.
 
+\bibitem[McLaren et~al.(2010)McLaren, Pritchard, Rios, Chen, Flicek, and
+  Cunningham]{McLaren2010}
+William McLaren, Bethan Pritchard, Daniel Rios, Yuan Chen, Paul Flicek, and
+  Fiona Cunningham.
+\newblock {Deriving the consequences of genomic variants with the Ensembl API
+  and SNP Effect Predictor.}
+\newblock \emph{Bioinformatics}, 26\penalty0 (16):\penalty0 2069--70, August
+  2010.
+\newblock ISSN 1367-4811.
+\newblock \doi{10.1093/bioinformatics/btq330}.
+\newblock URL
+  \url{http://bioinformatics.oxfordjournals.org.proxy.library.uu.nl/content/26/16/2069.short}.
+
 \bibitem[ENC(2004)]{ENCODE}
 {The ENCODE (ENCyclopedia Of DNA Elements) Project.}
 \newblock \emph{Science}, 306\penalty0 (5696):\penalty0 636--40, October 2004.
@@ -147,6 +160,42 @@ Franklin~W Huang, Eran Hodis, Mary~Jue Xu, Gregory~V Kryukov, Lynda Chin, and
 \newblock \doi{10.1126/science.1229259}.
 \newblock URL
   \url{http://www.sciencemag.org.proxy.library.uu.nl/content/339/6122/957.short}.
+
+\bibitem[Khurana et~al.(2013)Khurana, Fu, Colonna, Mu, Kang, Lappalainen,
+  Sboner, Lochovsky, Chen, Harmanci, Das, Abyzov, Balasubramanian, Beal,
+  Chakravarty, Challis, Chen, Clarke, Clarke, Cunningham, Evani, Flicek,
+  Fragoza, Garrison, Gibbs, G\"{u}m\"{u}s, Herrero, Kitabayashi, Kong, Lage,
+  Liluashvili, Lipkin, MacArthur, Marth, Muzny, Pers, Ritchie, Rosenfeld, Sisu,
+  Wei, Wilson, Xue, Yu, Dermitzakis, Yu, Rubin, Tyler-Smith, and
+  Gerstein]{Khurana2013}
+Ekta Khurana, Yao Fu, Vincenza Colonna, Xinmeng~Jasmine Mu, Hyun~Min Kang,
+  Tuuli Lappalainen, Andrea Sboner, Lucas Lochovsky, Jieming Chen, Arif
+  Harmanci, Jishnu Das, Alexej Abyzov, Suganthi Balasubramanian, Kathryn Beal,
+  Dimple Chakravarty, Daniel Challis, Yuan Chen, Declan Clarke, Laura Clarke,
+  Fiona Cunningham, Uday~S Evani, Paul Flicek, Robert Fragoza, Erik Garrison,
+  Richard Gibbs, Zeynep~H G\"{u}m\"{u}s, Javier Herrero, Naoki Kitabayashi,
+  Yong Kong, Kasper Lage, Vaja Liluashvili, Steven~M Lipkin, Daniel~G
+  MacArthur, Gabor Marth, Donna Muzny, Tune~H Pers, Graham R~S Ritchie,
+  Jeffrey~A Rosenfeld, Cristina Sisu, Xiaomu Wei, Michael Wilson, Yali Xue,
+  Fuli Yu, Emmanouil~T Dermitzakis, Haiyuan Yu, Mark~A Rubin, Chris
+  Tyler-Smith, and Mark Gerstein.
+\newblock {Integrative annotation of variants from 1092 humans: application to
+  cancer genomics.}
+\newblock \emph{Science}, 342\penalty0 (6154):\penalty0 1235587, October 2013.
+\newblock ISSN 1095-9203.
+\newblock \doi{10.1126/science.1235587}.
+\newblock URL \url{http://europepmc.org/articles/PMC3947637/?report=abstract}.
+
+\bibitem[Kircher et~al.(2014)Kircher, Witten, Jain, O'Roak, Cooper, and
+  Shendure]{Kircher2014}
+Martin Kircher, Daniela~M Witten, Preti Jain, Brian~J O'Roak, Gregory~M Cooper,
+  and Jay Shendure.
+\newblock {A general framework for estimating the relative pathogenicity of
+  human genetic variants.}
+\newblock \emph{Nat. Genet.}, 46\penalty0 (3):\penalty0 310--5, March 2014.
+\newblock ISSN 1546-1718.
+\newblock \doi{10.1038/ng.2892}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/24487276}.
 
 \bibitem[Gomez-Cabrero et~al.(2014)Gomez-Cabrero, Abugessaisa, Maier,
   Teschendorff, Merkenschlager, Gisel, Ballestar, Bongcam-Rudloff, Conesa, and
@@ -335,55 +384,6 @@ Florin Chelaru, Llewellyn Smith, Naomi Goldstein, and H\'{e}ctor~Corrada Bravo.
 \newblock \doi{10.1038/nmeth.3038}.
 \newblock URL
   \url{http://www.nature.com.proxy.library.uu.nl/nmeth/journal/v11/n9/abs/nmeth.3038.html}.
-
-\bibitem[McLaren et~al.(2010)McLaren, Pritchard, Rios, Chen, Flicek, and
-  Cunningham]{McLaren2010}
-William McLaren, Bethan Pritchard, Daniel Rios, Yuan Chen, Paul Flicek, and
-  Fiona Cunningham.
-\newblock {Deriving the consequences of genomic variants with the Ensembl API
-  and SNP Effect Predictor.}
-\newblock \emph{Bioinformatics}, 26\penalty0 (16):\penalty0 2069--70, August
-  2010.
-\newblock ISSN 1367-4811.
-\newblock \doi{10.1093/bioinformatics/btq330}.
-\newblock URL
-  \url{http://bioinformatics.oxfordjournals.org.proxy.library.uu.nl/content/26/16/2069.short}.
-
-\bibitem[Khurana et~al.(2013)Khurana, Fu, Colonna, Mu, Kang, Lappalainen,
-  Sboner, Lochovsky, Chen, Harmanci, Das, Abyzov, Balasubramanian, Beal,
-  Chakravarty, Challis, Chen, Clarke, Clarke, Cunningham, Evani, Flicek,
-  Fragoza, Garrison, Gibbs, G\"{u}m\"{u}s, Herrero, Kitabayashi, Kong, Lage,
-  Liluashvili, Lipkin, MacArthur, Marth, Muzny, Pers, Ritchie, Rosenfeld, Sisu,
-  Wei, Wilson, Xue, Yu, Dermitzakis, Yu, Rubin, Tyler-Smith, and
-  Gerstein]{Khurana2013}
-Ekta Khurana, Yao Fu, Vincenza Colonna, Xinmeng~Jasmine Mu, Hyun~Min Kang,
-  Tuuli Lappalainen, Andrea Sboner, Lucas Lochovsky, Jieming Chen, Arif
-  Harmanci, Jishnu Das, Alexej Abyzov, Suganthi Balasubramanian, Kathryn Beal,
-  Dimple Chakravarty, Daniel Challis, Yuan Chen, Declan Clarke, Laura Clarke,
-  Fiona Cunningham, Uday~S Evani, Paul Flicek, Robert Fragoza, Erik Garrison,
-  Richard Gibbs, Zeynep~H G\"{u}m\"{u}s, Javier Herrero, Naoki Kitabayashi,
-  Yong Kong, Kasper Lage, Vaja Liluashvili, Steven~M Lipkin, Daniel~G
-  MacArthur, Gabor Marth, Donna Muzny, Tune~H Pers, Graham R~S Ritchie,
-  Jeffrey~A Rosenfeld, Cristina Sisu, Xiaomu Wei, Michael Wilson, Yali Xue,
-  Fuli Yu, Emmanouil~T Dermitzakis, Haiyuan Yu, Mark~A Rubin, Chris
-  Tyler-Smith, and Mark Gerstein.
-\newblock {Integrative annotation of variants from 1092 humans: application to
-  cancer genomics.}
-\newblock \emph{Science}, 342\penalty0 (6154):\penalty0 1235587, October 2013.
-\newblock ISSN 1095-9203.
-\newblock \doi{10.1126/science.1235587}.
-\newblock URL \url{http://europepmc.org/articles/PMC3947637/?report=abstract}.
-
-\bibitem[Kircher et~al.(2014)Kircher, Witten, Jain, O'Roak, Cooper, and
-  Shendure]{Kircher2014}
-Martin Kircher, Daniela~M Witten, Preti Jain, Brian~J O'Roak, Gregory~M Cooper,
-  and Jay Shendure.
-\newblock {A general framework for estimating the relative pathogenicity of
-  human genetic variants.}
-\newblock \emph{Nat. Genet.}, 46\penalty0 (3):\penalty0 310--5, March 2014.
-\newblock ISSN 1546-1718.
-\newblock \doi{10.1038/ng.2892}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/24487276}.
 
 \bibitem[Szpakowski et~al.(2009)Szpakowski, McCusker, and
   Krauthammer]{Szpakowski2009}
