@@ -1,0 +1,308 @@
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+figuresection
+ 
+    
+
+ 
+ 
+
+
+unsrtnat
+ 
+
+ 
+*
+
+[block]1em 
+[block]1em 
+[block]0.1mm 
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+[RO,LE] 
+
+
+
+
+
+18pt10ptEverything should be linked: linking and visualising data for dynamic  multidimensional biological data interpretation.
+  Exploring multi-level effects of structural variations in non-coding genomic regions in cancer 
+
+
+
+RHWE (Robin) van der WeideSupervisor: Joep de Ligt, PhD
+ 
+Cancer Stem cells  Developmental biology 
+ 
+Utrecht Graduate School of Life Sciences 
+ 
+
+
+
+
+
+
+
+
+
+
+
+fancy 
+
+
+
+
+
+   
+
+
+
+    
+
+
+To date, studies on non-coding regions of the genome, specifically in cancer, have been limited. This is mainly due to the complex nature of putative functional elements in these regions. In parallel with the ENCODE-project, the interest in these regions has increased: researchers are beginning to study causal non-coding variations in cancer. Due to the increase in popularity and cost-effectiveness of various omics-approaches, more and more data is becoming available. The complexity of integrating and analysing information of these approaches increases with every added omics-layer or dimension (e.g. time-series, treatments). When studying the effects of structural variants in non-coding regions in cancer, this complexity is further increased due to cancer-specific (e.g. heterogeneous samples, rapid evolution) and structural variant-specific (e.g. multiple types and consequences) factors.
+
+
+
+The current methods for integrating and analysing these layers and dimensions have two significant limitations in their design: scalability and generality (i.e. the possibility to add more levels or dimensions). Moreover, there isn't an option to overview a dataset without filtering, dividing or restructuring the data. 
+The integration of complex datasets is needed to understand the complex biology of cancer betterMunoz2011, but is restricted by these limitations.ß
+
+
+Enter the Semantic Web and its Resource Description Framework (RDF). A simple and flexible framework for describing anything about anything.
+
+Since every type of data can be translated to this universal language, integration of large datasets of different levels and dimensions becomes possible and a lot more feasible. When researchers have converted their local data to RDF, they can easily connect and combine it with public repositories, which makes analyses even more powerful. By using the SPARQL Protocol and RDF Query Language (SPARQL), retrieving and manipulating data in RDF is easily readable by both humans and computers. The user can subsequently visualise the SPARQL-results as a whole or filter them further.
+
+
+Here, we propose the use of semantic web technologies and visual analytics to decrease the complexity of integrating and visualizing multi-level and -dimensional biological data. These methods will enable further elucidation of the complex biology of, for example, cancer. Firstly, we will create the framework needed to design the missing tools for converting the most-used NGS-formats to RDF. Next, visualisations (based on visual analytics) of the biological RDF-data will be created, which will be used to perform previously impossible integration-focussed analyses on the consequences of structural variation in the non-coding regions of cancer-genomes.
+
+
+
+
+    
+
+The biomedical research community wants to be able to combine and analyse a multitude of biological signals in one experiment because the biology of, for example, cancer is so complex. However, integrating diverse sets of biological signals is currently a serious challenge. To overcome this, we propose the use of Semantic Web-methods: these are specially designed for integrating vast amounts of different data. Furthermore, it allows users to describe, analyse and test their data interactively and dynamically via visual representations displayed in the browser. 
+
+Research on non-coding genomic regions, for example, would benefit greatly from these methods. It would enable studies on the complex cancer-causing consequences of changes in parts of chromosomes that do not contain a gene.
+
+A preliminary study shows the added value of such methods in biology: enabling researchers to describe, analyse and test 20 times more biological questions in the same time, compared to conventional methods. We propose to develop these methods further for the research-community (and biology in particular), enabling us to perform research on variations in the non-coding genomic regions in cancer. 
+
+
+
+Keywords: structural variation, multi-level data integration, next-generation sequencing, cancer, visual analytics
+
+
+
+
+
+
+
+
+Background, aims and approach
+Overall aim
+The aim of this project is to integrate and visualise multiple levels and dimensions of (NGS-based) omics-data with methods of the Semantic Web. Moreover, these methods will be used to study the inter-level (e.g. transcriptome, proteome) consequences of structural variation in non-coding regions of the genome. Thus, this proposal has three sub-projects, which rely heavily on each other:
+
+
+Data-integration 
+Integration of NGS-based data by using Semantic Web-methodologies to improve integrative bioinformatics in general and NGS-based multi-level and -dimensional research in particular.
+Visual analytics 
+Linking the Semantic-Web data to D3.js, enabling dynamic and interactive visualisation of RDF-data.
+Multi-level analysis 
+Multi-level and -dimensional integrative bioinformatical analysis to elucidate the consequences of genomic structural variations in non-coding regions in cancer.
+
+Scientific relevance and challenges 
+Finding causal genetic variation in the protein-coding regions of the genome has been the focus in the majority of genomics studies. However, these regions amount only to approximately two percent. One of the primary reasons behind this is the relative uncomplicated nature of studying coding regions, as consequences on lower levels (e.g. transcription, proteins) are traceable. This is in contrast to the non-coding regions, which often do not show a linear effect on other levels. A good illustration of the complexity of the non-coding regions is the ENCyclopedia Of DNA Elements (ENCODE)-project, which contains over fifty different signals (e.g. histone methylation, DNase1 hypersensitivity). 
+
+The fact that non-coding regions often have roles in the regulation of distant genes (i.e. cis-acting) provides even more complexity to the analysis of structural variants (SVs) in these regions. For example, the Pierre Robin Syndrome (PRS): SVs (deletions or duplications) in the 3Mb surrounding the SOX9-gene in particular tissues are causative of the striking phenotype of undeveloped mandibles and tongue in children. Studies on cancer-specific causative non-coding variation are beginning to emerge in the last two years, including colorectal- and skin-cancer, and computational methods for non-coding regions are just starting to come up in the literature of 2014.  
+
+
+
+The amount of (public) biological data has exploded in the last years (even outpacing Moore's law ). This is the result of the advances in omics-technologies like Next-Generation Sequencing (NGS) and Mass-Spectrometry (MS), in both performance and costs. The addition of other dimensions, like time-series or treatments, is a second factor for the highly complex nature of current biomedical research. While there are plenty of studies on single-level data analysis, both academia and industry agree that data-integration is essential to understanding the complex nature of biology more thoroughly Gomez-Cabrero2014, Huttenhower2010, Searls2005, Hamid2009. 
+
+However, only a few layers and/or dimensions have been integrated per study and results are -for the most part- cherry picked, instead of systematic. This is mainly due to the methods used in integration-studies: most of them are set up in the same manner as individual-level experiments, whereafter they are combined. These methods are limited due to the large amounts of parsing-time (i.e. the time to convert various file/region-formats). An example of the large amount of analytical time needed, when using these methods is the study of Munoz2011: every two months of data-accumulation costed two years of analysis. The limited number of truly integrative studies use computational approaches to reconstruct biological networks. While a valid strategy, scaling the analysis from the bacteria used by Karr2012 and Lerman2012 to multi-cellular organisms proves to be difficult. The most obvious reasons for this are the complexity of the used mathematical methods, the integration of multiple data-sources (with varying file-formats) and the use of an inflexible database-structure.
+
+
+
+To overcome these scaling issues, we propose the use of the Semantic Web: the Resource Description Framework (RDF) and its query-language SPARQL Protocol and RDF Query Language (SPARQL). RDF is a general and simple framework for making statements about subjects, already heavily used in fields outside of biology, enabling users to integrate and search data based on semantics. Within biology, RDF is only used sparsely and mainly focussed on external data-source integration and not on own data. Every RDF-statement (i.e. a triple) has three parts: a subject, a predicate and an object (e.g. BRAF1 :: molecular function :: calcium ion binding). This makes it possible to link every object to another and denote the relationship between them (essentially constructing a graph-based network): there is no need for additional (file)formats (fig.). 
+
+Compared to other relational database management systems, RDF is completely flexible: no database-schemas (pre-specified structures for the data, like the mySQL-method of Low2013) are needed. Aside from the non-complex, flexible and self-describing nature of the RDF-data, triples can be seen as a modular directed graph: users can connect multiple relevant RDF-sources (e.g. UniProt and/or Proteomics-data). Every additional RDF-source results in a more relevant and heterogeneous population of triples, making the network more complex and informative. Extracting relevant information from this "hairball" of linked objects and subjects has been an important issue and challenge since the beginning of big data, as Pavlopoulos2008 stated in 2008. SPARQL provides the ability to filter on an arbitrary number of (human-readable) expressions and can combine multiple databases to query, like the RDF-databases of EMBL-EBI Jupp2014. Another advantage of using SPARQL is the increase in scalability by including multiple triplestores in the same query. By enabling the use of small and specific triplestores, such a federated query results in faster retrieval of the data.
+
+
+
+
+
+
+
+
+
+When data is incorporated in a Semantic Web RDF-database (TripleStore) and a relevant set of subjects, predicates and/or objects are extracted using SPARQL, the remaining dataset is still enormous. The abstract and complex nature of this "hairball" makes it hard to formalise an analytical problem to solve. To create interactive and dynamic visual representations of a dataset, we propose to use of the multidisciplinary theories and methods of visual analytics. Thomas2005 describe this field in 2005 as "the science of analytical reasoning facilitated by interactive visual interfaces.". It uses analytical and statistical methods from fields as computer science and statistics and visualisation-techniques from cognitive and design sciences. Visual analytics enables efficient exploratory analysis of the data by the user. Drug discovery is one of the leading areas in biological visual analytics, as it provides a more cost-effective method for analysing data of clinical trails.
+
+The JavaScript library "Data-Driven Documents" (D3.js) is focussed on structuring data for dynamic web-based visualisation, which makes it well-suited for implementing linked data within visual analytics. Moreover, since it is embedded in HTML, additional operators (e.g. buttons, SPARQL-forms) can be added. Due to these benefits, the use of D3.js in visual analytics is increasing: a notable biology-specific example of this is Epiviz2. However, this tool only takes an explicit set of data-formats and -levels and -more importantly- only shows a particular genomic region, instead of the complete scope. This can easily lead to cherry-picking, instead of data-focussed formulation and analysis of hypotheses.
+
+
+
+The heterogeneous samples and datasets of cancer make it one of the most computationally demanding types of integrative biology. We propose to use our methods to study to consequences of structural variations at non-coding loci in cancer on other levels.  These methods will enable research in this technical challenging topic, by decreasing the computational burden of data-handling, and increase the cognitive abilities of the user, by providing integrative visual interfaces. 
+
+
+
+
+
+
+
+
+
+
+Originality and innovative character 
+The 2014 survey of Gomez-Cabrero2014 showed that biomedical academics had the highest interest (78.2 percent) in the integration of multiple omics-datasets and that there was a high need for standardized tools and data-types. Data-storage, -exploration and -exploitation were found the be key. Their conclusions were best summarized by the need for having exploration tools, which combine summary statistics and interactive visualisations, to analyse heterogeneous data-sets.
+
+
+
+There have been various studies on the integration of biological signals with the aid of semantic web technologies as the power of ontology-based entailment  reasoning is widely acknowledged. However, the momentum was lacking: until 2014, big databases were not available in RDF-format. This meant that bioinformatical research involving RDF had little to no outside support, as they could only integrate proprietary data, like the RDF-methods used in microarray analyses by Szpakowski2009 in 2009. Recently, EMBL-EBI has opened their RDF-platform, boasting six big data-sources (Gene Expression Atlas, ChEMBL, BioModels, Reactome, BioSamples and UniProt). This was the boost needed to further incorporate RDF in biological analyses.
+
+However, there are two main limitations of this relatively young incorporation: a standard language for denoting biological triples (e.g. chromosome locations) is missing and the focus lies at linking database-accessions Ruttenberg2007. While the first limitation could also be a strength, as everybody can use their own dialect. However, a standardisation-step will lower the learning-curve, which will enable researchers in all fields of biology to benefit fully from the integrative benefits of the Semantic Web. The second limitation is severely restricting the use of RDF in NGS- and MS-based methods: there are no tools to convert the common formats, like the Variant Call Format (VCF) and Sequence Alignment Format (SAM), to triples. An example of this is  Bio2RDF: an "RDFizer", which converts conventional databases, like the ones from NCBI, to triplestores. One of the leading innovative points of this proposal is the development of methods to handle the NGS- and MS-based formats for use in the Semantic Web. This will result in a broader use of semantic web-technologies for the research community, by enabling the coupling of proprietary NGS- and MS-data to existing RDF-databases.
+
+
+
+
+The implementation of web-based visual analytics for RDF-databases is another leading innovative point in this proposal. Combining Semantic Web-technology with this will create a paradigm shift in the way integrative analysis of (biological) data is done. Visual analytics has been shown to result in the most optimal analysis-effectivity as it allows the user to combine the data with their own background and intuition (fig. ). Not only can data be more effectively analysed, but it can also be better understood and presented, due to the ability to provide an overview of the complete dataset. 
+
+
+
+
+
+
+
+
+
+
+While there has already been a considerable amount of work in the field of computational cancer research, the vast majority of large-scale integrative studies have been conducted on the coding-regions of the genome. Genome-Wide Association Studies (GWASs) on a broad range of (hereditary) cancer-types have shown that non-coding locations are associated with these diseases. Until 2013, however, tools and sources to find the precise causative variations in non-coding genomic regions were limited. In the last two years, several advances have made it possible to assess the consequences of individual variations in non-coding regions. However, no large-scale integrative studies have been performed, which is partly due to the current state of integrative methods. 
+
+Due to the affiliation with the University Medical Center Utrecht (UMCU), we are in a unique position to test our hypotheses and methods in both research and clinical settings. Furthermore, the HUB-biobank in the Hubrecht Institute also enables us to perform analyses on organoids, providing us a stable and homogeneous in vitro platform for (validation-)studies on cancer-samples. With the new methods, we will be in the position to perform fully integrative studies on the underlying mechanisms and consequences of (structural) variation in cancer.
+
+Pilot-study
+To asses to feasibility of this proposal, a small-scale pilot-study was performed on de data of VanHeesch2014. This dataset includes transcriptome data of mRNA's, bound to a number of ribosomal units (1 to 7+) and matching exome-data. If one would be interested in the molecular functions of a gene with an allelic bias, a disproportional amount of time is lost on parsing, intersecting and downloading various types of data (fig. ). With the current methods, twelve set-operations (e.g. intersections, unions) have to be performed on 5gb of data. Furthermore, three datasets (15gb) have to be completely downloaded once -until a new version is launched- before a simple exploratory question can be answered. Approximately three and a half hours was needed to perform this, in contrast to one hour with the proposed methods. Of this hour, more than fifty minutes were used to convert VCF to RDF and load the 4store database: every query hereafter takes up approximately 10 minutes. First and foremost, this pilot illustrates the low-complex nature of the proposed methods. Secondly, it shows the valuable property of having a separate query-stage, which results in being able to make more than () forty queries in eight hours, instead of approximately () two queries with the currently used methods.
+
+
+
+
+
+
+
+Methods and techniques 
+
+
+
+
+
+
+
+Data acquisition will be performed throughout the study. Ongoing sequencing efforts from the research group of Prof. Dr. Cuppen and collaborators will ensure more than adequate amounts of data will be at our disposal. Due to the accompanied scientific questions of this data, the method-development stages of this study will continue to be focussed and inspired by the end-goal: answering biological questions. Furthermore, continuing the data-acquisition in the second half of the study to will enable us to collaborate with the research community and showcase our innovative technology with new and exciting integrative biology studies.
+
+
+
+To ensure the greatest compatibility and effectiveness, tight collaborations will be established between leading RDF-users and -developers in- and outside of biology. Triples for NGS- and MS-based data will be developed, taking into account the most commonly used format first. Since different databases can require a specific triple-structure, RDF-databases will be investigated on their ability to handle the large datasets efficiently, including their in- and output options. Selected research groups in Utrecht will be attracted to provide early feedback-rounds, focussed on usability and compatibility. 
+
+After completion of the triple-development of a data-format (i.e. end-users and the RDF-community have provided positive feedback), development of the conversion-tools is next. In this stage, we seek to expand the capabilities of current leading bioinformatical tools like Sambamba and BIO-VCF, to capitalise on their multi-core capabilities. Furthermore, we will seek to collaborate with the current (public data-focussed) initiatives, like Bio2RDF and BioInterchange to ensure software-compatibility and limit redundancy.
+
+
+
+The visualisation-subproject will have two phases. In the first phase, we will use a minimalistic model to develop the link between the SPARQL in- and output and d3.js-visualisation. The minimalistic model comprises of SNP- and RNA-based visual analytics-based solutions. Resulting methods can be directly used in other projects, focussing on the role of SNPs and transcription(-levels).
+
+After a successful first phase, the second phase will broaden the available visualisations, by creating a modular dashboard. Every module will provide a particular visual (e.g. heat map, scatter plot) and will interact with both the SPARQL-input, -output and the other active modules. If a user would, for example, select a specific gene in the scatterplot, the same data-point will be highlighted in the other modules. The cross-talk between modules has already been implemented in Epiviz2, which is highly appraised for this by its users. The order of development of specific modules will be primarily based on the wants and needs of the community, which will be gathered with the above-mentioned feedback-rounds.
+
+Research plan
+Timetable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Collaboration
+By performing this research in the Hubrecht Institute, we surround ourself with various research-fields within the scope of Developmental Biology. One of the newest findings of the Hubrecht are Organoids, which provide a method to study heterogeneous tissues (e.g. cancer) in more detail, by providing clonal (i.e. homogeneous) cultured tissues. Groups in the Hubrecht are heavily involved in (inter)national consortia, like the Cancer Genomics Centre. This national consortium of research-groups, predominantly of the Hubrecht Institute and the Netherlands Cancer Institute (NKI), focusses on cancer's (epi)genetic alterations and responses to drugs. Data from this project will include various levels (e.g. (epi)genomics, phosphomics) and dimensions (e.g. drug-responses, time-series). 
+
+Furthermore, the affiliation between the institute and Utrecht University will lead the more possibilities. A considerable amount research groups make use of the Utrecht DNA-sequencing Facility and the Netherlands Proteomics Centre, which ensures adequate amounts and variation in data and data-integration-based research questions. 
+
+Ties with international leaders in biology-related semantic web and visualisation technologies have been made and will continue to be expanded. Joachim Baran and Pjotr Prins have been heavily involved in the planning stages, being key players in handling various data-formats (into RDF) with BIO-Ruby. Communications with Artem Tarasov of Sambamba and Jerven Bolleman -key engineer of the UniProt-RDF project- have also been established.
+Knowledge utilisation
+The implementation of RDF will be swift since RDF already is a web-standard and  and a significant number of public biology-related sources are already in RDF-format. This will enable users of our methodologies to efficiently connect and integrate their data with public resources. Current statistical software, like the R environment, have packages (made by researchers from computer sciences) to extract and further analyse SPARQL-output. This means that users only have to learn SPARQL-queries, in order to use the proposed methods.
+
+By enabling more users to use methods and sources of RDF, this research will, in a broader perspective, have a direct effect on the Semantic Web. By lowering the (bioinformatical) threshold for analysis, more data can be faster analysed by more people, further accelerating research. Users will also be able to tell their story (i.e. results) better. Psychologist will, for example, be able to get a better visualisation and thus understanding of a neuroscientist's work. Big pharmaceutical companies will be able to further include and analyse data of basic science, clinical trails and business-statistics with more efficiency. Moreover, the research-community will be one significant step further in dissecting the complex biology of cancer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

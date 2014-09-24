@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.30)  22 SEP 2014 21:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.30)  24 SEP 2014 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,33 +546,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 90.
+(Font)              <9> on input line 95.
  [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 146.
+(Font)              <7> on input line 144.
 
 
 Package natbib Warning: Citation `Bird2006' on page 4 undefined on input line 1
-46.
+44.
 
 [4] <rdf.pdf, id=77, 530.74991pt x 259.87488pt>
 File: rdf.pdf Graphic file (type pdf)
  <use rdf.pdf>
-Package pdftex.def Info: rdf.pdf used on input line 165.
+Package pdftex.def Info: rdf.pdf used on input line 163.
 (pdftex.def)             Requested size: 322.50346pt x 157.91673pt.
  [5 <./rdf.pdf>]
-[6] <autoVSexplo.pdf, id=145, 352.80005pt x 137.54889pt>
+[6] <autoVSexplo.pdf, id=146, 352.80005pt x 137.54889pt>
 File: autoVSexplo.pdf Graphic file (type pdf)
  <use autoVSexplo.pdf>
-Package pdftex.def Info: autoVSexplo.pdf used on input line 210.
+Package pdftex.def Info: autoVSexplo.pdf used on input line 201.
 (pdftex.def)             Requested size: 322.50346pt x 125.74265pt.
 
 [7 <./autoVSexplo.pdf>]
-<DifferencesInDoingThings.pdf, id=186, 665.5605pt x 499.3245pt>
+<DifferencesInDoingThings.pdf, id=189, 665.5605pt x 499.3245pt>
 File: DifferencesInDoingThings.pdf Graphic file (type pdf)
 
 <use DifferencesInDoingThings.pdf>
-Package pdftex.def Info: DifferencesInDoingThings.pdf used on input line 226.
+Package pdftex.def Info: DifferencesInDoingThings.pdf used on input line 217.
 (pdftex.def)             Requested size: 322.50346pt x 241.95876pt.
  [8 <./DifferencesInDoingThings.pdf>]
 [9] (./Proposal.bbl
@@ -592,12 +592,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
 [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
  (./Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
 Package rerunfilecheck Info: File `Proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -605,48 +605,54 @@ Package rerunfilecheck Info: File `Proposal.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
  ) 
 Here is how much of TeX's memory you used:
- 11510 strings out of 493117
- 174637 string characters out of 6135433
+ 11513 strings out of 493117
+ 174675 string characters out of 6135433
  428403 words of memory out of 5000000
  14608 multiletter control sequences out of 15000+600000
- 30736 words of font info for 128 fonts, out of 8000000 for 9000
+ 30794 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,44p,2289b,860s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbi0800.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/cm-super/sfbi0900.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2014/texmf-dis
-t/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2014/texmf-dist/font
-s/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/public/cm-super/sfti0500.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/cm-super/sfti0600.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/cm-super/sfti0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
-ic/cm-super/sftt0800.pfb>
-Output written on Proposal.pdf (12 pages, 1673420 bytes).
+pdfTeX warning (dest): name{figure.caption.4} has been referenced but does no
+t exist, replaced by a fixed one
+
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/cm-super/sfbi0800.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/cm-super/sfbi0900.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2014/texmf-dist/fonts/
+type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
+1/public/cm-super/sfti0500.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/cm-super/sfti0600.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/cm-super/sfti0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/cm-super/sftt0800.pfb>
+Output written on Proposal.pdf (12 pages, 1673402 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 56 named destinations out of 1000 (max. 500000)
  32784 words of extra memory for PDF output out of 35830 (max. 10000000)
 
