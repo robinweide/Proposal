@@ -1,9 +1,55 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Benko et~al.(2009)Benko, Fantes, Amiel, Kleinjan, Thomas, Ramsay,
+  Jamshidi, Essafi, Heaney, Gordon, McBride, Golzio, Fisher, Perry, Abadie,
+  Ayuso, Holder-Espinasse, Kilpatrick, Lees, Picard, Temple, Thomas, Vazquez,
+  Vekemans, {Roest Crollius}, Hastie, Munnich, Etchevers, Pelet, Farlie,
+  Fitzpatrick, and Lyonnet]{Benko2009}
+Sabina Benko, Judy~A Fantes, Jeanne Amiel, Dirk-Jan Kleinjan, Sophie Thomas,
+  Jacqueline Ramsay, Negar Jamshidi, Abdelkader Essafi, Simon Heaney,
+  Christopher~T Gordon, David McBride, Christelle Golzio, Malcolm Fisher, Paul
+  Perry, V\'{e}ronique Abadie, Carmen Ayuso, Muriel Holder-Espinasse, Nicky
+  Kilpatrick, Melissa~M Lees, Arnaud Picard, I~Karen Temple, Paul Thomas,
+  Marie-Paule Vazquez, Michel Vekemans, Hugues {Roest Crollius}, Nicholas~D
+  Hastie, Arnold Munnich, Heather~C Etchevers, Anna Pelet, Peter~G Farlie,
+  David~R Fitzpatrick, and Stanislas Lyonnet.
+\newblock {Highly conserved non-coding elements on either side of SOX9
+  associated with Pierre Robin sequence.}
+\newblock \emph{Nat. Genet.}, 41\penalty0 (3):\penalty0 359--64, March 2009.
+\newblock ISSN 1546-1718.
+\newblock \doi{10.1038/ng.329}.
+\newblock URL
+  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n3/abs/ng.329.html}.
+
+\bibitem[Kurth et~al.(2009)Kurth, Klopocki, Stricker, van Oosterwijk, Vanek,
+  Altmann, Santos, van Harssel, de~Ravel, Wilkie, Gal, and Mundlos]{Kurth2009}
+Ingo Kurth, Eva Klopocki, Sigmar Stricker, Jolieke van Oosterwijk, Sebastian
+  Vanek, Jens Altmann, Heliosa~G Santos, Jeske J~T van Harssel, Thomy de~Ravel,
+  Andrew O~M Wilkie, Andreas Gal, and Stefan Mundlos.
+\newblock {Duplications of noncoding elements 5' of SOX9 are associated with
+  brachydactyly-anonychia.}
+\newblock \emph{Nat. Genet.}, 41\penalty0 (8):\penalty0 862--3, August 2009.
+\newblock ISSN 1546-1718.
+\newblock \doi{10.1038/ng0809-862}.
+\newblock URL
+  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n8/full/ng0809-862.html}.
+
+\bibitem[Munoz et~al.(2011)Munoz, Low, Kok, Chin, Frese, Ding, Choo, and
+  Heck]{Munoz2011}
+Javier Munoz, Teck~Y Low, Yee~J Kok, Angela Chin, Christian~K Frese, Vanessa
+  Ding, Andre Choo, and Albert J~R Heck.
+\newblock {The quantitative proteomes of human-induced pluripotent stem cells
+  and embryonic stem cells.}
+\newblock \emph{Mol. Syst. Biol.}, 7:\penalty0 550, January 2011.
+\newblock ISSN 1744-4292.
+\newblock \doi{10.1038/msb.2011.84}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3261715\&tool=pmcentrez\&rendertype=abstract}.
 
 \bibitem[Lander et~al.(2001)Lander, Linton, Birren, Nusbaum, Zody, Baldwin,
   Devon, Dewar, Doyle, FitzHugh, Funke, Gage, Harris, Heaford, Howland, Kann,
@@ -94,46 +140,22 @@ William McLaren, Bethan Pritchard, Daniel Rios, Yuan Chen, Paul Flicek, and
 \newblock URL
   \url{http://bioinformatics.oxfordjournals.org.proxy.library.uu.nl/content/26/16/2069.short}.
 
+\bibitem[Bird et~al.(2006)Bird, Stranger, and Dermitzakis]{Bird2006}
+Christine~P Bird, Barbara~E Stranger, and Emmanouil~T Dermitzakis.
+\newblock {Functional variation and evolution of non-coding DNA.}
+\newblock \emph{Curr. Opin. Genet. Dev.}, 16\penalty0 (6):\penalty0 559--64,
+  December 2006.
+\newblock ISSN 0959-437X.
+\newblock \doi{10.1016/j.gde.2006.10.003}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0959437X06002024}.
+
 \bibitem[ENC(2004)]{ENCODE}
 {The ENCODE (ENCyclopedia Of DNA Elements) Project.}
 \newblock \emph{Science}, 306\penalty0 (5696):\penalty0 636--40, October 2004.
 \newblock ISSN 1095-9203.
 \newblock \doi{10.1126/science.1105136}.
 \newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/15499007}.
-
-\bibitem[Benko et~al.(2009)Benko, Fantes, Amiel, Kleinjan, Thomas, Ramsay,
-  Jamshidi, Essafi, Heaney, Gordon, McBride, Golzio, Fisher, Perry, Abadie,
-  Ayuso, Holder-Espinasse, Kilpatrick, Lees, Picard, Temple, Thomas, Vazquez,
-  Vekemans, {Roest Crollius}, Hastie, Munnich, Etchevers, Pelet, Farlie,
-  Fitzpatrick, and Lyonnet]{Benko2009}
-Sabina Benko, Judy~A Fantes, Jeanne Amiel, Dirk-Jan Kleinjan, Sophie Thomas,
-  Jacqueline Ramsay, Negar Jamshidi, Abdelkader Essafi, Simon Heaney,
-  Christopher~T Gordon, David McBride, Christelle Golzio, Malcolm Fisher, Paul
-  Perry, V\'{e}ronique Abadie, Carmen Ayuso, Muriel Holder-Espinasse, Nicky
-  Kilpatrick, Melissa~M Lees, Arnaud Picard, I~Karen Temple, Paul Thomas,
-  Marie-Paule Vazquez, Michel Vekemans, Hugues {Roest Crollius}, Nicholas~D
-  Hastie, Arnold Munnich, Heather~C Etchevers, Anna Pelet, Peter~G Farlie,
-  David~R Fitzpatrick, and Stanislas Lyonnet.
-\newblock {Highly conserved non-coding elements on either side of SOX9
-  associated with Pierre Robin sequence.}
-\newblock \emph{Nat. Genet.}, 41\penalty0 (3):\penalty0 359--64, March 2009.
-\newblock ISSN 1546-1718.
-\newblock \doi{10.1038/ng.329}.
-\newblock URL
-  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n3/abs/ng.329.html}.
-
-\bibitem[Kurth et~al.(2009)Kurth, Klopocki, Stricker, van Oosterwijk, Vanek,
-  Altmann, Santos, van Harssel, de~Ravel, Wilkie, Gal, and Mundlos]{Kurth2009}
-Ingo Kurth, Eva Klopocki, Sigmar Stricker, Jolieke van Oosterwijk, Sebastian
-  Vanek, Jens Altmann, Heliosa~G Santos, Jeske J~T van Harssel, Thomy de~Ravel,
-  Andrew O~M Wilkie, Andreas Gal, and Stefan Mundlos.
-\newblock {Duplications of noncoding elements 5' of SOX9 are associated with
-  brachydactyly-anonychia.}
-\newblock \emph{Nat. Genet.}, 41\penalty0 (8):\penalty0 862--3, August 2009.
-\newblock ISSN 1546-1718.
-\newblock \doi{10.1038/ng0809-862}.
-\newblock URL
-  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n8/full/ng0809-862.html}.
 
 \bibitem[Ongen et~al.(2014)Ongen, Andersen, Bramsen, Oster, Rasmussen,
   Ferreira, Sandoval, Vidal, Whiffin, Planchon, Padioleau, Bielser, Romano,
@@ -240,18 +262,6 @@ Jemila~S Hamid, Pingzhao Hu, Nicole~M Roslin, Vicki Ling, Celia M~T Greenwood,
 \newblock \doi{10.4061/2009/869093}.
 \newblock URL
   \url{http://hgp.sagepub.com.proxy.library.uu.nl/content/1/1/869093.full}.
-
-\bibitem[Munoz et~al.(2011)Munoz, Low, Kok, Chin, Frese, Ding, Choo, and
-  Heck]{Munoz2011}
-Javier Munoz, Teck~Y Low, Yee~J Kok, Angela Chin, Christian~K Frese, Vanessa
-  Ding, Andre Choo, and Albert J~R Heck.
-\newblock {The quantitative proteomes of human-induced pluripotent stem cells
-  and embryonic stem cells.}
-\newblock \emph{Mol. Syst. Biol.}, 7:\penalty0 550, January 2011.
-\newblock ISSN 1744-4292.
-\newblock \doi{10.1038/msb.2011.84}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3261715\&tool=pmcentrez\&rendertype=abstract}.
 
 \bibitem[Karr et~al.(2012)Karr, Sanghvi, Macklin, Gutschow, Jacobs, Bolival,
   Assad-Garcia, Glass, and Covert]{Karr2012}
@@ -449,5 +459,67 @@ Joachim Baran.
 \newblock {BioInterchange: An Open Source Framework for Transforming
   Heterogeneous Data Formats Into RDF.}
 \newblock \emph{In preperation}.
+
+\bibitem[Cerami et~al.(2011)Cerami, Gross, Demir, Rodchenkov, Babur, Anwar,
+  Schultz, Bader, and Sander]{Cerami2011}
+Ethan~G Cerami, Benjamin~E Gross, Emek Demir, Igor Rodchenkov, Ozg\"{u}n Babur,
+  Nadia Anwar, Nikolaus Schultz, Gary~D Bader, and Chris Sander.
+\newblock {Pathway Commons, a web resource for biological pathway data.}
+\newblock \emph{Nucleic Acids Res.}, 39\penalty0 (Database issue):\penalty0
+  D685--90, January 2011.
+\newblock ISSN 1362-4962.
+\newblock \doi{10.1093/nar/gkq1039}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3013659\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem[Boyle et~al.(2012)Boyle, Hong, Hariharan, Cheng, Schaub, Kasowski,
+  Karczewski, Park, Hitz, Weng, Cherry, and Snyder]{Boyle2012}
+Alan~P Boyle, Eurie~L Hong, Manoj Hariharan, Yong Cheng, Marc~A Schaub, Maya
+  Kasowski, Konrad~J Karczewski, Julie Park, Benjamin~C Hitz, Shuai Weng,
+  J~Michael Cherry, and Michael Snyder.
+\newblock {Annotation of functional variation in personal genomes using
+  RegulomeDB.}
+\newblock \emph{Genome Res.}, 22\penalty0 (9):\penalty0 1790--7, September
+  2012.
+\newblock ISSN 1549-5469.
+\newblock \doi{10.1101/gr.137323.112}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3431494\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem[Ashburner et~al.(2000)Ashburner, Ball, Blake, Botstein, Butler,
+  Cherry, Davis, Dolinski, Dwight, Eppig, Harris, Hill, Issel-Tarver,
+  Kasarskis, Lewis, Matese, Richardson, Ringwald, Rubin, and
+  Sherlock]{Ashburner2000}
+M~Ashburner, C~A Ball, J~A Blake, D~Botstein, H~Butler, J~M Cherry, A~P Davis,
+  K~Dolinski, S~S Dwight, J~T Eppig, M~A Harris, D~P Hill, L~Issel-Tarver,
+  A~Kasarskis, S~Lewis, J~C Matese, J~E Richardson, M~Ringwald, G~M Rubin, and
+  G~Sherlock.
+\newblock {Gene ontology: tool for the unification of biology. The Gene
+  Ontology Consortium.}
+\newblock \emph{Nat. Genet.}, 25\penalty0 (1):\penalty0 25--9, May 2000.
+\newblock ISSN 1061-4036.
+\newblock \doi{10.1038/75556}.
+\newblock URL \url{http://dx.doi.org/10.1038/75556}.
+
+\bibitem[Kanehisa and Goto(2000)]{Kanehisa2000}
+M~Kanehisa and S~Goto.
+\newblock {KEGG: kyoto encyclopedia of genes and genomes.}
+\newblock \emph{Nucleic Acids Res.}, 28\penalty0 (1):\penalty0 27--30, January
+  2000.
+\newblock ISSN 0305-1048.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=102409\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem[Prahallad et~al.(2012)Prahallad, Sun, Huang, {Di Nicolantonio},
+  Salazar, Zecchin, Beijersbergen, Bardelli, and Bernards]{Prahallad2012}
+Anirudh Prahallad, Chong Sun, Sidong Huang, Federica {Di Nicolantonio}, Ramon
+  Salazar, Davide Zecchin, Roderick~L Beijersbergen, Alberto Bardelli, and
+  Ren\'{e} Bernards.
+\newblock {Unresponsiveness of colon cancer to BRAF(V600E) inhibition through
+  feedback activation of EGFR.}
+\newblock \emph{Nature}, 483\penalty0 (7387):\penalty0 100--3, March 2012.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/nature10868}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/22281684}.
 
 \end{thebibliography}

@@ -97,7 +97,7 @@ To date, studies on non-coding regions of the genome, specifically in cancer, ha
 
 \noindent
 The current methods for integrating and analysing these layers and dimensions have two significant limitations in their design: scalability and generality (i.e. the possibility to add more levels or dimensions). Moreover, there isn't an option to overview a dataset without filtering, dividing or restructuring the data. 
-The integration of complex datasets is needed to understand the complex biology of cancer better\citet{Munoz2011}, but is restricted by these limitations.ß
+The integration of complex datasets is needed to understand the complex biology of cancer better\cite{Munoz2011}, but is restricted by these limitations.
 \medskip
 
 \noindent Enter the Semantic Web and its Resource Description Framework (RDF). A simple and flexible framework for describing anything about anything.
@@ -112,11 +112,9 @@ Since every type of data can be translated to this universal language, integrati
 Layman's summary
 \end{center}}    % clear the title
 \begin{abstract}\noindent
-The biomedical research community wants to be able to combine and analyse a multitude of biological signals in one experiment because the biology of, for example, cancer is so complex. However, integrating diverse sets of biological signals is currently a serious challenge. To overcome this, we propose the use of Semantic Web-methods: these are specially designed for integrating vast amounts of different data. Furthermore, it allows users to describe, analyse and test their data interactively and dynamically via visual representations displayed in the browser. 
+The biomedical research community wants to be able to combine and analyse a multitude of biological signals in one experiment because the biology of, for example, cancer is so complex. However, integrating diverse sets of biological signals is currently a serious challenge. To overcome this, we propose the use of Semantic Web-methods: these are specially designed for integrating vast amounts of different data. Furthermore, it allows users to describe, analyse and test their data interactively and dynamically via visual representations displayed in the browser. These methods would enable researchers in- and outside of bioinformatics to more efficiently analyse and integrate datasets, making it easier to propose (and answer) research questions.
 
-Research on non-coding genomic regions, for example, would benefit greatly from these methods. It would enable studies on the complex cancer-causing consequences of changes in parts of chromosomes that do not contain a gene.
-
-A preliminary study shows the added value of such methods in biology: enabling researchers to describe, analyse and test 20 times more biological questions in the same time, compared to conventional methods. We propose to develop these methods further for the research-community (and biology in particular), enabling us to perform research on variations in the non-coding genomic regions in cancer. \\
+A preliminary study shows the added value of such methods in biology: enabling researchers to describe, analyse and test 20 times more biological questions in the same time, compared to conventional methods. We propose to develop these methods further for the research-community (and biology in particular), enabling us to more effectively and systematically perform research on variations in the non-coding genomic regions in cancer. \\
 \medskip
 
 \noindent \textbf{Keywords:} structural variation, multi-level data integration, next-generation sequencing, cancer, visual analytics
@@ -153,11 +151,10 @@ However, only a few layers and dimensions have been integrated per study and res
 \medskip
 
 \noindent
-To overcome these scaling issues, \textbf{we propose the use of the Semantic Web: the \textit{Resource Description Framework} (RDF) and its query-language \textit{SPARQL Protocol and RDF Query Language} (SPARQL)}. RDF is a general and simple framework for making statements about subjects, already heavily used in fields outside of biology, enabling users to integrate and search data based on semantics. Within biology, RDF is only used sparsely and mainly focussed on external data-source integration and not on own data\cite{Belleau2008,Neumann2006,Sahoo2008}. Every RDF-statement (i.e. a triple) has three parts: a subject, a predicate and an object (e.g. \lstinline|BRAF1 :: molecular function :: calcium ion binding|). This makes it possible to link every object to another and denote the relationship between them (essentially constructing a graph-based network): there is no need for additional (file)formats (fig.\ref{fig:rdf}). 
+To overcome these scaling issues, \textbf{we propose the use of the Semantic Web: the \textit{Resource Description Framework} (RDF) and its query-language \textit{SPARQL Protocol and RDF Query Language} (SPARQL)}. RDF is a general and simple framework for making statements about subjects, already heavily used in fields outside of biology, enabling users to integrate and search data based on semantics. Within biology, RDF is only used sparsely and mainly focussed on external data-source integration and not on own data\cite{Belleau2008,Neumann2006,Sahoo2008}. Every RDF-statement (i.e. a triple) has three parts: a subject, a predicate and an object (e.g. \lstinline|BRAF1 :: molecular function :: calcium ion binding|). This makes it possible to link every object to another and denote the relationship between them: there is no need for additional (file)formats. By linking triples to each other by either a common object or subject (essentially constructing a graph-based network), new relationships can be inferred (fig.\ref{fig:rdf}). 
 
 Compared to other relational database management systems, RDF is completely flexible: no database-schemas (pre-specified structures for the data, like the mySQL-method of \citet{Low2013}) are needed. Aside from the non-complex, flexible and self-describing nature of the RDF-data, triples can be seen as a modular directed graph: users can connect multiple relevant RDF-sources (e.g. UniProt andProteomics-data). Every additional RDF-source results in a more relevant and heterogeneous population of triples, making the network more complex and informative. Extracting relevant information from this "hairball" of linked objects and subjects has been an important issue and challenge since the beginning of big data, as \citet{Pavlopoulos2008} stated in 2008. SPARQL provides the ability to filter on an arbitrary number of (human-readable) expressions and can combine multiple databases to query, like the RDF-databases of EMBL-EBI \citep{Jupp2014}. Another advantage of using SPARQL is the increase in scalability by including multiple triplestores in the same query. By enabling the use of small and specific triplestores, such a federated query results in faster retrieval of the data.
 
-\medskip
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{rdf}
@@ -167,22 +164,17 @@ Compared to other relational database management systems, RDF is completely flex
 \noindent
 When data is incorporated in a Semantic Web RDF-database (TripleStore) and a relevant set of subjects, predicates and objects are extracted using SPARQL, the remaining dataset is still enormous. The abstract and complex nature of this "hairball" makes it hard to formalise an analytical problem to solve. \textbf{To create interactive and dynamic visual representations of a dataset, we propose to use of the multidisciplinary theories and methods of \textit{visual analytics}}. \citet{Thomas2005} describe this field in 2005 as "\textit{the science of analytical reasoning facilitated by interactive visual interfaces.}". It uses analytical and statistical methods from fields as computer science and statistics and visualisation-techniques from cognitive and design sciences. Visual analytics enables efficient exploratory analysis of the data by the user. Drug discovery is one of the leading areas in biological visual analytics, as it provides a more cost-effective method for analysing data of clinical trails\cite{Cao2008}.
 
-The JavaScript library "Data-Driven Documents" (\textit{D3.js}) is focussed on structuring data for dynamic web-based visualisation, which makes it well-suited for implementing linked data within visual analytics\cite{Bostock2011}. Moreover, since it is embedded in HTML, additional operators (e.g. buttons, SPARQL-forms) can be added. Due to these benefits, the use of D3.js in visual analytics is increasing: a notable biology-specific example of this is Epiviz2\cite{Chelaru2014}. However, this tool only takes an explicit set of data-formats and -levels and -more importantly- only shows a particular genomic region, instead of the complete scope. This can easily lead to cherry-picking, instead of data-focussed formulation and analysis of hypotheses.
+The JavaScript library "Data-Driven Documents" (\textit{D3.js}) is focussed on structuring data for dynamic web-based visualisation, which makes it well-suited for implementing linked data within visual analytics\cite{Bostock2011}. Moreover, since it is embedded in HTML, additional operators (e.g. buttons, SPARQL-forms) can be added (fig. \ref{fig:nya}). Due to these benefits, the use of D3.js in visual analytics is increasing: a notable biology-specific example of this is Epiviz2\cite{Chelaru2014}. However, this tool only takes an explicit set of data-formats and -levels and -more importantly- only shows a particular genomic region, instead of the complete scope. This can easily lead to cherry-picking, instead of data-focussed formulation and analysis of hypotheses.
 \medskip
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{nyeplot}
+    \caption{\textbf{Visual analytics in d3.js of mutli-sample variants calls} This example shows the possibilities of d3.js and visual analytics: fast and efficient system-wide exploratory analysis of multiple datasets, including cross-talk between the different modules. An interactive version can be found on \url{www.domitry.com/gsoc/multi_pane2.html}.}
+    \label{fig:nya}
+\end{figure}
 \noindent 
 The heterogeneous samples and datasets of cancer make it one of the most computationally demanding types of integrative biology. \textbf{We propose to use our methods to study to consequences of structural variations at non-coding loci in cancer on other levels.}  These methods will enable research in this technical challenging topic, by decreasing the computational burden of data-handling, and increase the cognitive abilities of the user, by providing integrative visual interfaces. 
-
-
-
-%Usage case: structural variants of non-coding regions in cancer
-%twee dingen zeker noemen: hetrrogeneous dataset en de complicaties van multiu-level en dimensional in kanker-onderzoek
-%
-
-%\cite{Gomez-Cabrero2014} geeft mooie inleiding (en over de wensen van de community)
-
-
-\subsection*{Originality and innovative character} 
+\newpage\subsection*{Originality and innovative character} 
 The 2014 survey of \citet{Gomez-Cabrero2014} showed that biomedical academics had the highest interest (78.2 percent) in the integration of multiple omics-datasets and that there was a high need for standardized tools and data-types. Data-storage, -exploration and -exploitation were found the be key. Their conclusions were best summarized by \textit{the need for having exploration tools, which combine summary statistics and interactive visualisations, to analyse heterogeneous data-sets}.
 \medskip
 
@@ -195,29 +187,20 @@ However, there are two main limitations of this relatively young incorporation: 
 \noindent
 %added value of linked data visual analytics TOV standaard methodes ( verwijs naar pilot study)
 The implementation of web-based visual analytics for RDF-databases is another leading innovative point in this proposal. Combining Semantic Web-technology with this will create a paradigm shift in the way integrative analysis of (biological) data is done. Visual analytics has been shown to result in the most optimal analysis-effectivity as it allows the user to combine the data with their own background and intuition (fig. \ref{fig:ae}). Not only can data be more effectively analysed, but it can also be better understood and presented, due to the ability to provide an overview of the complete dataset\cite{Thomas2005, Keim}. 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\textwidth]{autoVSexplo}
-    \caption{\textbf{Trade-offs between automated and explorative analysis.} By combining automated analyses, where appropriate, with the background and intuition of the user, an optimal amount of effectivity can be attained. Picture taken from \citet{Keim}.}
-    \label{fig:ae}
-\end{figure}
 \medskip
 
 \noindent
 While there has already been a considerable amount of work in the field of computational cancer research, the vast majority of large-scale integrative studies have been conducted on the coding-regions of the genome\cite{ENCODE}. Genome-Wide Association Studies (GWASs) on a broad range of (hereditary) cancer-types have shown that non-coding locations are associated with these diseases. Until 2013, however, tools and sources to find the precise causative variations in non-coding genomic regions were limited. In the last two years, several advances have made it possible to assess the consequences of individual variations in non-coding regions\cite{Ongen2014,Khurana2013}. However, no large-scale integrative studies have been performed, which is partly due to the current state of integrative methods. 
 
 Due to the affiliation with the University Medical Center Utrecht (UMCU), we are in a unique position to test our hypotheses and methods in both research and clinical settings. Furthermore, the HUB-biobank in the Hubrecht Institute also enables us to perform analyses on organoids, providing us a stable and homogeneous \textit{in vitro} platform for (validation-)studies on cancer-samples. With the new methods, we will be in a position to perform fully integrative studies on the underlying mechanisms and consequences of (structural) variation in cancer.
-
-\subsection*{Pilot-study}
-To asses to feasibility of this proposal, a small-scale pilot-study was performed on de data of \citet{VanHeesch2014}. This dataset includes transcriptome data of mRNA's, bound to a number of ribosomal units (1 to 7+) and matching exome-data. If one would be interested in the molecular functions of a gene with an allelic bias, a disproportional amount of time is lost on parsing, intersecting and downloading various types of data (fig. \ref{fig:awesome_image}). With the current methods, twelve set-operations (e.g. intersections, unions) have to be performed on $\pm$5gb of data. Furthermore, three datasets ($\pm$15gb) have to be completely downloaded once -until a new version is launched- before a simple exploratory question can be answered. Approximately three and a half hours was needed to perform this, in contrast to one hour with the proposed methods. Of this hour, more than fifty minutes were used to convert VCF to RDF and load the 4store database: every query hereafter takes up approximately 10 minutes. First and foremost, this pilot illustrates the low-complex nature of the proposed methods. Secondly, it shows the valuable property of having a separate query-stage, which results in being able to make more than ($\frac{(8*60)-50}{10}= $) forty queries in eight hours, instead of approximately ($\frac{8-3,5}{3,5}= $) two queries with the currently used methods.
-
-\begin{figure}[H]
+\medskip
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.75\textwidth]{DifferencesInDoingThings}
-    \caption{\textbf{Differences between current integration techniques and RDF.} When a researcher has a question like \textbf{A}, they have to go through a series of parsing and interception steps, like in \textbf{B}. External sources have to be fully downloaded and converted, before use. Our proposed pipeline (shown in \textbf{C}), firstly converts the data to RDF. Then, a question can be formulated in SPARQL (\textbf{D}), incorporating relevant outside sources, which can be easily changed without having to juggle/download the data again.}
-    \label{fig:awesome_image}
+    \includegraphics[width=0.75\textwidth]{autoVSexplo}
+    \caption{\textbf{Trade-offs between automated and explorative analysis.} By combining automated analyses, where appropriate, with the background and intuition of the user, an optimal amount of effectivity can be attained. Picture taken from \citet{Keim}.}
+    \label{fig:ae}
 \end{figure}
+
 \subsection*{Methods and techniques} %M&M
 %=================================================
 %=================================================
@@ -240,6 +223,15 @@ The visualisation-subproject will have two phases. In the first phase, we will u
 
 After a successful first phase, the second phase will broaden the available visualisations, by creating a modular dashboard. Every module will provide a particular visual (e.g. heat-map, scatter-plot) and will interact with both the SPARQL-input, -output and the other active modules. If a user would, for example, select a specific gene in the scatter-plot, the same data-point will be highlighted in the other modules. The cross-talk between modules has already been implemented in Epiviz2\cite{Chelaru2014}, which is highly appraised for this by its users. The order of development of specific modules will be primarily based on the wants and needs of the community, which will be gathered with the above-mentioned feedback-rounds.
 %\newpage
+\subsection*{Pilot-study}
+To asses to feasibility of this proposal, a small-scale pilot-study was performed on de data of \citet{VanHeesch2014}. This dataset includes transcriptome data of mRNA's, bound to a number of ribosomal units (1 to 7+) and matching exome-data. If one would be interested in the molecular functions of a gene with an allelic bias, a disproportional amount of time is lost on parsing, intersecting and downloading various types of data (fig. \ref{fig:awesome_image}). With the current methods, twelve set-operations (e.g. intersections, unions) have to be performed on $\pm$5gb of data. Furthermore, three datasets ($\pm$15gb) have to be completely downloaded once -until a new version is launched- before a simple exploratory question can be answered. Approximately three and a half hours was needed to perform this, in contrast to one hour with the proposed methods. Of this hour, more than fifty minutes were used to convert VCF to RDF and load the 4store database: every query hereafter takes up approximately 10 minutes. First and foremost, this pilot illustrates the low-complex nature of the proposed methods. Secondly, it shows the valuable property of having a separate query-stage, which results in being able to make more than ($\frac{(8*60)-50}{10}= $) forty queries in eight hours, instead of approximately ($\frac{8-3,5}{3,5}= $) two queries with the currently used methods.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\textwidth]{DifferencesInDoingThings}
+    \caption{\textbf{Differences between current integration techniques and RDF.} When a researcher has a question like \textbf{A}, they have to go through a series of parsing and interception steps, like in \textbf{B}. External sources have to be fully downloaded and converted, before use. Our proposed pipeline (shown in \textbf{C}), firstly converts the data to RDF. Then, a question can be formulated in SPARQL (\textbf{D}), incorporating relevant outside sources, which can be easily changed without having to juggle/download the data again.}
+    \label{fig:awesome_image}
+\end{figure}
+\newpage
 \section*{Research plan}
 \subsection*{Timetable}
 \begin{table}[h]
@@ -257,15 +249,26 @@ After a successful first phase, the second phase will broaden the available visu
 \hspace*{1em} Adding visualisation-methods      &                                                 &                                                 & \cellcolor[HTML]{656565}                        & \cellcolor[HTML]{656565}                        &                                                 &                                                 &                                                 &                                                 \\
 \hspace*{1em} Adding filtering and output       &                                                 &                                                 &                                                 & \cellcolor[HTML]{656565}                        &                                                \cellcolor[HTML]{656565}   &                                                 &                                                 &                                                 \\
 \textbf{Aim 3: Multi-level analysis}            &                                                 &                                                 &                                                 &                                                 &  & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } \\
-\hspace*{1em} Consequences of Cancer-SV's       &                                                 &                                                 &                                                 &                                                 &                        & \cellcolor[HTML]{656565}                        & \cellcolor[HTML]{656565}                        & \cellcolor[HTML]{656565}                        \\
+\hspace*{1em} Consequences of Cancer-SV's       &                                                 &                                                 &                                                 &                                                 &                        & \cellcolor[HTML]{656565}                  & \cellcolor[HTML]{656565}                     & \cellcolor[HTML]{656565}                   \\
 \textbf{Writing thesis}                         &                                                 &                                                 &                                                 &                                                 &                                                 &                                                 &                                                 & \cellcolor[HTML]{343434}                       
 \end{tabular}
 \end{center}
 \end{table}
+\subsection*{Proposed biological questions}
+Semester six to eight will be used to perform multi-level analysis with the resulting methods and tools from the previous five semesters. The overall aim is to combine both proprietary and public data to execute previously impossible analyses. Of the public databases available, the most valuable for our purposes are those, that link omics-data to pathways and ontologies: \textit{Pathway Commons}\cite{Cerami2011} and \textit{Reactome}\cite{Jupp2014} on perturbed pathways in cancer, \textit{RegulomeDB}\cite{Boyle2012} on linking non-coding regions to genes and \textit{Gene Ontology}\cite{Ashburner2000} and \textit{KEGG-pathway}\cite{Kanehisa2000} for general ontologies and pathways. A subset of the addressed questions and proposed analyses is depicted below.
+\renewcommand{\labelenumi}{\roman{enumi}.}
+\begin{enumerate}
+\item \textbf{Non-coding structural factors of drug-resistance} \\
+The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying the effects of variants in coding regions in cancer, including factors of drug resistance. However, the data has not been used to study the non-coding regions, primarily because of the aforementioned limitations in both non-coding analysis and data-integration. Firstly, we will analyse the (epi)genomic data to identify cancer-specific SVs that are cis-acting on specific genes. Secondly, the data of the products of these genes (e.g. transcripts, proteins and metabolites) is integrated to infer possible consequences on these levels. Linking specific drug-resistance information will also enable us find patterns between the SVs, the identified (consequences of) genes and specific drugs. Since treatment of a single drug often leads to resistance by a bypass in the drug-inhibited pathway\cite{Prahallad2012}, we also integrate public and CGC.nl-data on perturbed pathways in cancer. This will elucidate the mechanisms of non-coding SV-induced drug-resistance in cancer samples and potentially identify new targets for treatment.
+\item \textbf{Single-cell analysis of SVs in cancer sub-populations} \\
+Due to the advances in single-cell sequencing (CELL-seq) of both DNA and RNA, we are able to look at consequences of SVs on transcription in single cells. The innovation here is the fact that signals are not averaged out by multiple (asynchronous) cells and we can thus analyse the cell as part of a sub-population. By integrating CELL-seq DNA- and RNA-data of different sub-populations of (heterogeneous) cancer-samples, we can find the previously obscured direct (i.e. cis-acting) and indirect (i.e. trans-acting) consequences of SVs in specific sub-populations. Furthermore, integrating data of lineage-tracing between and within different sub-populations could identify causal non-coding SV-events in the progression of cancer. Linking the public data of ontology- and pathway-databases will enable us to infer specific sub-population changes in pathways as the consequence of SVs or de-regulated genes due to SVs.
+\end{enumerate}
+This subset of questions shows the main innovative point of our proposed methods: they make it possible to efficiently and systematic analyse and integrate several omics-levels and multiple dimensions (e.g. drug-resistance, cancer type/sub-population), while allowing easy connection to public data.
+
 
 
 \subsection*{Collaboration}
-By performing this research in the Hubrecht Institute, we surround ourself with various research-fields within the scope of Developmental Biology. One of the newest findings of the Hubrecht are Organoids, which provide a method to study heterogeneous tissues (e.g. cancer) in more detail, by providing clonal (i.e. homogeneous) cultured tissues. Groups in the Hubrecht are heavily involved in (inter)national consortia, like the \textit{Cancer Genomics Centre}. This national consortium of research-groups, predominantly of the Hubrecht Institute and the Netherlands Cancer Institute (NKI), focusses on cancer's (epi)genetic alterations and responses to drugs. Data from this project will include various levels (e.g. (epi)genomics, phosphomics) and dimensions (e.g. drug-responses, time-series). 
+By performing this research in the Hubrecht Institute, we surround ourself with various research-fields within the scope of Developmental Biology. One of the newest findings of the Hubrecht are Organoids, which provide a method to study heterogeneous tissues (e.g. cancer) in more detail, by providing clonal (i.e. homogeneous) cultured tissues. Groups in the Hubrecht are heavily involved in (inter)national consortia, like the \textit{Cancer Genomics Centre}. This national consortium of research-groups, predominantly of the Hubrecht Institute and the Netherlands Cancer Institute (NKI), focusses on cancer's (epi)genetic alterations and responses to drugs. Data from this project will include various levels (e.g. (epi)genomics, phosphomics) and dimensions (e.g. drug-responses, time-series). For the cancer sub-population study, a collaboration between the \textit{van Oudenaarden}-group (lineage-tracing and CELL-seq) and the \textit{Clevers}-group (cancer-biobank) will be formed.
 
 Furthermore, the affiliation between the institute and Utrecht University will lead the more possibilities. A considerable amount research groups make use of the Utrecht DNA-sequencing Facility and the Netherlands Proteomics Centre, which ensures adequate amounts and variation in data and data-integration-based research questions. 
 

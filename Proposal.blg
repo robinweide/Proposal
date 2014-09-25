@@ -6,45 +6,45 @@ Database file #1: library.bib
 Warning--empty author in ENCODE
 Warning--empty year in Baran
 Warning--empty year in Baran
-You've used 33 entries,
+You've used 39 entries,
             2481 wiz_defined-function locations,
-            857 strings with 20913 characters,
-and the built_in function-call counts, 25295 in all, are:
-= -- 1330
-> -- 3276
-< -- 8
-+ -- 1128
-- -- 1062
-* -- 3010
-:= -- 4904
-add.period$ -- 184
-call.type$ -- 33
-change.case$ -- 66
-chr.to.int$ -- 33
-cite$ -- 37
-duplicate$ -- 636
-empty$ -- 1176
-format.name$ -- 1100
-if$ -- 4675
+            916 strings with 23199 characters,
+and the built_in function-call counts, 28898 in all, are:
+= -- 1589
+> -- 3624
+< -- 9
++ -- 1250
+- -- 1172
+* -- 3409
+:= -- 5558
+add.period$ -- 219
+call.type$ -- 39
+change.case$ -- 78
+chr.to.int$ -- 39
+cite$ -- 43
+duplicate$ -- 750
+empty$ -- 1395
+format.name$ -- 1218
+if$ -- 5374
 int.to.chr$ -- 1
-int.to.str$ -- 34
-missing$ -- 32
-newline$ -- 258
-num.names$ -- 96
-pop$ -- 162
+int.to.str$ -- 40
+missing$ -- 38
+newline$ -- 305
+num.names$ -- 114
+pop$ -- 187
 preamble$ -- 1
-purify$ -- 33
+purify$ -- 39
 quote$ -- 0
-skip$ -- 333
+skip$ -- 389
 stack$ -- 0
-substring$ -- 622
-swap$ -- 110
+substring$ -- 757
+swap$ -- 128
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 231
+type$ -- 273
 warning$ -- 3
-while$ -- 117
+while$ -- 141
 width$ -- 0
-write$ -- 602
+write$ -- 714
 (There were 3 warnings)

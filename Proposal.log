@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.30)  24 SEP 2014 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.30)  25 SEP 2014 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -549,34 +549,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 95.
  [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 144.
-
-
-Package natbib Warning: Citation `Bird2006' on page 4 undefined on input line 1
-44.
-
-[4] <rdf.pdf, id=77, 530.74991pt x 259.87488pt>
+(Font)              <7> on input line 142.
+ [4] <rdf.pdf, id=78, 530.74991pt x 259.87488pt>
 File: rdf.pdf Graphic file (type pdf)
  <use rdf.pdf>
-Package pdftex.def Info: rdf.pdf used on input line 163.
+Package pdftex.def Info: rdf.pdf used on input line 160.
 (pdftex.def)             Requested size: 322.50346pt x 157.91673pt.
- [5 <./rdf.pdf>]
-[6] <autoVSexplo.pdf, id=146, 352.80005pt x 137.54889pt>
-File: autoVSexplo.pdf Graphic file (type pdf)
- <use autoVSexplo.pdf>
-Package pdftex.def Info: autoVSexplo.pdf used on input line 201.
-(pdftex.def)             Requested size: 322.50346pt x 125.74265pt.
+ [5 <./rdf.pdf>] <nyeplot.pdf, id=125, 783.92876pt x 642.4pt>
+File: nyeplot.pdf Graphic file (type pdf)
+ <use nyeplot.pdf>
+Package pdftex.def Info: nyeplot.pdf used on input line 171.
+(pdftex.def)             Requested size: 322.50346pt x 264.27771pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 172.
 
-[7 <./autoVSexplo.pdf>]
-<DifferencesInDoingThings.pdf, id=189, 665.5605pt x 499.3245pt>
-File: DifferencesInDoingThings.pdf Graphic file (type pdf)
-
-<use DifferencesInDoingThings.pdf>
-Package pdftex.def Info: DifferencesInDoingThings.pdf used on input line 217.
-(pdftex.def)             Requested size: 322.50346pt x 241.95876pt.
- [8 <./DifferencesInDoingThings.pdf>]
-[9] (./Proposal.bbl
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 82.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -585,19 +570,27 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [6 <./nyeplot.pdf>] <autoVSexplo.pdf, id=262, 352.80005pt x 137.54889pt>
+File: autoVSexplo.pdf Graphic file (type pdf)
+ <use autoVSexplo.pdf>
+Package pdftex.def Info: autoVSexplo.pdf used on input line 199.
+(pdftex.def)             Requested size: 322.50346pt x 125.74265pt.
 
- [11])
+[7] [8 <./autoVSexplo.pdf>]
+<DifferencesInDoingThings.pdf, id=315, 665.5605pt x 499.3245pt>
+File: DifferencesInDoingThings.pdf Graphic file (type pdf)
 
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
+<use DifferencesInDoingThings.pdf>
+Package pdftex.def Info: DifferencesInDoingThings.pdf used on input line 230.
+(pdftex.def)             Requested size: 322.50346pt x 241.95876pt.
+ [9 <./DifferencesInDoingThings.pdf>]
+[10] (./Proposal.bbl [11] [12])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
  (./Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
 Package rerunfilecheck Info: File `Proposal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -605,54 +598,48 @@ Package rerunfilecheck Info: File `Proposal.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
  ) 
 Here is how much of TeX's memory you used:
- 11513 strings out of 493117
- 174675 string characters out of 6135433
- 428403 words of memory out of 5000000
- 14608 multiletter control sequences out of 15000+600000
- 30794 words of font info for 129 fonts, out of 8000000 for 9000
+ 11556 strings out of 493117
+ 175324 string characters out of 6135433
+ 427449 words of memory out of 5000000
+ 14631 multiletter control sequences out of 15000+600000
+ 30862 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,44p,2289b,860s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.4} has been referenced but does no
-t exist, replaced by a fixed one
-
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/cm-super/sfbi0800.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/cm-super/sfbi0900.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2014/texmf-dis
-t/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2014/texmf-dist/font
-s/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/cm-super/sfti0500.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/cm-super/sfti0600.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
-blic/cm-super/sfti0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
-ic/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
-/cm-super/sftt0800.pfb>
-Output written on Proposal.pdf (12 pages, 1673402 bytes).
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbi0800.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/cm-super/sfbi0900.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/cm-super/sfit0900.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/
+type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
+pe1/public/cm-super/sfti0500.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
+1/public/cm-super/sfti0600.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/cm-super/sfti0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/cm-super/sftt0800.pfb>
+Output written on Proposal.pdf (13 pages, 2184593 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 56 named destinations out of 1000 (max. 500000)
- 32784 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 552 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 32789 words of extra memory for PDF output out of 35830 (max. 10000000)
 
