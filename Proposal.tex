@@ -2,14 +2,14 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[twoside,fontsize=10pt]{article}
+\documentclass[twoside,fontsize=12pt]{article}
 %\documentclass[oneside]{article}
 \usepackage{lipsum} % Package to generate dummy text throughout this template
 \usepackage{graphicx}
 
 %\usepackage[sc]{mathpazo} % Use the Palatino font
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
-%\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\linespread{1.5} % Line spacing - Palatino needs more space between lines
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
 \usepackage{listings}
 \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
@@ -108,19 +108,26 @@ Since every type of data can be translated to this universal language, integrati
 \noindent Here, we propose the use of semantic web technologies and visual analytics to decrease the complexity of integrating and visualizing multi-level and -dimensional biological data. These methods will enable further elucidation of the complex biology of, for example, cancer. Firstly, we will create the framework needed to design the missing tools for converting the most-used NGS-formats to RDF. Next, visualisations (based on visual analytics) of the biological RDF-data will be created, which will be used to perform previously impossible integration-focussed analyses on the consequences of structural variation in the non-coding regions of cancer-genomes.
 \end{abstract}
 \medskip
-\renewcommand{\abstractname}{\begin{center}
-Layman's summary
-\end{center}}    % clear the title
-\begin{abstract}\noindent
-The biomedical research community wants to be able to combine and analyse a multitude of biological signals in one experiment because the biology of, for example, cancer is so complex. However, integrating diverse sets of biological signals is currently a serious challenge. To overcome this, we propose the use of Semantic Web-methods: these are specially designed for integrating vast amounts of different data. Furthermore, it allows users to describe, analyse and test their data interactively and dynamically via visual representations displayed in the browser. These methods would enable researchers in- and outside of bioinformatics to more efficiently analyse and integrate datasets, making it easier to propose (and answer) research questions.
 
-A preliminary study shows the added value of such methods in biology: enabling researchers to describe, analyse and test 20 times more biological questions in the same time, compared to conventional methods. We propose to develop these methods further for the research-community (and biology in particular), enabling us to more effectively and systematically perform research on variations in the non-coding genomic regions in cancer. \\
-\medskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	not needed for BIF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\renewcommand{\abstractname}{\begin{center}
+%Layman's summary
+%\end{center}}    % clear the title
+
+%\begin{abstract}\noindent
+%The biomedical research community wants to be able to combine and analyse a multitude of biological signals in one experiment because the biology of, for example, cancer is so complex. However, integrating diverse sets of biological signals is currently a serious challenge. To overcome this, we propose the use of Semantic Web-methods: these are specially designed for integrating vast amounts of different data. Furthermore, it allows users to describe, analyse and test their data interactively and dynamically via visual representations displayed in the browser. These methods would enable researchers in- and outside of bioinformatics to more efficiently analyse and integrate datasets, making it easier to propose (and answer) research questions.
+
+%A preliminary study shows the added value of such methods in biology: enabling researchers to describe, analyse and test 20 times more biological questions in the same time, compared to conventional methods. We propose to develop these methods further for the research-community (and biology in particular), enabling us to more effectively and systematically perform research on variations in the non-coding genomic regions in cancer. \\
+%\medskip
+
+
+%\end{abstract}
 
 \noindent \textbf{Keywords:} structural variation, multi-level data integration, next-generation sequencing, cancer, visual analytics
-\end{abstract}
-
-
 
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
@@ -236,26 +243,28 @@ To asses to feasibility of this proposal, a small-scale pilot-study was performe
 \subsection*{Timetable}
 \begin{table}[h]
 \begin{center}
-\begin{tabular}{lllllllll}
-                                                & \multicolumn{8}{c}{Semesters}                                                                                                                                                                                                                                                                                                                                                                                 \\ \cline{2-9} 
-                                                & S1                                              & S2                                              & S3                                              & S4                                              & S5                                              & S6                                              & S7                                              & S8                                              \\ \hline
-\textbf{Data acquisition}                       & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } \\
-\textbf{Aim 1: Data-integration}                & \cellcolor[HTML]{343434}                        & \cellcolor[HTML]{343434}                        & \cellcolor[HTML]{343434}                        &                                                 &                                                 &                                                 &                                                 &                                                 \\
-\hspace*{1em} Developing omics-specific triples & \cellcolor[HTML]{656565}                        &                                                 &                                                 &                                                 &                                                 &                                                 &                                                 &                                                 \\
-\hspace*{1em} Coding conversion-tools           &                                                 & \cellcolor[HTML]{656565}                        & \cellcolor[HTML]{656565}                        &                                                 &                                                 &                                                 &                                                 &                                                 \\
-\hspace*{1em} Writing Best-Practices            &                                                 &                                                 & \cellcolor[HTML]{656565}                        &                                                 &                                                 &                                                 &                                                 &                                                 \\
-\textbf{Aim 2: Visual analytics}                &                                                 &                                                 & \cellcolor[HTML]{343434}                        & \cellcolor[HTML]{343434}                        &                         \cellcolor[HTML]{343434}                                               &                                                 &                                                 &                                                 \\
-\hspace*{1em} Coding SPARQL+D3 endpoint         &                                                 &                                                 & \cellcolor[HTML]{656565}                        &                                                 &                                                 &                                                 &                                                 &                                                 \\
-\hspace*{1em} Adding visualisation-methods      &                                                 &                                                 & \cellcolor[HTML]{656565}                        & \cellcolor[HTML]{656565}                        &                                                 &                                                 &                                                 &                                                 \\
-\hspace*{1em} Adding filtering and output       &                                                 &                                                 &                                                 & \cellcolor[HTML]{656565}                        &                                                \cellcolor[HTML]{656565}   &                                                 &                                                 &                                                 \\
-\textbf{Aim 3: Multi-level analysis}            &                                                 &                                                 &                                                 &                                                 &  & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } \\
-\hspace*{1em} Consequences of Cancer-SV's       &                                                 &                                                 &                                                 &                                                 &                        & \cellcolor[HTML]{656565}                  & \cellcolor[HTML]{656565}                     & \cellcolor[HTML]{656565}                   \\
-\textbf{Writing thesis}                         &                                                 &                                                 &                                                 &                                                 &                                                 &                                                 &                                                 & \cellcolor[HTML]{343434}                       
+\begin{tabular}{lllllll}
+                                                & \multicolumn{6}{c}{Semesters}                                                                                                                                                                                                                                                                                                                                                                                 \\ \cline{2-7} 
+                                                & S1                                              & S2                                              & S3                                              & S4                                              & S5                                              & S6                                                                                          \\ \hline
+\textbf{Data acquisition}               &           & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} }   \\
+\textbf{Aim 1: Data-integration}                & \cellcolor[HTML]{343434}                        & \cellcolor[HTML]{343434}                                             &                                                 &                                                 &                                                                                              \\
+\hspace*{1em} Developing omics-specific triples & \cellcolor[HTML]{656565}                        &                                                 &                                                 &                                                 &                                                 &                                                                                                 \\
+\hspace*{1em} Coding conversion-tools           &                                                 \cellcolor[HTML]{656565}               &     \cellcolor[HTML]{656565}         &                      &                                                 &                                                 &                                                                                                \\
+\hspace*{1em} Writing Best-Practices            &                                                 &                                                  \cellcolor[HTML]{656565}             &           &                                                 &                                                                                                  &                                                                                                \\
+\textbf{Aim 2: Visual analytics}                &                                                 &                                                  \cellcolor[HTML]{343434}                        & \cellcolor[HTML]{343434}                        &                                                                                                                        &                                                 \\
+\hspace*{1em} Coding SPARQL+D3 endpoint         &                                                 &                                                  \cellcolor[HTML]{656565}                        &                                                 &                                                                                                 &                                                 &                                                 \\
+\hspace*{1em} Adding visualisation-methods      &                                                                                               & \cellcolor[HTML]{656565}                        & \cellcolor[HTML]{656565}                                                                         &                                                 &                                                 &                                                 \\
+\hspace*{1em} Adding filtering and output                                                                                           &                                                 &  &                                                \cellcolor[HTML]{656565}   &                                                 &                                                 &                                                 \\
+\textbf{Aim 3: Multi-level analysis}            &                                                                                                  &                                                 &  & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } \\
+\hspace*{1em} Non-coding structural factors of drug-resistance                                                        &                                                 &                                                 &                        & \cellcolor[HTML]{656565}                  & \cellcolor[HTML]{656565}                     &                    \\
+\hspace*{1em} Single-cell analysis of SVs in cancer sub-populations                                                       &                                                 &                                                 &                        &                & \cellcolor[HTML]{656565}                     & \cellcolor[HTML]{656565}                   \\
+
+\textbf{Writing thesis}                         &                                                 &                                                 &                                                 &                                                 &                                                                        & \cellcolor[HTML]{343434}                       
 \end{tabular}
 \end{center}
 \end{table}
 \subsection*{Proposed biological questions}
-Semester six to eight will be used to perform multi-level analysis with the resulting methods and tools from the previous five semesters. The overall aim is to combine both proprietary and public data to execute previously impossible analyses. Of the public databases available, the most valuable for our purposes are those, that link omics-data to pathways and ontologies: \textit{Pathway Commons}\cite{Cerami2011} and \textit{Reactome}\cite{Jupp2014} on perturbed pathways in cancer, \textit{RegulomeDB}\cite{Boyle2012} on linking non-coding regions to genes and \textit{Gene Ontology}\cite{Ashburner2000} and \textit{KEGG-pathway}\cite{Kanehisa2000} for general ontologies and pathways. A subset of the addressed questions and proposed analyses is depicted below.
+Semester four to six will be used to perform multi-level analysis with the resulting methods and tools from the previous three semesters. The overall aim is to combine both proprietary and public data to execute previously impossible analyses. Of the public databases available, the most valuable for our purposes are those, that link omics-data to pathways and ontologies: \textit{Pathway Commons}\cite{Cerami2011} and \textit{Reactome}\cite{Jupp2014} on perturbed pathways in cancer, \textit{RegulomeDB}\cite{Boyle2012} on linking non-coding regions to genes and \textit{Gene Ontology}\cite{Ashburner2000} and \textit{KEGG-pathway}\cite{Kanehisa2000} for general ontologies and pathways. A subset of the addressed questions and proposed analyses is depicted below.
 \renewcommand{\labelenumi}{\roman{enumi}.}
 \begin{enumerate}
 \item \textbf{Non-coding structural factors of drug-resistance} \\
