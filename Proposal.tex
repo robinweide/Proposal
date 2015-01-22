@@ -56,13 +56,13 @@
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-\title{\vspace{-15mm}\fontsize{18pt}{10pt}\normalfont\textbf{Everything should be linked: linking and visualising data for dynamic  multidimensional biological data interpretation.\\ \vspace{4 mm} {{\footnotesize \textit{Exploring multi-level effects of structural variations in non-coding genomic regions in cancer}}}}} % Article title
+\title{\vspace{-15mm}\fontsize{18pt}{10pt}\normalfont\textbf{Exploring multi-level effects of structural variations in non-coding genomic regions in cancer\\ \vspace{4 mm} {{\footnotesize \textit{Linking and visualising data for dynamic  multidimensional biological data interpretation.}}}}} % Article title
 
 \author{
 \large
 \textsc {RHWE (Robin) van der Weide}\thanks{Supervisor: Joep de Ligt, PhD}\\[2mm] 
 \normalsize  BSc. Biology
-\normalsize  MSc. Cancer Stem cells \& Developmental biology (hons)
+\normalsize  MSc. Cancer Stem cells \& Developmental biology (honours program)
 \normalsize  Utrecht Graduate School of Life Sciences 
 %\normalsize \href{mailto:john@smith.com}{john@smith.com} % Your email address
 \vspace{-5mm}
@@ -93,19 +93,20 @@ Summary of the research
 
 \begin{abstract}
 \noindent
-To date, studies on non-coding regions of the genome, specifically in cancer, have been limited. This is mainly due to the complex nature of putative functional elements in these regions. Increased knowledge of these functions through efforts such as the ENCODE-project, enabled researchers to study causal non-coding variations in cancer\cite{Benko2009,Kurth2009}. Due to the increase in popularity and cost-effectiveness of various omics-approaches, more and more data is becoming available. The complexity of integrating and analysing information of these approaches increases with every added omics-layer or dimension (e.g. time-series, treatments). When studying the effects of structural variants in non-coding regions in cancer, this complexity is further increased due to cancer-specific (e.g. heterogeneous samples, rapid evolution) and the multiple types and consequences of different structural variant-specific factors.
+To date, studies on non-coding regions of the genome, specifically in cancer, have been limited. This is mainly due to the complex nature of putative functional elements in these regions. Increased knowledge of these regions, through efforts such as the ENCODE-project, enabled researchers to initiate studies on the causality of non-coding variations in cancer\cite{Benko2009,Kurth2009}. 
+The ongoing cost reduction of various omics-approaches coupled to high throughput research, has led an explosion of available data. However, the complexity of integrating and analysing these large datasets increases with every added omics-layer or dimension (e.g. time-series, treatments). When studying the effects of genetic variants in cancer, this complexity is further increased due to cancer-specific (e.g. heterogeneous samples, rapid evolution). The elucidation of structural variants is further complicated by the diversity in types and consequences of these genetic alterations.
 \medskip
 
 \noindent
-The current methods for integrating and analysing these layers and dimensions have two significant limitations in their design: scalability and generality (i.e. the possibility to add more levels or dimensions). Moreover, there isn't an option to overview a dataset without filtering, dividing or restructuring the data. The integration of complex datasets is needed to understand the complex biology of cancer better\cite{Munoz2011}, but is restricted by these limitations.
+The current methods for integrating and analysing multiple layers or dimensions have two major limitations in their design: scalability and generality (i.e. the possibility to easily add more levels or dimensions). Moreover, the sheer amount of data points makes it impossible to overview a dataset without filtering, dividing or restructuring the data. Integration of complex datasets is needed to better understand the complex biology of cancer\cite{Munoz2011}, but is greatly restricted by these limitations.
 \medskip
 
 \noindent Enter the Semantic Web and its Resource Description Framework (RDF). A simple and flexible framework for describing anything about anything.
 % An example of such a RDF-instance (a triple) is "BRAF1 has the molecular function of binding calcium ion", which has these three parts: a subject (BRAF1), a predicate (molecular function) and an object (binding calcium ion). Another triple can then say something about the phosphorylated protein levels of this gene in a sample. Connecting these two triples would enable a researcher to find a possible pattern in the data (i.e. a gene, responsible for calcium ion binding, has a low phosphorylation level in the investigated sample). 
-Since every type of data can be translated to this universal language, integration of large datasets of different levels and dimensions becomes possible and a lot more feasible. When researchers have converted their local data to RDF, they can easily connect and combine it with public repositories, which makes analyses even more powerful. By using the SPARQL Protocol and RDF Query Language (SPARQL), retrieving and manipulating data in RDF is easily readable by both humans and computers. The user can subsequently visualise the SPARQL-results as a whole or filter them further.
+Since every type of data can be translated to this universal language, integration of large datasets of different levels and dimensions becomes possible and more feasable. When researchers  convert their local data to RDF, they can easily connect and combine it with public repositories,  making analyses more powerful. By using the SPARQL Protocol and RDF Query Language (SPARQL), retrieving and manipulating data in RDF is easily readable by both humans and computers. Researchers can subsequently visualise the SPARQL-results as a whole or filter them further.
 \medskip
 
-\noindent Here, we propose the use of semantic web technologies and visual analytics to decrease the complexity of integrating and visualizing multi-level and -dimensional biological data. These methods will enable further elucidation of the complex biology of, for example, cancer. Firstly, we will create the framework needed to design the missing tools for converting the most-used NGS-formats to RDF. Next, visualisations (based on visual analytics) of the biological RDF-data will be created, which will be used to perform previously impossible integration-focussed analyses on the consequences of structural variation in the non-coding regions of cancer-genomes.
+\noindent Here, we propose the use of semantic web technologies and visual analytics to decrease the complexity of integrating and visualizing multi-level and -dimensional biological data. These methods will enable further elucidation of the complex biology of, for example, cancer. Firstly, we will create the framework needed to design the missing tools for converting the most-used omics formats to RDF. Next, visualisations (based on visual analytics) of the biological RDF-data will be created, which will be used to perform previously impossible integration-focussed analyses on the consequences of structural variation in the non-coding regions of cancer-genomes.
 \end{abstract}
 \medskip
 
@@ -135,16 +136,17 @@ Since every type of data can be translated to this universal language, integrati
 \newpage
 \section*{Background, aims and approach}
 \subsection*{Overall aim}
-The aim of this project is to integrate and visualise multiple levels and dimensions of (NGS-based) omics-data with methods of the Semantic Web. Moreover, these methods will be used to study the inter-level (e.g. transcriptome, proteome) consequences of structural variation in non-coding regions of the genome. Thus, this proposal has three sub-projects, which rely heavily on each other:
+The aim of this project is to integrate and visualise multiple levels and dimensions of omics-data with methods of the Semantic Web. Moreover, these methods will be used to study the inter-level (e.g. transcriptome, proteome) consequences of structural variation in non-coding regions of the genome. Thus, this proposal has three sub-projects, which rely heavily on each other:
 
 \begin{enumerate}
 \item \textbf{Data-integration} 
-Integration of NGS-based data by using Semantic Web-methodologies to improve integrative bioinformatics in general and NGS-based multi-level and -dimensional research in particular.
+Integration of Next Generation Sequencing(NGS) based data by using Semantic Web-methodologies to improve integrative bioinformatics in general and NGS-based multi-level and -dimensional research in particular.
 \item \textbf{Visual analytics} 
 Linking the Semantic-Web data to D3.js, enabling dynamic and interactive visualisation of RDF-data.
 \item \textbf{Multi-level analysis} 
-Multi-level and -dimensional integrative bioinformatical analysis to elucidate the consequences of genomic structural variations in non-coding regions in cancer.
+Multi-level and -dimensional integrative bioinformatics analysis to elucidate the consequences of genomic structural variations in non-coding regions in cancer.
 \end{enumerate}
+
 \subsection*{Scientific relevance and challenges} 
 Finding causal genetic variation in the protein-coding regions of the genome has been the focus in the majority of genomics studies. However, these regions amount only to approximately two percent\cite{Lander2001}. One of the primary reasons behind this is the relative uncomplicated nature of studying coding regions, as consequences on lower levels (e.g. transcription, proteins) are traceable\cite{McLaren2010}. This is in contrast to the non-coding regions, which often do not show a linear effect on other levels\cite{Bird2006}. A good illustration of the complexity of the non-coding regions is the ENCyclopedia Of DNA Elements (ENCODE)-project\cite{ENCODE}, which contains over fifty different signals (e.g. histone methylation, DNase1 hypersensitivity). 
 
