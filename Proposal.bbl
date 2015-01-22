@@ -428,18 +428,6 @@ Daniel Keim, Florian Mansmann, and Jim Thomas.
   2010.
 \newblock URL \url{http://dl.acm.org/citation.cfm?id=1809403}.
 
-\bibitem[van Heesch et~al.(2014)van Heesch, van Iterson, Jacobi, Boymans,
-  Essers, de~Bruijn, Hao, Macinnes, Cuppen, and Simonis]{VanHeesch2014}
-Sebastiaan van Heesch, Maarten van Iterson, Jetse Jacobi, Sander Boymans,
-  Paul~B Essers, Ewart de~Bruijn, Wensi Hao, Alyson~W Macinnes, Edwin Cuppen,
-  and Marieke Simonis.
-\newblock {Extensive localization of long noncoding RNAs to the cytosol and
-  mono- and polyribosomal complexes.}
-\newblock \emph{Genome Biol.}, 15\penalty0 (1):\penalty0 R6, January 2014.
-\newblock ISSN 1465-6914.
-\newblock \doi{10.1186/gb-2014-15-1-r6}.
-\newblock URL \url{http://genomebiology.com/2014/15/1/R6}.
-
 \bibitem[Tarasov(2014)]{Tarasov2014}
 Artem Tarasov.
 \newblock {Sambamba}, 2014.
@@ -459,6 +447,18 @@ Joachim Baran.
 \newblock {BioInterchange: An Open Source Framework for Transforming
   Heterogeneous Data Formats Into RDF.}
 \newblock \emph{In preperation}.
+
+\bibitem[van Heesch et~al.(2014)van Heesch, van Iterson, Jacobi, Boymans,
+  Essers, de~Bruijn, Hao, Macinnes, Cuppen, and Simonis]{VanHeesch2014}
+Sebastiaan van Heesch, Maarten van Iterson, Jetse Jacobi, Sander Boymans,
+  Paul~B Essers, Ewart de~Bruijn, Wensi Hao, Alyson~W Macinnes, Edwin Cuppen,
+  and Marieke Simonis.
+\newblock {Extensive localization of long noncoding RNAs to the cytosol and
+  mono- and polyribosomal complexes.}
+\newblock \emph{Genome Biol.}, 15\penalty0 (1):\penalty0 R6, January 2014.
+\newblock ISSN 1465-6914.
+\newblock \doi{10.1186/gb-2014-15-1-r6}.
+\newblock URL \url{http://genomebiology.com/2014/15/1/R6}.
 
 \bibitem[Cerami et~al.(2011)Cerami, Gross, Demir, Rodchenkov, Babur, Anwar,
   Schultz, Bader, and Sander]{Cerami2011}
