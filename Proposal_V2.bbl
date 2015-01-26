@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -51,148 +51,6 @@ Javier Munoz, Teck~Y Low, Yee~J Kok, Angela Chin, Christian~K Frese, Vanessa
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3261715\&tool=pmcentrez\&rendertype=abstract}.
 
-\bibitem[Gomez-Cabrero et~al.(2014)Gomez-Cabrero, Abugessaisa, Maier,
-  Teschendorff, Merkenschlager, Gisel, Ballestar, Bongcam-Rudloff, Conesa, and
-  Tegn\'{e}r]{Gomez-Cabrero2014}
-David Gomez-Cabrero, Imad Abugessaisa, Dieter Maier, Andrew Teschendorff,
-  Matthias Merkenschlager, Andreas Gisel, Esteban Ballestar, Erik
-  Bongcam-Rudloff, Ana Conesa, and Jesper Tegn\'{e}r.
-\newblock {Data integration in the era of omics: current and future
-  challenges}.
-\newblock \emph{BMC Syst. Biol.}, 8\penalty0 (Suppl 2):\penalty0 I1, 2014.
-\newblock ISSN 1752-0509.
-\newblock \doi{10.1186/1752-0509-8-S2-I1}.
-\newblock URL \url{http://www.biomedcentral.com/1752-0509/8/S2/I1}.
-
-\bibitem[Sahoo et~al.(2008)Sahoo, Bodenreider, Rutter, Skinner, and
-  Sheth]{Sahoo2008}
-Satya~S Sahoo, Olivier Bodenreider, Joni~L Rutter, Karen~J Skinner, and Amit~P
-  Sheth.
-\newblock {An ontology-driven semantic mashup of gene and biological pathway
-  information: application to the domain of nicotine dependence.}
-\newblock \emph{J. Biomed. Inform.}, 41\penalty0 (5):\penalty0 752--65, October
-  2008.
-\newblock ISSN 1532-0480.
-\newblock \doi{10.1016/j.jbi.2008.02.006}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2766186\&tool=pmcentrez\&rendertype=abstract}.
-
-\bibitem[Szpakowski et~al.(2009)Szpakowski, McCusker, and
-  Krauthammer]{Szpakowski2009}
-Sebastian Szpakowski, James McCusker, and Michael Krauthammer.
-\newblock {Using semantic web technologies to annotate and align microarray
-  designs.}
-\newblock \emph{Cancer Inform.}, 8:\penalty0 65--73, January 2009.
-\newblock ISSN 1176-9351.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4042255\&tool=pmcentrez\&rendertype=abstract}.
-
-\bibitem[Jupp et~al.(2014)Jupp, Malone, Bolleman, Brandizi, Davies, Garcia,
-  Gaulton, Gehant, Laibe, Redaschi, Wimalaratne, Martin, {Le Nov\`{e}re},
-  Parkinson, Birney, and Jenkinson]{Jupp2014}
-Simon Jupp, James Malone, Jerven Bolleman, Marco Brandizi, Mark Davies, Leyla
-  Garcia, Anna Gaulton, Sebastien Gehant, Camille Laibe, Nicole Redaschi,
-  Sarala~M Wimalaratne, Maria Martin, Nicolas {Le Nov\`{e}re}, Helen Parkinson,
-  Ewan Birney, and Andrew~M Jenkinson.
-\newblock {The EBI RDF platform: linked open data for the life sciences.}
-\newblock \emph{Bioinformatics}, 30\penalty0 (9):\penalty0 1338--9, May 2014.
-\newblock ISSN 1367-4811.
-\newblock \doi{10.1093/bioinformatics/btt765}.
-\newblock URL
-  \url{http://bioinformatics.oxfordjournals.org.proxy.library.uu.nl/content/30/9/1338}.
-
-\bibitem[Ruttenberg et~al.(2007)Ruttenberg, Clark, Bug, Samwald, Bodenreider,
-  Chen, Doherty, Forsberg, Gao, Kashyap, Kinoshita, Luciano, Marshall, Ogbuji,
-  Rees, Stephens, Wong, Wu, Zaccagnini, Hongsermeier, Neumann, Herman, and
-  Cheung]{Ruttenberg2007}
-Alan Ruttenberg, Tim Clark, William Bug, Matthias Samwald, Olivier Bodenreider,
-  Helen Chen, Donald Doherty, Kerstin Forsberg, Yong Gao, Vipul Kashyap, June
-  Kinoshita, Joanne Luciano, M~Scott Marshall, Chimezie Ogbuji, Jonathan Rees,
-  Susie Stephens, Gwendolyn~T Wong, Elizabeth Wu, Davide Zaccagnini, Tonya
-  Hongsermeier, Eric Neumann, Ivan Herman, and Kei-Hoi Cheung.
-\newblock {Advancing translational research with the Semantic Web.}
-\newblock \emph{BMC Bioinformatics}, 8 Suppl 3\penalty0 (Suppl 3):\penalty0 S2,
-  January 2007.
-\newblock ISSN 1471-2105.
-\newblock \doi{10.1186/1471-2105-8-S3-S2}.
-\newblock URL \url{http://www.biomedcentral.com/1471-2105/8/S3/S2}.
-
-\bibitem[Belleau et~al.(2008)Belleau, Nolin, Tourigny, Rigault, and
-  Morissette]{Belleau2008}
-Fran\c{c}ois Belleau, Marc-Alexandre Nolin, Nicole Tourigny, Philippe Rigault,
-  and Jean Morissette.
-\newblock {Bio2RDF: towards a mashup to build bioinformatics knowledge
-  systems.}
-\newblock \emph{J. Biomed. Inform.}, 41\penalty0 (5):\penalty0 706--16, October
-  2008.
-\newblock ISSN 1532-0480.
-\newblock \doi{10.1016/j.jbi.2008.03.004}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S1532046408000415}.
-
-\bibitem[Thomas and Cook(2005)]{Thomas2005}
-JJ~Thomas and KA~Cook.
-\newblock {Illuminating the path: The research and development agenda for
-  visual analytics}.
-\newblock \emph{IEEE Comput. Soc.}, pages 19--32, 2005.
-\newblock URL
-  \url{http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Illuminating+the+Path:+The+Research+and+Development+Agenda+for+Visual+Analytics\#0
-  http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Illuminating+the+path:+The+research+and+development+agenda+for+visual+analytics\#0}.
-
-\bibitem[Keim et~al.(2010)Keim, Mansmann, and Thomas]{Keim}
-Daniel Keim, Florian Mansmann, and Jim Thomas.
-\newblock {Visual analytics: how much visualization and how much analytics?}
-\newblock \emph{ACM SIGKDD Explor. \ldots}, 11\penalty0 (2):\penalty0 5--8,
-  2010.
-\newblock URL \url{http://dl.acm.org/citation.cfm?id=1809403}.
-
-\bibitem[ENC(2004)]{ENCODE}
-{The ENCODE (ENCyclopedia Of DNA Elements) Project.}
-\newblock \emph{Science}, 306\penalty0 (5696):\penalty0 636--40, October 2004.
-\newblock ISSN 1095-9203.
-\newblock \doi{10.1126/science.1105136}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/15499007}.
-
-\bibitem[Ongen et~al.(2014)Ongen, Andersen, Bramsen, Oster, Rasmussen,
-  Ferreira, Sandoval, Vidal, Whiffin, Planchon, Padioleau, Bielser, Romano,
-  Tomlinson, Houlston, Esteller, Orntoft, and Dermitzakis]{Ongen2014}
-Halit Ongen, Claus~L. Andersen, Jesper~B. Bramsen, Bodil Oster, Mads~H.
-  Rasmussen, Pedro~G. Ferreira, Juan Sandoval, Enrique Vidal, Nicola Whiffin,
-  Alexandra Planchon, Ismael Padioleau, Deborah Bielser, Luciana Romano, Ian
-  Tomlinson, Richard~S. Houlston, Manel Esteller, Torben~F. Orntoft, and
-  Emmanouil~T. Dermitzakis.
-\newblock {Putative cis-regulatory drivers in colorectal cancer}.
-\newblock \emph{Nature}, July 2014.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/nature13602}.
-\newblock URL
-  \url{http://www.nature.com.proxy.library.uu.nl/nature/journal/vaop/ncurrent/full/nature13602.html}.
-
-\bibitem[Khurana et~al.(2013)Khurana, Fu, Colonna, Mu, Kang, Lappalainen,
-  Sboner, Lochovsky, Chen, Harmanci, Das, Abyzov, Balasubramanian, Beal,
-  Chakravarty, Challis, Chen, Clarke, Clarke, Cunningham, Evani, Flicek,
-  Fragoza, Garrison, Gibbs, G\"{u}m\"{u}s, Herrero, Kitabayashi, Kong, Lage,
-  Liluashvili, Lipkin, MacArthur, Marth, Muzny, Pers, Ritchie, Rosenfeld, Sisu,
-  Wei, Wilson, Xue, Yu, Dermitzakis, Yu, Rubin, Tyler-Smith, and
-  Gerstein]{Khurana2013}
-Ekta Khurana, Yao Fu, Vincenza Colonna, Xinmeng~Jasmine Mu, Hyun~Min Kang,
-  Tuuli Lappalainen, Andrea Sboner, Lucas Lochovsky, Jieming Chen, Arif
-  Harmanci, Jishnu Das, Alexej Abyzov, Suganthi Balasubramanian, Kathryn Beal,
-  Dimple Chakravarty, Daniel Challis, Yuan Chen, Declan Clarke, Laura Clarke,
-  Fiona Cunningham, Uday~S Evani, Paul Flicek, Robert Fragoza, Erik Garrison,
-  Richard Gibbs, Zeynep~H G\"{u}m\"{u}s, Javier Herrero, Naoki Kitabayashi,
-  Yong Kong, Kasper Lage, Vaja Liluashvili, Steven~M Lipkin, Daniel~G
-  MacArthur, Gabor Marth, Donna Muzny, Tune~H Pers, Graham R~S Ritchie,
-  Jeffrey~A Rosenfeld, Cristina Sisu, Xiaomu Wei, Michael Wilson, Yali Xue,
-  Fuli Yu, Emmanouil~T Dermitzakis, Haiyuan Yu, Mark~A Rubin, Chris
-  Tyler-Smith, and Mark Gerstein.
-\newblock {Integrative annotation of variants from 1092 humans: application to
-  cancer genomics.}
-\newblock \emph{Science}, 342\penalty0 (6154):\penalty0 1235587, October 2013.
-\newblock ISSN 1095-9203.
-\newblock \doi{10.1126/science.1235587}.
-\newblock URL \url{http://europepmc.org/articles/PMC3947637/?report=abstract}.
-
 \bibitem[Tarasov(2014)]{Tarasov2014}
 Artem Tarasov.
 \newblock {Sambamba}, 2014.
@@ -206,6 +64,19 @@ Naohisa Goto, Pjotr Prins, Mitsuteru Nakao, and Raoul Bonnal.
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2951089\&tool=pmcentrez\&rendertype=abstract
   http://bioinformatics.oxfordjournals.org/content/26/20/2617.short}.
+
+\bibitem[Belleau et~al.(2008)Belleau, Nolin, Tourigny, Rigault, and
+  Morissette]{Belleau2008}
+Fran\c{c}ois Belleau, Marc-Alexandre Nolin, Nicole Tourigny, Philippe Rigault,
+  and Jean Morissette.
+\newblock {Bio2RDF: towards a mashup to build bioinformatics knowledge
+  systems.}
+\newblock \emph{J. Biomed. Inform.}, 41\penalty0 (5):\penalty0 706--16, October
+  2008.
+\newblock ISSN 1532-0480.
+\newblock \doi{10.1016/j.jbi.2008.03.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1532046408000415}.
 
 \bibitem[Baran()]{Baran}
 Joachim Baran.
@@ -245,6 +116,20 @@ Ethan~G Cerami, Benjamin~E Gross, Emek Demir, Igor Rodchenkov, Ozg\"{u}n Babur,
 \newblock \doi{10.1093/nar/gkq1039}.
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3013659\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem[Jupp et~al.(2014)Jupp, Malone, Bolleman, Brandizi, Davies, Garcia,
+  Gaulton, Gehant, Laibe, Redaschi, Wimalaratne, Martin, {Le Nov\`{e}re},
+  Parkinson, Birney, and Jenkinson]{Jupp2014}
+Simon Jupp, James Malone, Jerven Bolleman, Marco Brandizi, Mark Davies, Leyla
+  Garcia, Anna Gaulton, Sebastien Gehant, Camille Laibe, Nicole Redaschi,
+  Sarala~M Wimalaratne, Maria Martin, Nicolas {Le Nov\`{e}re}, Helen Parkinson,
+  Ewan Birney, and Andrew~M Jenkinson.
+\newblock {The EBI RDF platform: linked open data for the life sciences.}
+\newblock \emph{Bioinformatics}, 30\penalty0 (9):\penalty0 1338--9, May 2014.
+\newblock ISSN 1367-4811.
+\newblock \doi{10.1093/bioinformatics/btt765}.
+\newblock URL
+  \url{http://bioinformatics.oxfordjournals.org.proxy.library.uu.nl/content/30/9/1338}.
 
 \bibitem[Boyle et~al.(2012)Boyle, Hong, Hariharan, Cheng, Schaub, Kasowski,
   Karczewski, Park, Hitz, Weng, Cherry, and Snyder]{Boyle2012}

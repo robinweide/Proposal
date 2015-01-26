@@ -3,48 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Proposal_V2.aux
 The style file: unsrtnat.bst
 Database file #1: library.bib
-Warning--empty author in ENCODE
 Warning--empty year in Baran
 Warning--empty year in Baran
-You've used 24 entries,
+You've used 15 entries,
             2481 wiz_defined-function locations,
-            778 strings with 14716 characters,
-and the built_in function-call counts, 14883 in all, are:
-= -- 944
-> -- 1607
-< -- 5
-+ -- 562
-- -- 514
-* -- 1662
-:= -- 2768
-add.period$ -- 130
-call.type$ -- 24
-change.case$ -- 48
-chr.to.int$ -- 24
-cite$ -- 28
-duplicate$ -- 456
-empty$ -- 846
-format.name$ -- 541
-if$ -- 2843
+            697 strings with 10413 characters,
+and the built_in function-call counts, 8912 in all, are:
+= -- 592
+> -- 911
+< -- 3
++ -- 320
+- -- 290
+* -- 981
+:= -- 1647
+add.period$ -- 82
+call.type$ -- 15
+change.case$ -- 30
+chr.to.int$ -- 15
+cite$ -- 17
+duplicate$ -- 279
+empty$ -- 529
+format.name$ -- 307
+if$ -- 1708
 int.to.chr$ -- 1
-int.to.str$ -- 25
-missing$ -- 23
-newline$ -- 186
-num.names$ -- 69
-pop$ -- 124
+int.to.str$ -- 16
+missing$ -- 14
+newline$ -- 120
+num.names$ -- 45
+pop$ -- 78
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 15
 quote$ -- 0
-skip$ -- 237
+skip$ -- 141
 stack$ -- 0
-substring$ -- 430
-swap$ -- 74
-text.length$ -- 1
+substring$ -- 278
+swap$ -- 43
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 168
-warning$ -- 3
-while$ -- 84
+type$ -- 105
+warning$ -- 2
+while$ -- 54
 width$ -- 0
-write$ -- 431
-(There were 3 warnings)
+write$ -- 273
+(There were 2 warnings)
