@@ -288,30 +288,6 @@ Joshua~A Lerman, Daniel~R Hyduke, Haythem Latif, Vasiliy~A Portnoy, Nathan~E
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3827721\&tool=pmcentrez\&rendertype=abstract}.
 
-\bibitem[Pavlopoulos et~al.(2008)Pavlopoulos, Wegener, and
-  Schneider]{Pavlopoulos2008}
-Georgios~A Pavlopoulos, Anna-Lynn Wegener, and Reinhard Schneider.
-\newblock {A survey of visualization tools for biological network analysis.}
-\newblock \emph{BioData Min.}, 1:\penalty0 12, January 2008.
-\newblock ISSN 1756-0381.
-\newblock \doi{10.1186/1756-0381-1-12}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2636684\&tool=pmcentrez\&rendertype=abstract}.
-
-\bibitem[Jupp et~al.(2014)Jupp, Malone, Bolleman, Brandizi, Davies, Garcia,
-  Gaulton, Gehant, Laibe, Redaschi, Wimalaratne, Martin, {Le Nov\`{e}re},
-  Parkinson, Birney, and Jenkinson]{Jupp2014}
-Simon Jupp, James Malone, Jerven Bolleman, Marco Brandizi, Mark Davies, Leyla
-  Garcia, Anna Gaulton, Sebastien Gehant, Camille Laibe, Nicole Redaschi,
-  Sarala~M Wimalaratne, Maria Martin, Nicolas {Le Nov\`{e}re}, Helen Parkinson,
-  Ewan Birney, and Andrew~M Jenkinson.
-\newblock {The EBI RDF platform: linked open data for the life sciences.}
-\newblock \emph{Bioinformatics}, 30\penalty0 (9):\penalty0 1338--9, May 2014.
-\newblock ISSN 1367-4811.
-\newblock \doi{10.1093/bioinformatics/btt765}.
-\newblock URL
-  \url{http://bioinformatics.oxfordjournals.org.proxy.library.uu.nl/content/30/9/1338}.
-
 \bibitem[Sahoo et~al.(2008)Sahoo, Bodenreider, Rutter, Skinner, and
   Sheth]{Sahoo2008}
 Satya~S Sahoo, Olivier Bodenreider, Joni~L Rutter, Karen~J Skinner, and Amit~P
@@ -334,6 +310,30 @@ Sebastian Szpakowski, James McCusker, and Michael Krauthammer.
 \newblock ISSN 1176-9351.
 \newblock URL
   \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4042255\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem[Jupp et~al.(2014)Jupp, Malone, Bolleman, Brandizi, Davies, Garcia,
+  Gaulton, Gehant, Laibe, Redaschi, Wimalaratne, Martin, {Le Nov\`{e}re},
+  Parkinson, Birney, and Jenkinson]{Jupp2014}
+Simon Jupp, James Malone, Jerven Bolleman, Marco Brandizi, Mark Davies, Leyla
+  Garcia, Anna Gaulton, Sebastien Gehant, Camille Laibe, Nicole Redaschi,
+  Sarala~M Wimalaratne, Maria Martin, Nicolas {Le Nov\`{e}re}, Helen Parkinson,
+  Ewan Birney, and Andrew~M Jenkinson.
+\newblock {The EBI RDF platform: linked open data for the life sciences.}
+\newblock \emph{Bioinformatics}, 30\penalty0 (9):\penalty0 1338--9, May 2014.
+\newblock ISSN 1367-4811.
+\newblock \doi{10.1093/bioinformatics/btt765}.
+\newblock URL
+  \url{http://bioinformatics.oxfordjournals.org.proxy.library.uu.nl/content/30/9/1338}.
+
+\bibitem[Pavlopoulos et~al.(2008)Pavlopoulos, Wegener, and
+  Schneider]{Pavlopoulos2008}
+Georgios~A Pavlopoulos, Anna-Lynn Wegener, and Reinhard Schneider.
+\newblock {A survey of visualization tools for biological network analysis.}
+\newblock \emph{BioData Min.}, 1:\penalty0 12, January 2008.
+\newblock ISSN 1756-0381.
+\newblock \doi{10.1186/1756-0381-1-12}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2636684\&tool=pmcentrez\&rendertype=abstract}.
 
 \bibitem[Thomas and Cook(2005)]{Thomas2005}
 JJ~Thomas and KA~Cook.
