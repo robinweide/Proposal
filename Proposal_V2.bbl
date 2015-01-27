@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -144,6 +144,16 @@ E~S Lander, L~M Linton, B~Birren, C~Nusbaum, M~C Zody, J~Baldwin, K~Devon,
 \newblock \doi{10.1038/35057062}.
 \newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/11237011}.
 
+\bibitem[Rands et~al.(2014)Rands, Meader, Ponting, and Lunter]{Rands2014}
+Chris~M Rands, Stephen Meader, Chris~P Ponting, and Gerton Lunter.
+\newblock {8.2\% of the Human Genome Is Constrained: Variation in Rates of
+  Turnover across Functional Element Classes in the Human Lineage.}
+\newblock \emph{PLoS Genet.}, 10\penalty0 (7):\penalty0 e1004525, July 2014.
+\newblock ISSN 1553-7404.
+\newblock \doi{10.1371/journal.pgen.1004525}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4109858\&tool=pmcentrez\&rendertype=abstract}.
+
 \bibitem[McLaren et~al.(2010)McLaren, Pritchard, Rios, Chen, Flicek, and
   Cunningham]{McLaren2010}
 William McLaren, Bethan Pritchard, Daniel Rios, Yuan Chen, Paul Flicek, and
@@ -200,6 +210,63 @@ Ingo Kurth, Eva Klopocki, Sigmar Stricker, Jolieke van Oosterwijk, Sebastian
 \newblock \doi{10.1038/ng0809-862}.
 \newblock URL
   \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n8/full/ng0809-862.html}.
+
+\bibitem[Pichon et~al.(2012)Pichon, {A. Wilson}, Stoneley, Bastide, {A King},
+  Somers, and {E Willis}]{Pichon2012}
+Xavier Pichon, Lindsay {A. Wilson}, Mark Stoneley, Amandine Bastide, Helen {A
+  King}, Joanna Somers, and Anne {E Willis}.
+\newblock {RNA Binding Protein/RNA Element Interactions and the Control of
+  Translation}.
+\newblock \emph{Curr. Protein Pept. Sci.}, 13:\penalty0 294--304, 2012.
+\newblock ISSN 13892037.
+\newblock \doi{10.2174/138920312801619475}.
+
+\bibitem[Barrett et~al.(2012)Barrett, Fletcher, and Wilton]{Barrett2012}
+Lucy~W Barrett, Sue Fletcher, and Steve~D Wilton.
+\newblock {Regulation of eukaryotic gene expression by the untranslated gene
+  regions and other non-coding elements.}
+\newblock \emph{Cell. Mol. Life Sci.}, 69\penalty0 (21):\penalty0 3613--34,
+  November 2012.
+\newblock ISSN 1420-9071.
+\newblock \doi{10.1007/s00018-012-0990-9}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3474909\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem[Kidd et~al.(2010)Kidd, Graves, Newman, Fulton, Hayden, Malig,
+  Kallicki, Kaul, Wilson, and Eichler]{Kidd2010}
+Jeffrey~M Kidd, Tina Graves, Tera~L Newman, Robert Fulton, Hillary~S Hayden,
+  Maika Malig, Joelle Kallicki, Rajinder Kaul, Richard~K Wilson, and Evan~E
+  Eichler.
+\newblock {A human genome structural variation sequencing resource reveals
+  insights into mutational mechanisms.}
+\newblock \emph{Cell}, 143\penalty0 (5):\penalty0 837--47, November 2010.
+\newblock ISSN 1097-4172.
+\newblock \doi{10.1016/j.cell.2010.10.027}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3026629\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem[Poliseno et~al.(2010)Poliseno, Salmena, Zhang, Carver, Haveman, and
+  Pandolfi]{Poliseno2010}
+Laura Poliseno, Leonardo Salmena, Jiangwen Zhang, Brett Carver, William~J
+  Haveman, and Pier~Paolo Pandolfi.
+\newblock {A coding-independent function of gene and pseudogene mRNAs regulates
+  tumour biology.}
+\newblock \emph{Nature}, 465\penalty0 (7301):\penalty0 1033--8, June 2010.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/nature09144}.
+\newblock URL \url{http://dx.doi.org/10.1038/nature09144}.
+
+\bibitem[Tam et~al.(2008)Tam, Aravin, Stein, Girard, Murchison, Cheloufi,
+  Hodges, Anger, Sachidanandam, Schultz, and Hannon]{Tam2008}
+Oliver~H Tam, Alexei~A Aravin, Paula Stein, Angelique Girard, Elizabeth~P
+  Murchison, Sihem Cheloufi, Emily Hodges, Martin Anger, Ravi Sachidanandam,
+  Richard~M Schultz, and Gregory~J Hannon.
+\newblock {Pseudogene-derived small interfering RNAs regulate gene expression
+  in mouse oocytes.}
+\newblock \emph{Nature}, 453\penalty0 (7194):\penalty0 534--8, May 2008.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/nature06904}.
+\newblock URL \url{http://dx.doi.org/10.1038/nature06904}.
 
 \bibitem[Ongen et~al.(2014)Ongen, Andersen, Bramsen, Oster, Rasmussen,
   Ferreira, Sandoval, Vidal, Whiffin, Planchon, Padioleau, Bielser, Romano,
