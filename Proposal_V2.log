@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.30)  27 JAN 2015 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=latex 2014.8.20)  27 JAN 2015 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -43,18 +43,10 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 91.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count88
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -69,11 +61,11 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks15
-\MT@count=\count89
+\MT@count=\count88
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen105
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count90
+\MT@listname@count=\count89
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
@@ -88,23 +80,23 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count91
+\lst@mode=\count90
 \lst@gtempboxa=\box26
 \lst@token=\toks16
-\lst@length=\count92
+\lst@length=\count91
 \lst@currlwidth=\dimen106
-\lst@column=\count93
-\lst@pos=\count94
+\lst@column=\count92
+\lst@pos=\count93
 \lst@lostspace=\dimen107
 \lst@width=\dimen108
-\lst@newlines=\count95
-\lst@lineno=\count96
+\lst@newlines=\count94
+\lst@lineno=\count95
 \lst@maxwidth=\dimen109
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-\c@lstnumber=\count97
-\lst@skipnumbers=\count98
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
 \lst@framebox=\box27
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
@@ -117,7 +109,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
@@ -126,9 +118,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count99
-\Gm@cntv=\count100
-\c@Gm@tempcnt=\count101
+\Gm@cnth=\count98
+\Gm@cntv=\count99
+\c@Gm@tempcnt=\count100
 \Gm@bindingoffset=\dimen110
 \Gm@wd@mp=\dimen111
 \Gm@odd@mp=\dimen112
@@ -153,7 +145,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen123
 \caption@hangindent=\dimen124
 )
-\c@ContinuedFloat=\count102
+\c@ContinuedFloat=\count101
 Package caption Info: listings package is loaded.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -168,17 +160,17 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen132
 \cmidrulekern=\dimen133
 \defaultaddspace=\dimen134
-\@cmidla=\count103
-\@cmidlb=\count104
+\@cmidla=\count102
+\@cmidlb=\count103
 \@aboverulesep=\dimen135
 \@belowrulesep=\dimen136
-\@thisruleclass=\count105
-\@lastruleclass=\count106
+\@thisruleclass=\count104
+\@lastruleclass=\count105
 \@thisrulewidth=\dimen137
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count107
+\c@float@type=\count106
 \float@exts=\toks18
 \float@box=\box28
 \@float@everytoks=\toks19
@@ -194,8 +186,8 @@ Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
@@ -213,7 +205,7 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -237,13 +229,13 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen138
-\Hy@linkcounter=\count108
-\Hy@pagecounter=\count109
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count110
+\Hy@SavedSpaceFactor=\count109
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -255,7 +247,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count111
+\c@Hy@tempcnt=\count110
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -263,7 +255,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen139
-\Fld@menulength=\count112
+\Fld@menulength=\count111
 \Field@Width=\dimen140
 \Fld@charsize=\dimen141
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -275,15 +267,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count113
-\c@Item=\count114
-\c@Hfootnote=\count115
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (default): hdvips.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks20
+\pdf@box=\box30
+\pdf@toks=\toks21
+\pdf@defaulttoks=\toks22
+\HyField@AnnotCount=\count115
 \Fld@listcount=\count116
 \c@bookmark@seq@number=\count117
 
@@ -293,15 +293,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip44
-)
+))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2013/03/14 v1.64 (Daniel Flipo)
 \c@DefaultLines=\count118
 \DefaultFindent=\dimen142
 \DefaultNindent=\dimen143
 \DefaultSlope=\dimen144
-\L@lbox=\box30
-\L@tbox=\box31
+\L@lbox=\box31
+\L@tbox=\box32
 \c@L@lines=\count119
 \L@Pindent=\dimen145
 \L@Findent=\dimen146
@@ -321,7 +321,7 @@ Package: paralist 2013/06/09 v2.4 Extended list environments
 \plpartopsep=\skip46
 \plitemsep=\skip47
 \plparsep=\skip48
-\pl@lab=\toks20
+\pl@lab=\toks23
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
@@ -343,12 +343,12 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box32
+\ttl@box=\box33
 \beforetitleunit=\skip56
 \aftertitleunit=\skip57
 \ttl@plus=\dimen154
 \ttl@minus=\dimen155
-\ttl@toksa=\toks21
+\ttl@toksa=\toks24
 \titlewidth=\dimen156
 \titlewidthlast=\dimen157
 \titlewidthfirst=\dimen158
@@ -362,7 +362,7 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: dvips.def on input line 225.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
@@ -371,16 +371,15 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen159
 \extrarowheight=\dimen160
-\NC@list=\toks22
+\NC@list=\toks25
 \extratabsurround=\skip58
 \backup@length=\skip59
 )
-\everycr=\toks23
+\everycr=\toks26
 \minrowclearance=\skip60
 )
 \rownum=\count121
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -424,42 +423,11 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen161
-\scratchbox=\box33
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen162
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks25
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 LaTeX Info: Redefining \microtypecontext on input line 75.
-Package microtype Info: Generating PDF output.
+Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No font expansion.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -468,12 +436,12 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\c@lstlisting=\count128
+\c@lstlisting=\count122
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -517,7 +485,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count129
+\c@section@level=\count123
 )
 LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
@@ -527,6 +495,9 @@ LaTeX Info: Redefining \nameref on input line 75.
 \@outlinefile=\write3
 \openout3 = `Proposal_V2.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <18> not available
@@ -546,47 +517,68 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 78.
 [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 88.
+
+Overfull \hbox (1.80798pt too wide) in paragraph at lines 101--102
+\T1/cmr/bx/n/10 Keywords: \T1/cmr/m/n/10 graph-based method-ol-ogy, struc-tural
+ vari-a-tion, multi-level data in-te-gra-tion, non-coding
+ []
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 111.
- [3]
-Overfull \hbox (2.71915pt too wide) in paragraph at lines 139--141
-\T1/cmr/m/n/10 (-20) parts: a sub-ject, a pred-i-cate and an ob-ject (e.g. [][]
-[][][][][][][][][][][][][][][]).
+
+Overfull \hbox (5.26889pt too wide) in paragraph at lines 118--123
+\T1/cmr/m/n/10 and from post-transcriptional mod-i-fi-ca-tions, to di-rectly af
+-fect-ing the lo-cal-i-sa-tion of the tran-script$[]$.
  []
 
-[4] <rdf.pdf, id=89, 940.49973pt x 280.26306pt>
-File: rdf.pdf Graphic file (type pdf)
- <use rdf.pdf>
-Package pdftex.def Info: rdf.pdf used on input line 149.
-(pdftex.def)             Requested size: 344.005pt x 102.51112pt.
- [5 <./rdf.pdf>]
-<rondjeGraphs.pdf, id=147, 253.94875pt x 254.9525pt>
-File: rondjeGraphs.pdf Graphic file (type pdf)
- <use rondjeGraphs.pdf>
-Package pdftex.def Info: rondjeGraphs.pdf used on input line 172.
-(pdftex.def)             Requested size: 182.75327pt x 183.48006pt.
+[3]
+Overfull \hbox (84.33588pt too wide) in paragraph at lines 139--141
+\T1/cmr/m/n/10 a triple) has three parts: a sub-ject, a pred-i-cate and an ob-j
+ect (e.g. [][][][][][][][][][][][][][][][][]).
+ []
 
-<DifferencesInDoingThings.pdf, id=150, 664.4213pt x 465.79723pt>
-File: DifferencesInDoingThings.pdf Graphic file (type pdf)
+[4]
+File: rdf.pdf Graphic file (type eps)
+ <rdf.pdf> [5] [6]
 
-<use DifferencesInDoingThings.pdf>
-Package pdftex.def Info: DifferencesInDoingThings.pdf used on input line 180.
-(pdftex.def)             Requested size: 365.50655pt x 256.23901pt.
- [6 <./rondjeGraphs.pdf>] [7 <./DifferencesInDoingThings.pdf>] [8]
+! LaTeX Error: Cannot determine size of graphic in rondjeGraphs.pdf (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...[width=0.425\textwidth]{rondjeGraphs.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: rondjeGraphs.pdf Graphic file (type eps)
+<rondjeGraphs.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [7]
+File: DifferencesInDoingThings.eps Graphic file (type eps)
+
+<DifferencesInDoingThings.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
  [9]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./Proposal_V2.bbl
+[10] [11] (./Proposal_V2.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 18.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic settings for font family
@@ -594,19 +586,107 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+[]\T1/cmr/m/n/5 Curtis Hut-ten-hower and Oliver Hof-mann.  A quick guide to lar
+ge-scale ge-nomic data min-ing.  \T1/cmr/m/it/5 PLoS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--42
+\T1/cmr/m/it/5 Com-put. Biol.\T1/cmr/m/n/5 , 6(5):e1000779, May 2010.  ISSN 155
+3-7358.  doi: $10 . 1371 / journal . pcbi . 1000779$.  URL
+ []
+
+[12]
+Underfull \hbox (badness 2318) in paragraph at lines 171--179
+[]\T1/cmr/m/n/5 Christine P Bird, Bar-bara E Stranger, and Em-manouil T Der-mit
+za-kis.  Func-tional vari-a-tion and evo-lu-tion of non-coding
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 171--179
+\T1/cmr/m/n/5 DNA.  \T1/cmr/m/it/5 Curr. Opin. Genet. Dev.\T1/cmr/m/n/5 , 16(6)
+:559--64, De-cem-ber 2006.  ISSN 0959-437X.  doi: $10 . 1016 / j . gde . 2006 .
+ 10 . 003$.  URL
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 237--247
+[]\T1/cmr/m/n/5 Jeffrey M Kidd, Tina Graves, Tera L New-man, Robert Ful-ton, Hi
+llary S Hay-den, Maika Ma-lig, Joelle Kallicki, Ra-jin-der
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 237--247
+\T1/cmr/m/n/5 Kaul, Richard K Wil-son, and Evan E Eich-ler.  A hu-man genome st
+ruc-tural vari-a-tion se-quenc-ing re-source re-veals in-sights
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 237--247
+\T1/cmr/m/n/5 into mu-ta-tional mech-a-nisms.  \T1/cmr/m/it/5 Cell\T1/cmr/m/n/5
+ , 143(5):837--47, Novem-ber 2010.  ISSN 1097-4172.  doi: $10 . 1016 / j . cell
+ . 2010 . 10 . 027$.  URL
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-[11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 335--344
+[]\T1/cmr/m/n/5 Jonathan R Karr, Jay-o-dita C Sanghvi, Derek N Mack-lin, Miriam
+ V Gutschow, Jared M Ja-cobs, Ben-jamin Bo-li-
+ []
 
- [12])
+
+Underfull \hbox (badness 7238) in paragraph at lines 335--344
+\T1/cmr/m/n/5 val, Na-cyra Assad-Garcia, John I Glass, and Markus W Covert.  A 
+whole-cell com-pu-ta-tional model pre-dicts phe-
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 335--344
+\T1/cmr/m/n/5 no-type from geno-type.  \T1/cmr/m/it/5 Cell\T1/cmr/m/n/5 , 150(2
+):389--401, July 2012.  ISSN 1097-4172.  doi: $10 . 1016 / j . cell . 2012 . 05
+ . 044$.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--380
+[]\T1/cmr/m/n/5 Sebastian Sz-pakowski, James Mc-Cusker, and Michael Krautham-me
+r.  Us-ing se-man-tic web tech-nolo-gies to an-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--380
+\T1/cmr/m/n/5 no-tate and align mi-croar-ray de-signs.  \T1/cmr/m/it/5 Can-cer 
+In-form.\T1/cmr/m/n/5 , 8:65--73, Jan-uary 2009.  ISSN 1176-9351.  URL
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 397--404
+[]\T1/cmr/m/n/5 Georgios A Pavlopou-los, Anna-Lynn We-gener, and Rein-hard Schn
+ei-der.  A sur-vey of vi-su-al-iza-tion tools for bi-o-log-i-
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 397--404
+\T1/cmr/m/n/5 cal net-work anal-y-sis.  \T1/cmr/m/it/5 Bio-Data Min.\T1/cmr/m/n
+/5 , 1:12, Jan-uary 2008.  ISSN 1756-0381.  doi: $10 . 1186 / 1756-[]0381-[]1-[
+]12$.  URL
+ []
+
+
+Overfull \hbox (389.50772pt too wide) in paragraph at lines 406--413
+\T1/cmr/m/n/5 32, 2005.  URL [][][][]. 
+ []
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
-
-[13]
+ [14]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
  (./Proposal_V2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 373.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
 Package rerunfilecheck Info: File `Proposal_V2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -615,53 +695,18 @@ Package rerunfilecheck Info: File `Proposal_V2.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
  ) 
 Here is how much of TeX's memory you used:
- 11498 strings out of 493117
- 174736 string characters out of 6135433
- 418369 words of memory out of 5000000
- 14620 multiletter control sequences out of 15000+600000
- 27104 words of font info for 113 fonts, out of 8000000 for 9000
+ 10808 strings out of 493118
+ 165017 string characters out of 6135459
+ 411268 words of memory out of 5000000
+ 14136 multiletter control sequences out of 15000+600000
+ 22319 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,43p,2292b,900s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
-st, replaced by a fixed one
+ 41i,12n,43p,7740b,900s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/cm-super/sfbi0800.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2014/texmf-dis
-t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/public/cm-super/sfti0500.pfb></usr/local/texlive/2014/texmf-dist/font
-s/type1/public/cm-super/sfti0600.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/cm-super/sftt0800.pfb>
-Output written on Proposal_V2.pdf (13 pages, 1714199 bytes).
-PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 335 compressed objects within 4 object streams
- 54 named destinations out of 1000 (max. 500000)
- 31248 words of extra memory for PDF output out of 35830 (max. 10000000)
-
+Output written on Proposal_V2.dvi (14 pages, 87612 bytes).
