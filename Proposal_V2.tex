@@ -203,13 +203,32 @@ By enabling more users to use methods and sources of RDF, this research will, in
 
 \section*{Experimental strategy}
 \subsection*{Placement and institute}
-Due to the affiliation with the University Medical Center Utrecht (UMCU), we are in a unique position to test our hypotheses and methods in both research and clinical settings. Furthermore, the HUB-biobank in the Hubrecht Institute also enables us to perform analyses on organoids, providing us a stable and homogeneous \textit{in vitro} platform for (validation-)studies on cancer-samples. With the new methods, we will be in a position to perform fully integrative studies on the underlying mechanisms and consequences of (structural) variation in cancer. 
+Due to the affiliation with the University Medical Center Utrecht (UMCU), we are in a unique position to test our hypotheses and methods in both research and clinical settings. Furthermore, the HUB-biobank \url{http://hub4organoids.eu/} in the Hubrecht Institute  enables us to perform analyses on organoids, providing us a stable and homogeneous \textit{in vitro} platform for validations in (non)cancer-samples. With the proposed methods, we will be in a position to perform integrative studies with appropriate biological validation on the mechanisms and consequences of (structural) variation. 
 
 Groups in the Hubrecht are heavily involved in (inter)national consortia, like the \textit{Cancer Genomics Centre}. This national consortium of research-groups, predominantly of the Hubrecht Institute and the Netherlands Cancer Institute (NKI), focusses on cancer's (epi)genetic alterations and responses to drugs. Data from this project will include various levels (e.g. (epi)genomics, phospho-proteomics) and dimensions (e.g. drug-responses, time-series). For the cancer sub-population study, a collaboration between the \textit{van Oudenaarden}-group (lineage-tracing and CELL-seq) and the \textit{Clevers}-group (cancer-biobank) will be formed.
 
-Furthermore, the affiliation between the institute and Utrecht University will lead the more possibilities. A considerable amount research groups make use of the Utrecht DNA-sequencing Facility and the Netherlands Proteomics Centre, which ensures adequate amounts and variation in data and data-integration-based research questions. 
+A considerable amount of Dutch research groups make use of the Utrecht DNA-sequencing Facility and the Netherlands Proteomics Centre, which ensures adequate opportunities for collaborations and data-integration-based research questions. 
 
 Ties with international leaders in biology-related semantic web and visualisation technologies have been made and will continue to be expanded. Joachim Baran and Pjotr Prins have been heavily involved in the planning stages, being key players in handling various data-formats (into RDF) with \textit{BIO-Ruby}. Communications with Artem Tarasov of \textit{Sambamba} and Jerven Bolleman -key engineer of the \textit{UniProt-RDF} project- have also been established.
+
+\subsection*{Experimental procedures:}
+
+!!WGS!!
+Data extraction:
+	BAM ?
+	VCF ?
+Welke sources precies (we moeten keuzes maken, max 3 zou ik zo zeggen)
+	
+!!NanoPore!!
+
+Data integration:
+	Public / Private
+	Epi / HiC / ...   (ook hier specificeren waar we meest verwachten / op focussen / waar 	    het vandaan komt
+
+Organoids
+
+CRISPR / CAS9
+
 
 
 \subsection*{		Technische themes:}
@@ -219,9 +238,27 @@ Ties with international leaders in biology-related semantic web and visualisatio
 %		Characterisation of the effects of SVs in cis- and trans-regulatory regions in disease. (TFBS, ncRNA, epistasis?)
 %		Non-coding structural factors of drug-resistance
 %		Single-cell analysis of SVs in cancer sub-populations
-This subset of questions shows the main innovative point of our proposed methods: they make it possible to efficiently and systematic analyse and integrate several omics-levels and multiple dimensions (e.g. drug-resistance, cancer type/sub-population), while allowing easy connection to public data.
+This subset of questions shows the main innovative point of our proposed methods: they enable us to analyse and integrate several omics-levels and multiple dimensions (e.g. drug-resistance, cancer types), while allowing easy connection to public data.
+
 \textbf{Non-coding structural factors of drug-resistance} \\
-The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying the effects of variants in coding regions in cancer, including factors of drug resistance. However, the data has not been used to study the non-coding regions, primarily because of the aforementioned limitations in both non-coding analysis and data-integration. Firstly, we will analyse the (epi)genomic data to identify cancer-specific SVs that are cis-acting on specific genes. Secondly, the data of the products of these genes (e.g. transcripts, proteins and metabolites) is integrated to infer possible consequences on these levels. Linking specific drug-resistance information will also enable us find patterns between the SVs, the identified (consequences of) genes and specific drugs. Since treatment of a single drug often leads to resistance by a bypass in the drug-inhibited pathway\cite{Prahallad2012}, we also integrate public and CGC.nl-data on perturbed pathways in cancer. This will elucidate the mechanisms of non-coding SV-induced drug-resistance in cancer samples and potentially identify new targets for treatment.
+The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying the effects of variants in coding regions in cancer, including factors of drug resistance. However, the data has not been used to study the non-coding regions, primarily because of the aforementioned limitations in both non-coding analysis and data-integration. Firstly, we will analyse the (epi)genomic data to identify cancer-specific SVs that are cis-acting on specific genes. Secondly, the data of the products of these genes (e.g. transcripts, proteins and metabolites) is integrated to infer possible consequences on these levels. Linking specific drug-resistance information will also enable us find patterns between the SVs, the identified (consequences of) genes and specific drugs. Since treatment of a single drug often leads to resistance by a bypass in the drug-inhibited pathway\cite{Prahallad2012}, we also integrate public and CGC.nl-data on perturbed pathways in cancer. This will elucidate the mechanisms of non-coding SV-induced drug-resistance in cancer samples and potentially identify new targets for treatment. (!Korter!)
+
+CGC blijft altijd 1 cel / individue en dan nog wel een genomisch zeer fckd one.
+
+\textbf{Study (recurrent) non-coding SVs in TCGA?!} \\
+Is volgens mij de meest rijke dataset die we tot nu toe hebben.
+
+
+\textbf{Identify effects of Chromotripsis induced SVs ??} \\
+Wigard heeft data van chromotripsis data patienten die volgens mij deels publiek is.
+[ref: Deciphering the pathogenic consequences of chromosomal aberrations in human genetic disease.]
+Wij willen dit natuurlijk verder trekken maar is een waardevolle dataset.
+
+
+\textbf{Study non-coding SVs in healthy Adult Stemcells} \\
+Volgens mij zou Ruben dat helemaal cool vinden ......
+
+
 \textbf{Single-cell analysis of SVs in cancer sub-populations} \\
 Due to the advances in single-cell sequencing (CELL-seq) of both DNA and RNA, we are able to look at consequences of SVs on transcription in single cells. The innovation here is the fact that signals are not averaged out by multiple (asynchronous) cells and we can thus analyse the cell as part of a sub-population. By integrating CELL-seq DNA- and RNA-data of different sub-populations of (heterogeneous) cancer-samples, we can find the previously obscured direct (i.e. cis-acting) and indirect (i.e. trans-acting) consequences of SVs in specific sub-populations. Furthermore, integrating data of lineage-tracing between and within different sub-populations could identify causal non-coding SV-events in the progression of cancer. Linking the public data of ontology- and pathway-databases will enable us to infer specific sub-population changes in pathways as the consequence of SVs or de-regulated genes due to SVs.
 \section*{Timetable}
