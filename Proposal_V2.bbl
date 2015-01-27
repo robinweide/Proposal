@@ -5,40 +5,6 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Benko et~al.(2009)Benko, Fantes, Amiel, Kleinjan, Thomas, Ramsay,
-  Jamshidi, Essafi, Heaney, Gordon, McBride, Golzio, Fisher, Perry, Abadie,
-  Ayuso, Holder-Espinasse, Kilpatrick, Lees, Picard, Temple, Thomas, Vazquez,
-  Vekemans, {Roest Crollius}, Hastie, Munnich, Etchevers, Pelet, Farlie,
-  Fitzpatrick, and Lyonnet]{Benko2009}
-Sabina Benko, Judy~A Fantes, Jeanne Amiel, Dirk-Jan Kleinjan, Sophie Thomas,
-  Jacqueline Ramsay, Negar Jamshidi, Abdelkader Essafi, Simon Heaney,
-  Christopher~T Gordon, David McBride, Christelle Golzio, Malcolm Fisher, Paul
-  Perry, V\'{e}ronique Abadie, Carmen Ayuso, Muriel Holder-Espinasse, Nicky
-  Kilpatrick, Melissa~M Lees, Arnaud Picard, I~Karen Temple, Paul Thomas,
-  Marie-Paule Vazquez, Michel Vekemans, Hugues {Roest Crollius}, Nicholas~D
-  Hastie, Arnold Munnich, Heather~C Etchevers, Anna Pelet, Peter~G Farlie,
-  David~R Fitzpatrick, and Stanislas Lyonnet.
-\newblock {Highly conserved non-coding elements on either side of SOX9
-  associated with Pierre Robin sequence.}
-\newblock \emph{Nat. Genet.}, 41\penalty0 (3):\penalty0 359--64, March 2009.
-\newblock ISSN 1546-1718.
-\newblock \doi{10.1038/ng.329}.
-\newblock URL
-  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n3/abs/ng.329.html}.
-
-\bibitem[Kurth et~al.(2009)Kurth, Klopocki, Stricker, van Oosterwijk, Vanek,
-  Altmann, Santos, van Harssel, de~Ravel, Wilkie, Gal, and Mundlos]{Kurth2009}
-Ingo Kurth, Eva Klopocki, Sigmar Stricker, Jolieke van Oosterwijk, Sebastian
-  Vanek, Jens Altmann, Heliosa~G Santos, Jeske J~T van Harssel, Thomy de~Ravel,
-  Andrew O~M Wilkie, Andreas Gal, and Stefan Mundlos.
-\newblock {Duplications of noncoding elements 5' of SOX9 are associated with
-  brachydactyly-anonychia.}
-\newblock \emph{Nat. Genet.}, 41\penalty0 (8):\penalty0 862--3, August 2009.
-\newblock ISSN 1546-1718.
-\newblock \doi{10.1038/ng0809-862}.
-\newblock URL
-  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n8/full/ng0809-862.html}.
-
 \bibitem[Munoz et~al.(2011)Munoz, Low, Kok, Chin, Frese, Ding, Choo, and
   Heck]{Munoz2011}
 Javier Munoz, Teck~Y Low, Yee~J Kok, Angela Chin, Christian~K Frese, Vanessa
@@ -94,6 +60,13 @@ Jemila~S Hamid, Pingzhao Hu, Nicole~M Roslin, Vicki Ling, Celia M~T Greenwood,
 \newblock \doi{10.4061/2009/869093}.
 \newblock URL
   \url{http://hgp.sagepub.com.proxy.library.uu.nl/content/1/1/869093.full}.
+
+\bibitem[ENC(2004)]{ENCODE}
+{The ENCODE (ENCyclopedia Of DNA Elements) Project.}
+\newblock \emph{Science}, 306\penalty0 (5696):\penalty0 636--40, October 2004.
+\newblock ISSN 1095-9203.
+\newblock \doi{10.1126/science.1105136}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/15499007}.
 
 \bibitem[Lander et~al.(2001)Lander, Linton, Birren, Nusbaum, Zody, Baldwin,
   Devon, Dewar, Doyle, FitzHugh, Funke, Gage, Harris, Heaford, Howland, Kann,
@@ -194,12 +167,39 @@ Christine~P Bird, Barbara~E Stranger, and Emmanouil~T Dermitzakis.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0959437X06002024}.
 
-\bibitem[ENC(2004)]{ENCODE}
-{The ENCODE (ENCyclopedia Of DNA Elements) Project.}
-\newblock \emph{Science}, 306\penalty0 (5696):\penalty0 636--40, October 2004.
-\newblock ISSN 1095-9203.
-\newblock \doi{10.1126/science.1105136}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/15499007}.
+\bibitem[Benko et~al.(2009)Benko, Fantes, Amiel, Kleinjan, Thomas, Ramsay,
+  Jamshidi, Essafi, Heaney, Gordon, McBride, Golzio, Fisher, Perry, Abadie,
+  Ayuso, Holder-Espinasse, Kilpatrick, Lees, Picard, Temple, Thomas, Vazquez,
+  Vekemans, {Roest Crollius}, Hastie, Munnich, Etchevers, Pelet, Farlie,
+  Fitzpatrick, and Lyonnet]{Benko2009}
+Sabina Benko, Judy~A Fantes, Jeanne Amiel, Dirk-Jan Kleinjan, Sophie Thomas,
+  Jacqueline Ramsay, Negar Jamshidi, Abdelkader Essafi, Simon Heaney,
+  Christopher~T Gordon, David McBride, Christelle Golzio, Malcolm Fisher, Paul
+  Perry, V\'{e}ronique Abadie, Carmen Ayuso, Muriel Holder-Espinasse, Nicky
+  Kilpatrick, Melissa~M Lees, Arnaud Picard, I~Karen Temple, Paul Thomas,
+  Marie-Paule Vazquez, Michel Vekemans, Hugues {Roest Crollius}, Nicholas~D
+  Hastie, Arnold Munnich, Heather~C Etchevers, Anna Pelet, Peter~G Farlie,
+  David~R Fitzpatrick, and Stanislas Lyonnet.
+\newblock {Highly conserved non-coding elements on either side of SOX9
+  associated with Pierre Robin sequence.}
+\newblock \emph{Nat. Genet.}, 41\penalty0 (3):\penalty0 359--64, March 2009.
+\newblock ISSN 1546-1718.
+\newblock \doi{10.1038/ng.329}.
+\newblock URL
+  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n3/abs/ng.329.html}.
+
+\bibitem[Kurth et~al.(2009)Kurth, Klopocki, Stricker, van Oosterwijk, Vanek,
+  Altmann, Santos, van Harssel, de~Ravel, Wilkie, Gal, and Mundlos]{Kurth2009}
+Ingo Kurth, Eva Klopocki, Sigmar Stricker, Jolieke van Oosterwijk, Sebastian
+  Vanek, Jens Altmann, Heliosa~G Santos, Jeske J~T van Harssel, Thomy de~Ravel,
+  Andrew O~M Wilkie, Andreas Gal, and Stefan Mundlos.
+\newblock {Duplications of noncoding elements 5' of SOX9 are associated with
+  brachydactyly-anonychia.}
+\newblock \emph{Nat. Genet.}, 41\penalty0 (8):\penalty0 862--3, August 2009.
+\newblock ISSN 1546-1718.
+\newblock \doi{10.1038/ng0809-862}.
+\newblock URL
+  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n8/full/ng0809-862.html}.
 
 \bibitem[Ongen et~al.(2014)Ongen, Andersen, Bramsen, Oster, Rasmussen,
   Ferreira, Sandoval, Vidal, Whiffin, Planchon, Padioleau, Bielser, Romano,

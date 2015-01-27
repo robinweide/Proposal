@@ -56,7 +56,7 @@
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-\title{\vspace{-15mm}\fontsize{18pt}{10pt}\normalfont\textbf{Understanding the effects of structural variation in non-coding regions.\\ \vspace{4 mm} {{\footnotesize \textit{Analysing multi-level 'omics using graph-based integration methods.}}}}} % Article title
+\title{\vspace{-15mm}\fontsize{18pt}{10pt}\normalfont\textbf{Understanding the functional effects of structural variation in non-coding regions.\\ \vspace{4 mm} {{\footnotesize \textit{Analysing multi-level 'omics using graph-based integration methods.}}}}} % Article title
 
 \author{
 \large
@@ -84,25 +84,20 @@ Summary of the research
 
 \begin{abstract}
 \noindent
-To date, studies on non-coding regions of the genome have been limited. This is mainly due to the complex nature of putative functional elements in these regions. Increased knowledge of these regions, through efforts such as the ENCODE-project, enabled researchers to initiate studies on the causality of non-coding variations\cite{Benko2009,Kurth2009}. 
-
-The ongoing cost reduction of various omics-approaches coupled to high throughput research, has led an explosion of available data. However, the complexity of integrating and analysing these large datasets increases with every added omics-layer or dimension (e.g. time-series, treatments). Furthermore, the elucidation of structural variants is further complicated by the diversity in types and consequences of these genetic alterations. This is especially true for structural variants in non-coding regions, where finding the affected gene is a challenge all by itself.
+To date, structural variation in the non-coding regions of the genome is one of the least studied genomic events. Systematic linear approaches for elucidating the functional effects are rarely successful, which is mainly due to the functional complexity of non-coding regions (e.g. \textit{cis}- and \textit{trans}-acting elements, co-activation, non-coding RNA interaction). These analyses are further complicated by the diversity in types and consequences of these genomic alterations. Integration and visualisation of complex, multi-layered datasets are needed to better understand the functional effects of these events\cite{Munoz2011}.
 \medskip
 
-\noindent
-The current methods for integrating and analysing multiple layers or dimensions have two major limitations in their design: scalability and generality (i.e. the possibility to easily add more levels or dimensions). Moreover, the sheer amount of data points hampers data exploration without the need for filtering, dividing or restructuring the data. Integration and visualisation of complex datasets are needed to better understand the complex biology of disease\cite{Munoz2011}, but is greatly restricted by aforementioned limitations.
+\noindent 
+Within the realm of systems biology, graph-based approaches are well-known and -used for analysis of interaction-networks. The main benefits of abstracting complex data-sources to graphs are enhanced exploratory analysis via visual analytics and integration of datasets of different levels and dimensions. The ongoing cost reduction of various 'omics-approaches coupled to high throughput research, has led an explosion of available data. However, the complexity of integrating and analysing these large datasets increases with every added 'omics-layer or dimension (e.g. time-series, treatments). 
+
+For larger and more complex datasets like these, the bioinformatics community -following other \textit{big data} sciences- is starting to gravitate towards the Resource Description Framework (RDF). This is a simple and flexible graph-integration approach, which also allows for easy connection to (web-based) public repositories. The formation and testing of hypotheses on these created and/or combined networks is made straightforward by using simple SPARQL-queries and subsequent visual analytics-methodologies.
 \medskip
 
-\noindent Within the realm of systems biology, graph-based methods are well-known and -used for analysis of interaction-networks. The main benefits of abstracting complex data-sources to graphs are enhanced exploratory analysis via visual analytics and integration of datasets of different levels and dimensions. 
-
-For larger and more complex datasets, big data scientists gravitate to the Resource Description Framework (RDF): a simple and flexible graph-framework, which also allows for easy connection to (web-based) public repositories. Researchers can start to form hypotheses of both local and remote parts of a graph using simple SPARQL-queries and subsequently visualise the results using advanced interactive visualisation interfaces. 
-\medskip
-
-\noindent Here, we propose the use of graph-based methods, like RDF, to decrease the complexity of integrating and visualizing multi-level and -dimensional biological data. These methods will enable us to create new biological insights in the complex biology of non-coding structural variants. Subsequentially, it will enable further elucidation in, for example, congenital disease and cancer. 
+\noindent Here, we propose the use of graph-based methods to decrease the complexity of integrating and visualizing multi-level and -dimensional biological data. By integrating patient-derived data of the UMC Utrecht, we are in the premier position to uncover new biological insights into the complex biology of non-coding structural variants. Our resulting methodologies and discoveries could aid a large community of both scientists and patients, by enabling further elucidation in congenital disease and cancer. 
 \end{abstract}
 \medskip
 
-\noindent \textbf{Keywords:} graph-based methodology, structural variation, multi-level data integration, non-coding genomics, visual analytics
+\noindent \textbf{Keywords:} graph-based methodology, structural variation, multi-level data integration, non-coding genomics
 
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
@@ -110,17 +105,16 @@ For larger and more complex datasets, big data scientists gravitate to the Resou
 \newpage
 
 \section*{Background}
-\subsection*{	big data: weinig systematisch over NC,laat staan sv}
+%\subsection*{	big data: weinig systematisch over NC,laat staan sv}
 %Er is veel data om te gebuiken! Maar het is wel erg veel... en heterogeen
 The amount of (public) biological data has exploded in the last years (even outpacing Moore's law\footnote{A two-fold in- or decrease of a variable (here: dollar/nt) per two years.}). This is the result of the advances in omics-technologies like Next-Generation Sequencing (NGS) and Mass-Spectrometry (MS), in both performance and costs. The addition of other dimensions, like time-series or treatments, is a second factor for the highly complex nature of current biomedical research. While there are plenty of studies on single-level data analysis, both academia and industry agree that data-integration is essential to understanding the complex nature of biology more thoroughly \citep{Gomez-Cabrero2014, Huttenhower2010, Searls2005, Hamid2009}. 
 
-Finding causal genetic variation in the protein-coding regions of the genome has been the focus in the majority of genomics studies. However, these regions amount only to approximately two percent\cite{Lander2001}. One of the primary reasons behind this is the relative uncomplicated nature of studying coding regions, as consequences on lower levels (e.g. transcription, proteins) are traceable\cite{McLaren2010}. This is in contrast to the non-coding regions, which often do not show a linear effect on other levels\cite{Bird2006}. A good illustration of the complexity of the non-coding regions is the ENCyclopedia Of DNA Elements (ENCODE)-project\cite{ENCODE}, which contains over fifty different signals (e.g. histone methylation, DNase1 hypersensitivity). 
-\subsection*{	wat valt er te halen? uitleg NC}
+The vast majority of large-scale integrative studies have been conducted on the coding-regions of the genome\cite{ENCODE}. Although finding functional genetic variation in the protein-coding regions of the genome has been the focus, these regions amount only to approximately two percent of the genome\cite{Lander2001}. One of the primary reasons behind this focus is the relative uncomplicated nature of studying coding regions, as consequences on lower levels (e.g. transcription, proteins) are linearly traceable\cite{McLaren2010}. This is in contrast to the non-coding regions, which often do not show a linear effect on other levels\cite{Bird2006}. A good illustration of the complexity of the non-coding regions is the ENCyclopedia Of DNA Elements (ENCODE)-project\cite{ENCODE}, which contains over fifty different signals (e.g. histone methylation, DNase1 hypersensitivity). The fact that non-coding regions often have roles in the regulation of distant genes (i.e. trans-acting) provides even more complexity to the analysis of structural variants (SVs) in these regions. For example, the Pierre Robin Syndrome (PRS): SVs (deletions or duplications) in the 3Mb surrounding the SOX9-gene in particular tissues are causative of the striking phenotype of undeveloped mandibles and tongue in children\cite{Benko2009,Kurth2009}. 
+
+%\subsection*{	wat valt er te halen? uitleg NC}
 %Non-coding: lastig en weinig onderzocht
 % Grootste winst is te halen in het combineren van lagen (distant relationships)
-While there has already been a considerable amount of work in the field of computational cancer research, the vast majority of large-scale integrative studies have been conducted on the coding-regions of the genome\cite{ENCODE}. Genome-Wide Association Studies (GWASs) on a broad range of (hereditary) cancer-types have shown that non-coding locations are associated with these diseases. Until 2013, however, tools and sources to find the precise causative variations in non-coding genomic regions were limited. In the last two years, several advances have made it possible to assess the consequences of individual variations in non-coding regions\cite{Ongen2014,Khurana2013}. However, no large-scale integrative studies have been performed, which is partly due to the current state of integrative methods. 
-
-The fact that non-coding regions often have roles in the regulation of distant genes (i.e. trans-acting) provides even more complexity to the analysis of structural variants (SVs) in these regions. For example, the Pierre Robin Syndrome (PRS): SVs (deletions or duplications) in the 3Mb surrounding the SOX9-gene in particular tissues are causative of the striking phenotype of undeveloped mandibles and tongue in children\cite{Benko2009,Kurth2009}. Studies on cancer-specific causative non-coding variation are beginning to emerge in the last two years, including colorectal- and skin-cancer\cite{Ongen2014,Huang2013}, and computational methods for non-coding regions are just starting to come up in the literature of 2014\cite{Khurana2013,Kircher2014}.  
+Genome-Wide Association Studies (GWASs) on a broad range of congenital and acquired diseases (e.g. cancer) have shown that non-coding locations are associated with these diseases. Until 2013, however, tools and sources to find the precise causative variations in non-coding genomic regions were limited. In the last two years, several advances have made it possible to assess the consequences of individual variations in non-coding regions\cite{Ongen2014,Khurana2013}. Studies on cancer-specific causative non-coding variation are beginning to emerge in the last two years, including colorectal- and skin-cancer\cite{Ongen2014,Huang2013}, and computational methods for non-coding regions are just starting to come up in the literature of 2014\cite{Khurana2013,Kircher2014}. However, no large-scale integrative studies have been performed, which is partly due to the current state of integrative methods. 
 \subsection*{hoe valt dit te halen? (graphs: integratie en visualisatie)}
 %Distant relationships vindt je het makkelijkst met een graph
 \subsection*{	big data graph-methods}
@@ -138,7 +132,7 @@ Aside from the non-complex, flexible and self-describing nature of the RDF-data,
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth]{rdf.pdf}
+    \includegraphics[width=0.85\textwidth]{rdf.pdf}
     \caption{\textbf{General outline of RDF.} Two triples (as shown in \textbf{A}) can be linked by their common subjects (as shown in \textbf{B}), one can infer the relationship between the two objects via the predicates and find patterns: a gene, responsible for calcium ion binding, has a low phosphorylation level in the investigated sample.}
     \label{fig:rdf}
 \end{figure}
@@ -149,7 +143,7 @@ There have been various studies on the integration of biological signals with th
 The implementation of web-based visual analytics for RDF-databases is another leading innovative point in this proposal. Combining Semantic Web-technology with this will create a paradigm shift in the way integrative analysis of (biological) data is done. Visual analytics has been shown to result in the most optimal analysis-effectivity as it allows the user to combine the data with their own background and intuition (fig. \ref{fig:ae}). Not only can data be more effectively analysed, but it can also be better understood and presented, due to the ability to provide an overview of the complete dataset\cite{Thomas2005, Keim}. 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.75\textwidth]{autoVSexplo.pdf}
+    \includegraphics[width=0.85\textwidth]{autoVSexplo.pdf}
     \caption{\textbf{Trade-offs between automated and explorative analysis.} By combining automated analyses, where appropriate, with the background and intuition of the user, an optimal amount of effectivity can be attained. Picture taken from \citet{Keim}.}
     \label{fig:ae}
 \end{figure}
@@ -159,7 +153,7 @@ During my Masters studies, I have already implemented graph-based methods for di
 When analysing predicted altered and/or de novo transcription factor binding sites (TFBS) by single-nucleotide polymorphisms (SNPs) in non-coding regions of over 1300 melanoma-patients, no overrepresented TFBS were found. We then discided to use graph-based data integration methods by linking the SNPs to regions in the TF-ChIP data of ENCODE\cite{ENCODE}. Furthermore, two triple stores were added: TcoF -containing TF-interacting proteins and co-factors- and gene ontology terms form the GO consortium. We found that there was a clear overrepresentation of TFs binding to transcription co-activators, like NCOA6, which have a functional role in \emph{\lstinline|vitamin D receptor binding|}. Further analyses showed more evidence of the importance of these findings in familial melanoma (e.g. co-segregation in melanoma-prone families). Without the multilayer network-analysis, in this case of genomics and epigenomics data, such new testable hypotheses are often not found. And without RDF, different databases and -sources would be much harder to integrate for (exploratory) analyses. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth]{rondjeGraphs.pdf}
+    \includegraphics[width=0.65\textwidth]{rondjeGraphs.pdf}
     \caption{\textbf{Graph of GO:0042809.} From a large dataset of mutations in melanoma-patients (outside ring) to a new -testable- hypothesis, alteration in vitamin D receptor binding (inside ring), via a TFBS-regions and a TF-protein interaction database.}
     \label{fig:mela}
 \end{figure}
@@ -167,7 +161,7 @@ When analysing predicted altered and/or de novo transcription factor binding sit
 To asses to feasibility of this proposal, a small-scale pilot-study was performed on the data of \citet{VanHeesch2014}. This dataset includes transcriptome data of mRNA's, bound to a number of ribosomal units (1 to 7+) and matching exome-data. If one would be interested in the molecular functions of a gene with an allelic bias, a disproportional amount of time is lost on parsing, intersecting and downloading various types of data (fig. \ref{fig:awesome_image}). With the conventional methods, twelve set-operations (e.g. intersections, unions) have to be performed on $\pm$5gb of data. Furthermore, three datasets ($\pm$15gb) have to be completely downloaded once -until a new version is launched- before a simple exploratory question can be answered. Approximately three and a half hours was needed to perform this, in contrast to one hour with the proposed methods. Of this hour, more than fifty minutes were used to convert data to a triple-store: every query hereafter takes up approximately 10 minutes. First and foremost, this pilot illustrates the low-complex nature of the proposed methods. Secondly, it shows the valuable property of having a separate query-stage, which results in being able to make more than ($\frac{(8*60)-50}{10}= $) forty queries in eight hours, instead of approximately ($\frac{8-3,5}{3,5}= $) two queries with the currently used methods.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.75\textwidth]{DifferencesInDoingThings}
+    \includegraphics[width=0.85\textwidth]{DifferencesInDoingThings}
     \caption{\textbf{Differences between current integration techniques and RDF.} When a researcher has a question like \textbf{A}, they have to go through a series of parsing and interception steps, like in \textbf{B}. External sources have to be fully downloaded and converted, before use. Our proposed pipeline (shown in \textbf{C}), firstly converts the data to RDF. Then, a question can be formulated in SPARQL (\textbf{D}), incorporating relevant outside sources, which can be easily changed without having to juggle/download the data again.}
     \label{fig:awesome_image}
 \end{figure}
