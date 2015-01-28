@@ -195,11 +195,16 @@ Multi-level and -dimensional integrative analysis to elucidate the consequences 
 \end{enumerate}
 \section*{Relevance}
 The 2014 survey of \citet{Gomez-Cabrero2014} showed that biomedical academics had the highest interest (78.2 percent) in the integration of multiple omics-datasets and that there was a high need for standardized tools and data-types. Data-storage, -exploration and -exploitation were found the be key. Their conclusions were best summarized by \textit{the need for having exploration tools, which combine summary statistics and interactive visualisations, to analyse heterogeneous data-sets}.
-
 \medskip
-The implementation of RDF will be swift since RDF already is a web-standard and a significant number of public biology-related sources are already in RDF-format. This will enable users of our methodologies to efficiently connect and integrate their data with public resources. Current statistical software, like the R environment, have packages (made by researchers from computer sciences) to extract and further analyse SPARQL-output. This means that users only have to learn SPARQL-queries, in order to use the proposed methods.
 
-By enabling more users to use methods and sources of RDF, this research will, in a broader perspective, have a direct effect on the Semantic Web. By lowering the (bioinformatical) threshold for analysis, more data can be faster analysed by more people, further accelerating research. Users will also be able to tell their story (i.e. results) better. Psychologist will, for example, be able to get a better visualisation and thus understanding of a neuroscientist's work. Big pharmaceutical companies will be able to further include and analyse data of basic science, clinical trails and business-statistics with more efficiency. Moreover, the research-community will be one significant step further in dissecting the complex biology of cancer.
+\noindent
+HIER NOG IETS OVER NON\_CODING\_NC
+\medskip
+
+\noindent
+The implementation of our proposed graph-based methods will be swift since RDF already is a web-standard and a significant number of public biology-related sources are already in RDF-format. This will enable users of our methodologies to efficiently connect and integrate their data with public resources. Current statistical software, like the R environment, have packages to extract and further analyse SPARQL-output. This means that users only have to learn SPARQL-queries, in order to use the proposed methods.
+
+By enabling more users to use methods and sources of our approaches, this research will, in a broader perspective, have a direct effect on the semantic web and biological databases. By lowering the (bioinformatical) threshold for analysis, more data can be faster analysed by more people, further accelerating research. Users will also be able to tell their story (i.e. results) better. Psychologist will, for example, be able to get a better visualisation and thus understanding of a neuroscientist's work. Big pharmaceutical companies will be able to further include and analyse data of basic science, clinical trails and business-statistics with more efficiency. Moreover, the research-community will be one significant step further in dissecting the complex biology of (structural variation in) non-coding regions of the genome.
 
 \section*{Experimental strategy}
 \subsection*{Placement and institute}
@@ -207,60 +212,90 @@ Due to the affiliation with the University Medical Center Utrecht (UMCU), we are
 
 Groups in the Hubrecht are heavily involved in (inter)national consortia, like the \textit{Cancer Genomics Centre}. This national consortium of research-groups, predominantly of the Hubrecht Institute and the Netherlands Cancer Institute (NKI), focusses on cancer's (epi)genetic alterations and responses to drugs. Data from this project will include various levels (e.g. (epi)genomics, phospho-proteomics) and dimensions (e.g. drug-responses, time-series). For the cancer sub-population study, a collaboration between the \textit{van Oudenaarden}-group (lineage-tracing and CELL-seq) and the \textit{Clevers}-group (cancer-biobank) will be formed.
 
-A considerable amount of Dutch research groups make use of the Utrecht DNA-sequencing Facility and the Netherlands Proteomics Centre, which ensures adequate opportunities for collaborations and data-integration-based research questions. 
+A considerable amount of Dutch research groups make use of the Utrecht DNA-sequencing Facility(UDsF) and the Netherlands Proteomics Centre, which ensures adequate opportunities for collaborations and data-integration-based research questions. Furthermore, the newest generation of DNA-sequencing methods from Oxford NanoPore and Pacific Biosciences are being deployed in the UDsF. These technologies result in larger sequenced stretches of DNA, which will make a considerable impact in the identification and analysis of larger structural variants.
 
 Ties with international leaders in biology-related semantic web and visualisation technologies have been made and will continue to be expanded. Joachim Baran and Pjotr Prins have been heavily involved in the planning stages, being key players in handling various data-formats (into RDF) with \textit{BIO-Ruby}. Communications with Artem Tarasov of \textit{Sambamba} and Jerven Bolleman -key engineer of the \textit{UniProt-RDF} project- have also been established.
-
-\subsection*{Experimental procedures:}
-
-!!WGS!!
-Data extraction:
-	BAM ?
-	VCF ?
-Welke sources precies (we moeten keuzes maken, max 3 zou ik zo zeggen)
-	
-!!NanoPore!!
-
-Data integration:
-	Public / Private
-	Epi / HiC / ...   (ook hier specificeren waar we meest verwachten / op focussen / waar 	    het vandaan komt
-
-Organoids
-
-CRISPR / CAS9
+%!!WGS!!
+%Data extraction:
+%	BAM ?
+%	VCF ?
+%Welke sources precies (we moeten keuzes maken, max 3 zou ik zo zeggen)
+%	
+%!!NanoPore!!
+%
+%Data integration:
+%	Public / Private
+%	Epi / HiC / ...   (ook hier specificeren waar we meest verwachten / op focussen / waar 	    het vandaan komt
+%
+%Organoids
+%
+%CRISPR / CAS9
 
 
 
-\subsection*{		Technische themes:}
+\subsection*{Technical themes}
 %		RDF: gebruiken wat er is en waar nodig creeren (basis ligt er al, uitbreiden)
 %		Visual analytics voor de graphs
-\subsection*{		Biologische themes:}
+Before any analysis on the effects of non-coding structural variants can occur, we firstly lay a strong technical foundation. Not only do we have to develop/adopt bioinformatical approaches, but we have to take into account the need for validation.
+\medskip
+
+\noindent
+\textbf{Computational methodology} \\
+vcf als start (miss fine-mapping van bams).. dus werken post-calling/filtering
+
+databases: encode als leidraad + rdf-dbs
+\medskip
+
+\noindent
+\textbf{Validation strategy} \\
+crispr/cas9: mogelijkheid om een select aantal candidates in deatil uit te werken
+
+
+\subsection*{Biological themes}
 %		Characterisation of the effects of SVs in cis- and trans-regulatory regions in disease. (TFBS, ncRNA, epistasis?)
 %		Non-coding structural factors of drug-resistance
 %		Single-cell analysis of SVs in cancer sub-populations
-This subset of questions shows the main innovative point of our proposed methods: they enable us to analyse and integrate several omics-levels and multiple dimensions (e.g. drug-resistance, cancer types), while allowing easy connection to public data.
+This set of questions (ordered descending on $\frac{Pay}{Risc}$) shows the main innovative point of our proposed methods: they enable us to analyse and integrate several 'omics-levels and multiple dimensions (e.g. drug-resistance, cancer types), while allowing easy connection to public data. 
+\medskip
 
+\noindent
+\textbf{Study (recurrent) non-coding SVs in TCGA?!} \\
+Is volgens mij de meest rijke dataset die we tot nu toe hebben.
+\medskip
+
+\noindent
+\textbf{Identify effects of Chromotripsis induced SVs ??} \\
+Wigard heeft data van chromotripsis data patienten die volgens mij deels publiek is.
+[ref: Deciphering the pathogenic consequences of chromosomal aberrations in human genetic disease.]
+Wij willen dit natuurlijk verder trekken maar is een waardevolle dataset.
+\medskip
+
+\noindent
+\textbf{Study non-coding SVs in healthy Adult Stemcells} \\
+Volgens mij zou Ruben dat helemaal cool vinden ......
+\medskip
+
+\noindent
+\textbf{Single-cell analysis of SVs in cancer sub-populations} \\
+Due to the advances in single-cell sequencing (CELL-seq) of both DNA and RNA, we are able to look at consequences of SVs on transcription in single cells. The innovation here is the fact that signals are not averaged out by multiple (asynchronous) cells and we can thus analyse the cell as part of a sub-population. By integrating CELL-seq DNA- and RNA-data of different sub-populations of (heterogeneous) cancer-samples, we can find the previously obscured direct (i.e. cis-acting) and indirect (i.e. trans-acting) consequences of SVs in specific sub-populations. Furthermore, integrating data of lineage-tracing between and within different sub-populations could identify causal non-coding SV-events in the progression of cancer. Linking the public data of ontology- and pathway-databases will enable us to infer specific sub-population changes in pathways as the consequence of SVs or de-regulated genes due to SVs.
+\medskip
+
+\noindent
 \textbf{Non-coding structural factors of drug-resistance} \\
 The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying the effects of variants in coding regions in cancer, including factors of drug resistance. However, the data has not been used to study the non-coding regions, primarily because of the aforementioned limitations in both non-coding analysis and data-integration. Firstly, we will analyse the (epi)genomic data to identify cancer-specific SVs that are cis-acting on specific genes. Secondly, the data of the products of these genes (e.g. transcripts, proteins and metabolites) is integrated to infer possible consequences on these levels. Linking specific drug-resistance information will also enable us find patterns between the SVs, the identified (consequences of) genes and specific drugs. Since treatment of a single drug often leads to resistance by a bypass in the drug-inhibited pathway\cite{Prahallad2012}, we also integrate public and CGC.nl-data on perturbed pathways in cancer. This will elucidate the mechanisms of non-coding SV-induced drug-resistance in cancer samples and potentially identify new targets for treatment. (!Korter!)
 
 CGC blijft altijd 1 cel / individue en dan nog wel een genomisch zeer fckd one.
 
-\textbf{Study (recurrent) non-coding SVs in TCGA?!} \\
-Is volgens mij de meest rijke dataset die we tot nu toe hebben.
 
 
-\textbf{Identify effects of Chromotripsis induced SVs ??} \\
-Wigard heeft data van chromotripsis data patienten die volgens mij deels publiek is.
-[ref: Deciphering the pathogenic consequences of chromosomal aberrations in human genetic disease.]
-Wij willen dit natuurlijk verder trekken maar is een waardevolle dataset.
 
 
-\textbf{Study non-coding SVs in healthy Adult Stemcells} \\
-Volgens mij zou Ruben dat helemaal cool vinden ......
 
 
-\textbf{Single-cell analysis of SVs in cancer sub-populations} \\
-Due to the advances in single-cell sequencing (CELL-seq) of both DNA and RNA, we are able to look at consequences of SVs on transcription in single cells. The innovation here is the fact that signals are not averaged out by multiple (asynchronous) cells and we can thus analyse the cell as part of a sub-population. By integrating CELL-seq DNA- and RNA-data of different sub-populations of (heterogeneous) cancer-samples, we can find the previously obscured direct (i.e. cis-acting) and indirect (i.e. trans-acting) consequences of SVs in specific sub-populations. Furthermore, integrating data of lineage-tracing between and within different sub-populations could identify causal non-coding SV-events in the progression of cancer. Linking the public data of ontology- and pathway-databases will enable us to infer specific sub-population changes in pathways as the consequence of SVs or de-regulated genes due to SVs.
+
+
+
+
 \section*{Timetable}
 \begin{table}[h]
 \begin{center}
