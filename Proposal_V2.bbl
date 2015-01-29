@@ -1,467 +1,312 @@
-\begin{thebibliography}{33}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
 
-\bibitem[Weischenfeldt et~al.(2013)Weischenfeldt, Symmons, Spitz, and
-  Korbel]{Weischenfeldt2013}
-Joachim Weischenfeldt, Orsolya Symmons, Fran\c{c}ois Spitz, and Jan~O Korbel.
-\newblock {Phenotypic impact of genomic structural variation: insights from and
-  for human disease.}
-\newblock \emph{Nat. Rev. Genet.}, 14\penalty0 (2):\penalty0 125--38, February
-  2013.
-\newblock ISSN 1471-0064.
-\newblock \doi{10.1038/nrg3373}.
-\newblock URL \url{http://dx.doi.org/10.1038/nrg3373}.
+\bibitem[\protect\astroncite{Ashburner et~al.}{2000}]{Ashburner2000}
+Ashburner, M., Ball, C.~A., Blake, J.~A., Botstein, D., Butler, H., Cherry,
+  J.~M., Davis, A.~P., Dolinski, K., Dwight, S.~S., Eppig, J.~T., Harris,
+  M.~A., Hill, D.~P., Issel-Tarver, L., Kasarskis, A., Lewis, S., Matese,
+  J.~C., Richardson, J.~E., Ringwald, M., Rubin, G.~M., and Sherlock, G.
+  (2000).
+\newblock {Gene ontology: tool for the unification of biology. The Gene
+  Ontology Consortium.}
+\newblock {\em Nat. Genet.}, 25(1):25--9.
 
-\bibitem[Munoz et~al.(2011)Munoz, Low, Kok, Chin, Frese, Ding, Choo, and
-  Heck]{Munoz2011}
-Javier Munoz, Teck~Y Low, Yee~J Kok, Angela Chin, Christian~K Frese, Vanessa
-  Ding, Andre Choo, and Albert J~R Heck.
-\newblock {The quantitative proteomes of human-induced pluripotent stem cells
-  and embryonic stem cells.}
-\newblock \emph{Mol. Syst. Biol.}, 7:\penalty0 550, January 2011.
-\newblock ISSN 1744-4292.
-\newblock \doi{10.1038/msb.2011.84}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3261715\&tool=pmcentrez\&rendertype=abstract}.
-
-\bibitem[Gomez-Cabrero et~al.(2014)Gomez-Cabrero, Abugessaisa, Maier,
-  Teschendorff, Merkenschlager, Gisel, Ballestar, Bongcam-Rudloff, Conesa, and
-  Tegn\'{e}r]{Gomez-Cabrero2014}
-David Gomez-Cabrero, Imad Abugessaisa, Dieter Maier, Andrew Teschendorff,
-  Matthias Merkenschlager, Andreas Gisel, Esteban Ballestar, Erik
-  Bongcam-Rudloff, Ana Conesa, and Jesper Tegn\'{e}r.
-\newblock {Data integration in the era of omics: current and future
-  challenges}.
-\newblock \emph{BMC Syst. Biol.}, 8\penalty0 (Suppl 2):\penalty0 I1, 2014.
-\newblock ISSN 1752-0509.
-\newblock \doi{10.1186/1752-0509-8-S2-I1}.
-\newblock URL \url{http://www.biomedcentral.com/1752-0509/8/S2/I1}.
-
-\bibitem[Huttenhower and Hofmann(2010)]{Huttenhower2010}
-Curtis Huttenhower and Oliver Hofmann.
-\newblock {A quick guide to large-scale genomic data mining.}
-\newblock \emph{PLoS Comput. Biol.}, 6\penalty0 (5):\penalty0 e1000779, May
-  2010.
-\newblock ISSN 1553-7358.
-\newblock \doi{10.1371/journal.pcbi.1000779}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2877728\&tool=pmcentrez\&rendertype=abstract}.
-
-\bibitem[Searls(2005)]{Searls2005}
-David~B Searls.
-\newblock {Data integration: challenges for drug discovery.}
-\newblock \emph{Nat. Rev. Drug Discov.}, 4\penalty0 (1):\penalty0 45--58,
-  January 2005.
-\newblock ISSN 1474-1776.
-\newblock \doi{10.1038/nrd1608}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/15688072}.
-
-\bibitem[Hamid et~al.(2009)Hamid, Hu, Roslin, Ling, Greenwood, and
-  Beyene]{Hamid2009}
-Jemila~S Hamid, Pingzhao Hu, Nicole~M Roslin, Vicki Ling, Celia M~T Greenwood,
-  and Joseph Beyene.
-\newblock {Data integration in genetics and genomics: methods and challenges.}
-\newblock \emph{Hum. Genomics Proteomics}, 2009\penalty0 (1):\penalty0
-  869093--, January 2009.
-\newblock ISSN 1757-4242.
-\newblock \doi{10.4061/2009/869093}.
-\newblock URL
-  \url{http://hgp.sagepub.com.proxy.library.uu.nl/content/1/1/869093.full}.
-
-\bibitem[ENC(2004)]{ENCODE}
-{The ENCODE (ENCyclopedia Of DNA Elements) Project.}
-\newblock \emph{Science}, 306\penalty0 (5696):\penalty0 636--40, October 2004.
-\newblock ISSN 1095-9203.
-\newblock \doi{10.1126/science.1105136}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/15499007}.
-
-\bibitem[Lander et~al.(2001)Lander, Linton, Birren, Nusbaum, Zody, Baldwin,
-  Devon, Dewar, Doyle, FitzHugh, Funke, Gage, Harris, Heaford, Howland, Kann,
-  Lehoczky, LeVine, McEwan, McKernan, Meldrim, Mesirov, Miranda, Morris,
-  Naylor, Raymond, Rosetti, Santos, Sheridan, Sougnez, Stange-Thomann,
-  Stojanovic, Subramanian, Wyman, Rogers, Sulston, Ainscough, Beck, Bentley,
-  Burton, Clee, Carter, Coulson, Deadman, Deloukas, Dunham, Dunham, Durbin,
-  French, Grafham, Gregory, Hubbard, Humphray, Hunt, Jones, Lloyd, McMurray,
-  Matthews, Mercer, Milne, Mullikin, Mungall, Plumb, Ross, Shownkeen, Sims,
-  Waterston, Wilson, Hillier, McPherson, Marra, Mardis, Fulton, Chinwalla,
-  Pepin, Gish, Chissoe, Wendl, Delehaunty, Miner, Delehaunty, Kramer, Cook,
-  Fulton, Johnson, Minx, Clifton, Hawkins, Branscomb, Predki, Richardson,
-  Wenning, Slezak, Doggett, Cheng, Olsen, Lucas, Elkin, Uberbacher, Frazier,
-  Gibbs, Muzny, Scherer, Bouck, Sodergren, Worley, Rives, Gorrell, Metzker,
-  Naylor, Kucherlapati, Nelson, Weinstock, Sakaki, Fujiyama, Hattori, Yada,
-  Toyoda, Itoh, Kawagoe, Watanabe, Totoki, Taylor, Weissenbach, Heilig, Saurin,
-  Artiguenave, Brottier, Bruls, Pelletier, Robert, Wincker, Smith,
-  Doucette-Stamm, Rubenfield, Weinstock, Lee, Dubois, Rosenthal, Platzer,
-  Nyakatura, Taudien, Rump, Yang, Yu, Wang, Huang, Gu, Hood, Rowen, Madan, Qin,
-  Davis, Federspiel, Abola, Proctor, Myers, Schmutz, Dickson, Grimwood, Cox,
-  Olson, Kaul, Shimizu, Kawasaki, Minoshima, Evans, Athanasiou, Schultz, Roe,
-  Chen, Pan, Ramser, Lehrach, Reinhardt, McCombie, de~la Bastide, Dedhia,
-  Bl\"{o}cker, Hornischer, Nordsiek, Agarwala, Aravind, Bailey, Bateman,
-  Batzoglou, Birney, Bork, Brown, Burge, Cerutti, Chen, Church, Clamp, Copley,
-  Doerks, Eddy, Eichler, Furey, Galagan, Gilbert, Harmon, Hayashizaki,
-  Haussler, Hermjakob, Hokamp, Jang, Johnson, Jones, Kasif, Kaspryzk, Kennedy,
-  Kent, Kitts, Koonin, Korf, Kulp, Lancet, Lowe, McLysaght, Mikkelsen, Moran,
-  Mulder, Pollara, Ponting, Schuler, Schultz, Slater, Smit, Stupka,
-  Szustakowski, Thierry-Mieg, Thierry-Mieg, Wagner, Wallis, Wheeler, Williams,
-  Wolf, Wolfe, Yang, Yeh, Collins, Guyer, Peterson, Felsenfeld, Wetterstrand,
-  Patrinos, Morgan, de~Jong, Catanese, Osoegawa, Shizuya, Choi, Chen, and
-  Szustakowki]{Lander2001}
-E~S Lander, L~M Linton, B~Birren, C~Nusbaum, M~C Zody, J~Baldwin, K~Devon,
-  K~Dewar, M~Doyle, W~FitzHugh, R~Funke, D~Gage, K~Harris, A~Heaford,
-  J~Howland, L~Kann, J~Lehoczky, R~LeVine, P~McEwan, K~McKernan, J~Meldrim, J~P
-  Mesirov, C~Miranda, W~Morris, J~Naylor, C~Raymond, M~Rosetti, R~Santos,
-  A~Sheridan, C~Sougnez, N~Stange-Thomann, N~Stojanovic, A~Subramanian,
-  D~Wyman, J~Rogers, J~Sulston, R~Ainscough, S~Beck, D~Bentley, J~Burton,
-  C~Clee, N~Carter, A~Coulson, R~Deadman, P~Deloukas, A~Dunham, I~Dunham,
-  R~Durbin, L~French, D~Grafham, S~Gregory, T~Hubbard, S~Humphray, A~Hunt,
-  M~Jones, C~Lloyd, A~McMurray, L~Matthews, S~Mercer, S~Milne, J~C Mullikin,
-  A~Mungall, R~Plumb, M~Ross, R~Shownkeen, S~Sims, R~H Waterston, R~K Wilson,
-  L~W Hillier, J~D McPherson, M~A Marra, E~R Mardis, L~A Fulton, A~T Chinwalla,
-  K~H Pepin, W~R Gish, S~L Chissoe, M~C Wendl, K~D Delehaunty, T~L Miner,
-  A~Delehaunty, J~B Kramer, L~L Cook, R~S Fulton, D~L Johnson, P~J Minx, S~W
-  Clifton, T~Hawkins, E~Branscomb, P~Predki, P~Richardson, S~Wenning, T~Slezak,
-  N~Doggett, J~F Cheng, A~Olsen, S~Lucas, C~Elkin, E~Uberbacher, M~Frazier, R~A
-  Gibbs, D~M Muzny, S~E Scherer, J~B Bouck, E~J Sodergren, K~C Worley, C~M
-  Rives, J~H Gorrell, M~L Metzker, S~L Naylor, R~S Kucherlapati, D~L Nelson,
-  G~M Weinstock, Y~Sakaki, A~Fujiyama, M~Hattori, T~Yada, A~Toyoda, T~Itoh,
-  C~Kawagoe, H~Watanabe, Y~Totoki, T~Taylor, J~Weissenbach, R~Heilig, W~Saurin,
-  F~Artiguenave, P~Brottier, T~Bruls, E~Pelletier, C~Robert, P~Wincker, D~R
-  Smith, L~Doucette-Stamm, M~Rubenfield, K~Weinstock, H~M Lee, J~Dubois,
-  A~Rosenthal, M~Platzer, G~Nyakatura, S~Taudien, A~Rump, H~Yang, J~Yu, J~Wang,
-  G~Huang, J~Gu, L~Hood, L~Rowen, A~Madan, S~Qin, R~W Davis, N~A Federspiel,
-  A~P Abola, M~J Proctor, R~M Myers, J~Schmutz, M~Dickson, J~Grimwood, D~R Cox,
-  M~V Olson, R~Kaul, N~Shimizu, K~Kawasaki, S~Minoshima, G~A Evans,
-  M~Athanasiou, R~Schultz, B~A Roe, F~Chen, H~Pan, J~Ramser, H~Lehrach,
-  R~Reinhardt, W~R McCombie, M~de~la Bastide, N~Dedhia, H~Bl\"{o}cker,
-  K~Hornischer, G~Nordsiek, R~Agarwala, L~Aravind, J~A Bailey, A~Bateman,
-  S~Batzoglou, E~Birney, P~Bork, D~G Brown, C~B Burge, L~Cerutti, H~C Chen,
-  D~Church, M~Clamp, R~R Copley, T~Doerks, S~R Eddy, E~E Eichler, T~S Furey,
-  J~Galagan, J~G Gilbert, C~Harmon, Y~Hayashizaki, D~Haussler, H~Hermjakob,
-  K~Hokamp, W~Jang, L~S Johnson, T~A Jones, S~Kasif, A~Kaspryzk, S~Kennedy, W~J
-  Kent, P~Kitts, E~V Koonin, I~Korf, D~Kulp, D~Lancet, T~M Lowe, A~McLysaght,
-  T~Mikkelsen, J~V Moran, N~Mulder, V~J Pollara, C~P Ponting, G~Schuler,
-  J~Schultz, G~Slater, A~F Smit, E~Stupka, J~Szustakowski, D~Thierry-Mieg,
-  J~Thierry-Mieg, L~Wagner, J~Wallis, R~Wheeler, A~Williams, Y~I Wolf, K~H
-  Wolfe, S~P Yang, R~F Yeh, F~Collins, M~S Guyer, J~Peterson, A~Felsenfeld, K~A
-  Wetterstrand, A~Patrinos, M~J Morgan, P~de~Jong, J~J Catanese, K~Osoegawa,
-  H~Shizuya, S~Choi, Y~J Chen, and J~Szustakowki.
-\newblock {Initial sequencing and analysis of the human genome.}
-\newblock \emph{Nature}, 409\penalty0 (6822):\penalty0 860--921, February 2001.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/35057062}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/11237011}.
-
-\bibitem[Rands et~al.(2014)Rands, Meader, Ponting, and Lunter]{Rands2014}
-Chris~M Rands, Stephen Meader, Chris~P Ponting, and Gerton Lunter.
-\newblock {8.2\% of the Human Genome Is Constrained: Variation in Rates of
-  Turnover across Functional Element Classes in the Human Lineage.}
-\newblock \emph{PLoS Genet.}, 10\penalty0 (7):\penalty0 e1004525, July 2014.
-\newblock ISSN 1553-7404.
-\newblock \doi{10.1371/journal.pgen.1004525}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4109858\&tool=pmcentrez\&rendertype=abstract}.
-
-\bibitem[McLaren et~al.(2010)McLaren, Pritchard, Rios, Chen, Flicek, and
-  Cunningham]{McLaren2010}
-William McLaren, Bethan Pritchard, Daniel Rios, Yuan Chen, Paul Flicek, and
-  Fiona Cunningham.
-\newblock {Deriving the consequences of genomic variants with the Ensembl API
-  and SNP Effect Predictor.}
-\newblock \emph{Bioinformatics}, 26\penalty0 (16):\penalty0 2069--70, August
-  2010.
-\newblock ISSN 1367-4811.
-\newblock \doi{10.1093/bioinformatics/btq330}.
-\newblock URL
-  \url{http://bioinformatics.oxfordjournals.org.proxy.library.uu.nl/content/26/16/2069.short}.
-
-\bibitem[Bird et~al.(2006)Bird, Stranger, and Dermitzakis]{Bird2006}
-Christine~P Bird, Barbara~E Stranger, and Emmanouil~T Dermitzakis.
-\newblock {Functional variation and evolution of non-coding DNA.}
-\newblock \emph{Curr. Opin. Genet. Dev.}, 16\penalty0 (6):\penalty0 559--64,
-  December 2006.
-\newblock ISSN 0959-437X.
-\newblock \doi{10.1016/j.gde.2006.10.003}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0959437X06002024}.
-
-\bibitem[Benko et~al.(2009)Benko, Fantes, Amiel, Kleinjan, Thomas, Ramsay,
-  Jamshidi, Essafi, Heaney, Gordon, McBride, Golzio, Fisher, Perry, Abadie,
-  Ayuso, Holder-Espinasse, Kilpatrick, Lees, Picard, Temple, Thomas, Vazquez,
-  Vekemans, {Roest Crollius}, Hastie, Munnich, Etchevers, Pelet, Farlie,
-  Fitzpatrick, and Lyonnet]{Benko2009}
-Sabina Benko, Judy~A Fantes, Jeanne Amiel, Dirk-Jan Kleinjan, Sophie Thomas,
-  Jacqueline Ramsay, Negar Jamshidi, Abdelkader Essafi, Simon Heaney,
-  Christopher~T Gordon, David McBride, Christelle Golzio, Malcolm Fisher, Paul
-  Perry, V\'{e}ronique Abadie, Carmen Ayuso, Muriel Holder-Espinasse, Nicky
-  Kilpatrick, Melissa~M Lees, Arnaud Picard, I~Karen Temple, Paul Thomas,
-  Marie-Paule Vazquez, Michel Vekemans, Hugues {Roest Crollius}, Nicholas~D
-  Hastie, Arnold Munnich, Heather~C Etchevers, Anna Pelet, Peter~G Farlie,
-  David~R Fitzpatrick, and Stanislas Lyonnet.
-\newblock {Highly conserved non-coding elements on either side of SOX9
-  associated with Pierre Robin sequence.}
-\newblock \emph{Nat. Genet.}, 41\penalty0 (3):\penalty0 359--64, March 2009.
-\newblock ISSN 1546-1718.
-\newblock \doi{10.1038/ng.329}.
-\newblock URL
-  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n3/abs/ng.329.html}.
-
-\bibitem[Kurth et~al.(2009)Kurth, Klopocki, Stricker, van Oosterwijk, Vanek,
-  Altmann, Santos, van Harssel, de~Ravel, Wilkie, Gal, and Mundlos]{Kurth2009}
-Ingo Kurth, Eva Klopocki, Sigmar Stricker, Jolieke van Oosterwijk, Sebastian
-  Vanek, Jens Altmann, Heliosa~G Santos, Jeske J~T van Harssel, Thomy de~Ravel,
-  Andrew O~M Wilkie, Andreas Gal, and Stefan Mundlos.
-\newblock {Duplications of noncoding elements 5' of SOX9 are associated with
-  brachydactyly-anonychia.}
-\newblock \emph{Nat. Genet.}, 41\penalty0 (8):\penalty0 862--3, August 2009.
-\newblock ISSN 1546-1718.
-\newblock \doi{10.1038/ng0809-862}.
-\newblock URL
-  \url{http://www.nature.com.proxy.library.uu.nl/ng/journal/v41/n8/full/ng0809-862.html}.
-
-\bibitem[Pichon et~al.(2012)Pichon, {A. Wilson}, Stoneley, Bastide, {A King},
-  Somers, and {E Willis}]{Pichon2012}
-Xavier Pichon, Lindsay {A. Wilson}, Mark Stoneley, Amandine Bastide, Helen {A
-  King}, Joanna Somers, and Anne {E Willis}.
-\newblock {RNA Binding Protein/RNA Element Interactions and the Control of
-  Translation}.
-\newblock \emph{Curr. Protein Pept. Sci.}, 13:\penalty0 294--304, 2012.
-\newblock ISSN 13892037.
-\newblock \doi{10.2174/138920312801619475}.
-
-\bibitem[Barrett et~al.(2012)Barrett, Fletcher, and Wilton]{Barrett2012}
-Lucy~W Barrett, Sue Fletcher, and Steve~D Wilton.
+\bibitem[\protect\astroncite{Barrett et~al.}{2012}]{Barrett2012}
+Barrett, L.~W., Fletcher, S., and Wilton, S.~D. (2012).
 \newblock {Regulation of eukaryotic gene expression by the untranslated gene
   regions and other non-coding elements.}
-\newblock \emph{Cell. Mol. Life Sci.}, 69\penalty0 (21):\penalty0 3613--34,
-  November 2012.
-\newblock ISSN 1420-9071.
-\newblock \doi{10.1007/s00018-012-0990-9}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3474909\&tool=pmcentrez\&rendertype=abstract}.
+\newblock {\em Cell. Mol. Life Sci.}, 69(21):3613--34.
 
-\bibitem[Kidd et~al.(2010)Kidd, Graves, Newman, Fulton, Hayden, Malig,
-  Kallicki, Kaul, Wilson, and Eichler]{Kidd2010}
-Jeffrey~M Kidd, Tina Graves, Tera~L Newman, Robert Fulton, Hillary~S Hayden,
-  Maika Malig, Joelle Kallicki, Rajinder Kaul, Richard~K Wilson, and Evan~E
-  Eichler.
-\newblock {A human genome structural variation sequencing resource reveals
-  insights into mutational mechanisms.}
-\newblock \emph{Cell}, 143\penalty0 (5):\penalty0 837--47, November 2010.
-\newblock ISSN 1097-4172.
-\newblock \doi{10.1016/j.cell.2010.10.027}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3026629\&tool=pmcentrez\&rendertype=abstract}.
+\bibitem[\protect\astroncite{Benko et~al.}{2009}]{Benko2009}
+Benko, S., Fantes, J.~A., Amiel, J., Kleinjan, D.-J., Thomas, S., Ramsay, J.,
+  Jamshidi, N., Essafi, A., Heaney, S., Gordon, C.~T., McBride, D., Golzio, C.,
+  Fisher, M., Perry, P., Abadie, V., Ayuso, C., Holder-Espinasse, M.,
+  Kilpatrick, N., Lees, M.~M., Picard, A., Temple, I.~K., Thomas, P., Vazquez,
+  M.-P., Vekemans, M., {Roest Crollius}, H., Hastie, N.~D., Munnich, A.,
+  Etchevers, H.~C., Pelet, A., Farlie, P.~G., Fitzpatrick, D.~R., and Lyonnet,
+  S. (2009).
+\newblock {Highly conserved non-coding elements on either side of SOX9
+  associated with Pierre Robin sequence.}
+\newblock {\em Nat. Genet.}, 41(3):359--64.
 
-\bibitem[Poliseno et~al.(2010)Poliseno, Salmena, Zhang, Carver, Haveman, and
-  Pandolfi]{Poliseno2010}
-Laura Poliseno, Leonardo Salmena, Jiangwen Zhang, Brett Carver, William~J
-  Haveman, and Pier~Paolo Pandolfi.
-\newblock {A coding-independent function of gene and pseudogene mRNAs regulates
-  tumour biology.}
-\newblock \emph{Nature}, 465\penalty0 (7301):\penalty0 1033--8, June 2010.
-\newblock ISSN 1476-4687.
-\newblock \doi{10.1038/nature09144}.
-\newblock URL \url{http://dx.doi.org/10.1038/nature09144}.
+\bibitem[\protect\astroncite{Bird et~al.}{2006}]{Bird2006}
+Bird, C.~P., Stranger, B.~E., and Dermitzakis, E.~T. (2006).
+\newblock {Functional variation and evolution of non-coding DNA.}
+\newblock {\em Curr. Opin. Genet. Dev.}, 16(6):559--64.
 
-\bibitem[Tam et~al.(2008)Tam, Aravin, Stein, Girard, Murchison, Cheloufi,
-  Hodges, Anger, Sachidanandam, Schultz, and Hannon]{Tam2008}
-Oliver~H Tam, Alexei~A Aravin, Paula Stein, Angelique Girard, Elizabeth~P
-  Murchison, Sihem Cheloufi, Emily Hodges, Martin Anger, Ravi Sachidanandam,
-  Richard~M Schultz, and Gregory~J Hannon.
-\newblock {Pseudogene-derived small interfering RNAs regulate gene expression
-  in mouse oocytes.}
-\newblock \emph{Nature}, 453\penalty0 (7194):\penalty0 534--8, May 2008.
-\newblock ISSN 1476-4687.
-\newblock \doi{10.1038/nature06904}.
-\newblock URL \url{http://dx.doi.org/10.1038/nature06904}.
+\bibitem[\protect\astroncite{Boyle et~al.}{2012}]{Boyle2012}
+Boyle, A.~P., Hong, E.~L., Hariharan, M., Cheng, Y., Schaub, M.~A., Kasowski,
+  M., Karczewski, K.~J., Park, J., Hitz, B.~C., Weng, S., Cherry, J.~M., and
+  Snyder, M. (2012).
+\newblock {Annotation of functional variation in personal genomes using
+  RegulomeDB.}
+\newblock {\em Genome Res.}, 22(9):1790--7.
 
-\bibitem[Ongen et~al.(2014)Ongen, Andersen, Bramsen, Oster, Rasmussen,
-  Ferreira, Sandoval, Vidal, Whiffin, Planchon, Padioleau, Bielser, Romano,
-  Tomlinson, Houlston, Esteller, Orntoft, and Dermitzakis]{Ongen2014}
-Halit Ongen, Claus~L. Andersen, Jesper~B. Bramsen, Bodil Oster, Mads~H.
-  Rasmussen, Pedro~G. Ferreira, Juan Sandoval, Enrique Vidal, Nicola Whiffin,
-  Alexandra Planchon, Ismael Padioleau, Deborah Bielser, Luciana Romano, Ian
-  Tomlinson, Richard~S. Houlston, Manel Esteller, Torben~F. Orntoft, and
-  Emmanouil~T. Dermitzakis.
-\newblock {Putative cis-regulatory drivers in colorectal cancer}.
-\newblock \emph{Nature}, July 2014.
-\newblock ISSN 0028-0836.
-\newblock \doi{10.1038/nature13602}.
-\newblock URL
-  \url{http://www.nature.com.proxy.library.uu.nl/nature/journal/vaop/ncurrent/full/nature13602.html}.
+\bibitem[\protect\astroncite{{ENCODE Project Consortium}}{2004}]{ENCODE}
+{ENCODE Project Consortium} (2004).
+\newblock {The ENCODE (ENCyclopedia Of DNA Elements) Project.}
+\newblock {\em Science}, 306(5696):636--40.
 
-\bibitem[Khurana et~al.(2013)Khurana, Fu, Colonna, Mu, Kang, Lappalainen,
-  Sboner, Lochovsky, Chen, Harmanci, Das, Abyzov, Balasubramanian, Beal,
-  Chakravarty, Challis, Chen, Clarke, Clarke, Cunningham, Evani, Flicek,
-  Fragoza, Garrison, Gibbs, G\"{u}m\"{u}s, Herrero, Kitabayashi, Kong, Lage,
-  Liluashvili, Lipkin, MacArthur, Marth, Muzny, Pers, Ritchie, Rosenfeld, Sisu,
-  Wei, Wilson, Xue, Yu, Dermitzakis, Yu, Rubin, Tyler-Smith, and
-  Gerstein]{Khurana2013}
-Ekta Khurana, Yao Fu, Vincenza Colonna, Xinmeng~Jasmine Mu, Hyun~Min Kang,
-  Tuuli Lappalainen, Andrea Sboner, Lucas Lochovsky, Jieming Chen, Arif
-  Harmanci, Jishnu Das, Alexej Abyzov, Suganthi Balasubramanian, Kathryn Beal,
-  Dimple Chakravarty, Daniel Challis, Yuan Chen, Declan Clarke, Laura Clarke,
-  Fiona Cunningham, Uday~S Evani, Paul Flicek, Robert Fragoza, Erik Garrison,
-  Richard Gibbs, Zeynep~H G\"{u}m\"{u}s, Javier Herrero, Naoki Kitabayashi,
-  Yong Kong, Kasper Lage, Vaja Liluashvili, Steven~M Lipkin, Daniel~G
-  MacArthur, Gabor Marth, Donna Muzny, Tune~H Pers, Graham R~S Ritchie,
-  Jeffrey~A Rosenfeld, Cristina Sisu, Xiaomu Wei, Michael Wilson, Yali Xue,
-  Fuli Yu, Emmanouil~T Dermitzakis, Haiyuan Yu, Mark~A Rubin, Chris
-  Tyler-Smith, and Mark Gerstein.
+\bibitem[\protect\astroncite{Gomez-Cabrero et~al.}{2014}]{Gomez-Cabrero2014}
+Gomez-Cabrero, D., Abugessaisa, I., Maier, D., Teschendorff, A.,
+  Merkenschlager, M., Gisel, A., Ballestar, E., Bongcam-Rudloff, E., Conesa,
+  A., and Tegn\'{e}r, J. (2014).
+\newblock {Data integration in the era of omics: current and future
+  challenges}.
+\newblock {\em BMC Syst. Biol.}, 8(Suppl 2):I1.
+
+\bibitem[\protect\astroncite{Hamid et~al.}{2009}]{Hamid2009}
+Hamid, J.~S., Hu, P., Roslin, N.~M., Ling, V., Greenwood, C. M.~T., and Beyene,
+  J. (2009).
+\newblock {Data integration in genetics and genomics: methods and challenges.}
+\newblock {\em Hum. Genomics Proteomics}, 2009(1):869093--.
+
+\bibitem[\protect\astroncite{Huang et~al.}{2013}]{Huang2013}
+Huang, F.~W., Hodis, E., Xu, M.~J., Kryukov, G.~V., Chin, L., and Garraway,
+  L.~A. (2013).
+\newblock {Highly recurrent TERT promoter mutations in human melanoma.}
+\newblock {\em Science}, 339(6122):957--9.
+
+\bibitem[\protect\astroncite{Huttenhower and Hofmann}{2010}]{Huttenhower2010}
+Huttenhower, C. and Hofmann, O. (2010).
+\newblock {A quick guide to large-scale genomic data mining.}
+\newblock {\em PLoS Comput. Biol.}, 6(5):e1000779.
+
+\bibitem[\protect\astroncite{Jupp et~al.}{2014}]{Jupp2014}
+Jupp, S., Malone, J., Bolleman, J., Brandizi, M., Davies, M., Garcia, L.,
+  Gaulton, A., Gehant, S., Laibe, C., Redaschi, N., Wimalaratne, S.~M., Martin,
+  M., {Le Nov\`{e}re}, N., Parkinson, H., Birney, E., and Jenkinson, A.~M.
+  (2014).
+\newblock {The EBI RDF platform: linked open data for the life sciences.}
+\newblock {\em Bioinformatics}, 30(9):1338--9.
+
+\bibitem[\protect\astroncite{Kanehisa and Goto}{2000}]{Kanehisa2000}
+Kanehisa, M. and Goto, S. (2000).
+\newblock {KEGG: kyoto encyclopedia of genes and genomes.}
+\newblock {\em Nucleic Acids Res.}, 28(1):27--30.
+
+\bibitem[\protect\astroncite{Karr et~al.}{2012}]{Karr2012}
+Karr, J.~R., Sanghvi, J.~C., Macklin, D.~N., Gutschow, M.~V., Jacobs, J.~M.,
+  Bolival, B., Assad-Garcia, N., Glass, J.~I., and Covert, M.~W. (2012).
+\newblock {A whole-cell computational model predicts phenotype from genotype.}
+\newblock {\em Cell}, 150(2):389--401.
+
+\bibitem[\protect\astroncite{Keim et~al.}{2010}]{Keim}
+Keim, D., Mansmann, F., and Thomas, J. (2010).
+\newblock {Visual analytics: how much visualization and how much analytics?}
+\newblock {\em ACM SIGKDD Explor. \ldots}, 11(2):5--8.
+
+\bibitem[\protect\astroncite{Khurana et~al.}{2013}]{Khurana2013}
+Khurana, E., Fu, Y., Colonna, V., Mu, X.~J., Kang, H.~M., Lappalainen, T.,
+  Sboner, A., Lochovsky, L., Chen, J., Harmanci, A., Das, J., Abyzov, A.,
+  Balasubramanian, S., Beal, K., Chakravarty, D., Challis, D., Chen, Y.,
+  Clarke, D., Clarke, L., Cunningham, F., Evani, U.~S., Flicek, P., Fragoza,
+  R., Garrison, E., Gibbs, R., G\"{u}m\"{u}s, Z.~H., Herrero, J., Kitabayashi,
+  N., Kong, Y., Lage, K., Liluashvili, V., Lipkin, S.~M., MacArthur, D.~G.,
+  Marth, G., Muzny, D., Pers, T.~H., Ritchie, G. R.~S., Rosenfeld, J.~A., Sisu,
+  C., Wei, X., Wilson, M., Xue, Y., Yu, F., Dermitzakis, E.~T., Yu, H., Rubin,
+  M.~A., Tyler-Smith, C., and Gerstein, M. (2013).
 \newblock {Integrative annotation of variants from 1092 humans: application to
   cancer genomics.}
-\newblock \emph{Science}, 342\penalty0 (6154):\penalty0 1235587, October 2013.
-\newblock ISSN 1095-9203.
-\newblock \doi{10.1126/science.1235587}.
-\newblock URL \url{http://europepmc.org/articles/PMC3947637/?report=abstract}.
+\newblock {\em Science}, 342(6154):1235587.
 
-\bibitem[Huang et~al.(2013)Huang, Hodis, Xu, Kryukov, Chin, and
-  Garraway]{Huang2013}
-Franklin~W Huang, Eran Hodis, Mary~Jue Xu, Gregory~V Kryukov, Lynda Chin, and
-  Levi~A Garraway.
-\newblock {Highly recurrent TERT promoter mutations in human melanoma.}
-\newblock \emph{Science}, 339\penalty0 (6122):\penalty0 957--9, February 2013.
-\newblock ISSN 1095-9203.
-\newblock \doi{10.1126/science.1229259}.
-\newblock URL
-  \url{http://www.sciencemag.org.proxy.library.uu.nl/content/339/6122/957.short}.
+\bibitem[\protect\astroncite{Kidd et~al.}{2010}]{Kidd2010}
+Kidd, J.~M., Graves, T., Newman, T.~L., Fulton, R., Hayden, H.~S., Malig, M.,
+  Kallicki, J., Kaul, R., Wilson, R.~K., and Eichler, E.~E. (2010).
+\newblock {A human genome structural variation sequencing resource reveals
+  insights into mutational mechanisms.}
+\newblock {\em Cell}, 143(5):837--47.
 
-\bibitem[Kircher et~al.(2014)Kircher, Witten, Jain, O'Roak, Cooper, and
-  Shendure]{Kircher2014}
-Martin Kircher, Daniela~M Witten, Preti Jain, Brian~J O'Roak, Gregory~M Cooper,
-  and Jay Shendure.
+\bibitem[\protect\astroncite{Kircher et~al.}{2014}]{Kircher2014}
+Kircher, M., Witten, D.~M., Jain, P., O'Roak, B.~J., Cooper, G.~M., and
+  Shendure, J. (2014).
 \newblock {A general framework for estimating the relative pathogenicity of
   human genetic variants.}
-\newblock \emph{Nat. Genet.}, 46\penalty0 (3):\penalty0 310--5, March 2014.
-\newblock ISSN 1546-1718.
-\newblock \doi{10.1038/ng.2892}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/24487276}.
+\newblock {\em Nat. Genet.}, 46(3):310--5.
 
-\bibitem[Karr et~al.(2012)Karr, Sanghvi, Macklin, Gutschow, Jacobs, Bolival,
-  Assad-Garcia, Glass, and Covert]{Karr2012}
-Jonathan~R Karr, Jayodita~C Sanghvi, Derek~N Macklin, Miriam~V Gutschow,
-  Jared~M Jacobs, Benjamin Bolival, Nacyra Assad-Garcia, John~I Glass, and
-  Markus~W Covert.
-\newblock {A whole-cell computational model predicts phenotype from genotype.}
-\newblock \emph{Cell}, 150\penalty0 (2):\penalty0 389--401, July 2012.
-\newblock ISSN 1097-4172.
-\newblock \doi{10.1016/j.cell.2012.05.044}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3413483\&tool=pmcentrez\&rendertype=abstract}.
+\bibitem[\protect\astroncite{Kurth et~al.}{2009}]{Kurth2009}
+Kurth, I., Klopocki, E., Stricker, S., van Oosterwijk, J., Vanek, S., Altmann,
+  J., Santos, H.~G., van Harssel, J. J.~T., de~Ravel, T., Wilkie, A. O.~M.,
+  Gal, A., and Mundlos, S. (2009).
+\newblock {Duplications of noncoding elements 5' of SOX9 are associated with
+  brachydactyly-anonychia.}
+\newblock {\em Nat. Genet.}, 41(8):862--3.
 
-\bibitem[Lerman et~al.(2012)Lerman, Hyduke, Latif, Portnoy, Lewis, Orth,
-  Schrimpe-Rutledge, Smith, Adkins, Zengler, and Palsson]{Lerman2012}
-Joshua~A Lerman, Daniel~R Hyduke, Haythem Latif, Vasiliy~A Portnoy, Nathan~E
-  Lewis, Jeffrey~D Orth, Alexandra~C Schrimpe-Rutledge, Richard~D Smith,
-  Joshua~N Adkins, Karsten Zengler, and Bernhard~O Palsson.
+\bibitem[\protect\astroncite{Lander et~al.}{2001}]{Lander2001}
+Lander, E.~S., Linton, L.~M., Birren, B., Nusbaum, C., Zody, M.~C., Baldwin,
+  J., Devon, K., Dewar, K., Doyle, M., FitzHugh, W., Funke, R., Gage, D.,
+  Harris, K., Heaford, A., Howland, J., Kann, L., Lehoczky, J., LeVine, R.,
+  McEwan, P., McKernan, K., Meldrim, J., Mesirov, J.~P., Miranda, C., Morris,
+  W., Naylor, J., Raymond, C., Rosetti, M., Santos, R., Sheridan, A., Sougnez,
+  C., Stange-Thomann, N., Stojanovic, N., Subramanian, A., Wyman, D., Rogers,
+  J., Sulston, J., Ainscough, R., Beck, S., Bentley, D., Burton, J., Clee, C.,
+  Carter, N., Coulson, A., Deadman, R., Deloukas, P., Dunham, A., Dunham, I.,
+  Durbin, R., French, L., Grafham, D., Gregory, S., Hubbard, T., Humphray, S.,
+  Hunt, A., Jones, M., Lloyd, C., McMurray, A., Matthews, L., Mercer, S.,
+  Milne, S., Mullikin, J.~C., Mungall, A., Plumb, R., Ross, M., Shownkeen, R.,
+  Sims, S., Waterston, R.~H., Wilson, R.~K., Hillier, L.~W., McPherson, J.~D.,
+  Marra, M.~A., Mardis, E.~R., Fulton, L.~A., Chinwalla, A.~T., Pepin, K.~H.,
+  Gish, W.~R., Chissoe, S.~L., Wendl, M.~C., Delehaunty, K.~D., Miner, T.~L.,
+  Delehaunty, A., Kramer, J.~B., Cook, L.~L., Fulton, R.~S., Johnson, D.~L.,
+  Minx, P.~J., Clifton, S.~W., Hawkins, T., Branscomb, E., Predki, P.,
+  Richardson, P., Wenning, S., Slezak, T., Doggett, N., Cheng, J.~F., Olsen,
+  A., Lucas, S., Elkin, C., Uberbacher, E., Frazier, M., Gibbs, R.~A., Muzny,
+  D.~M., Scherer, S.~E., Bouck, J.~B., Sodergren, E.~J., Worley, K.~C., Rives,
+  C.~M., Gorrell, J.~H., Metzker, M.~L., Naylor, S.~L., Kucherlapati, R.~S.,
+  Nelson, D.~L., Weinstock, G.~M., Sakaki, Y., Fujiyama, A., Hattori, M., Yada,
+  T., Toyoda, A., Itoh, T., Kawagoe, C., Watanabe, H., Totoki, Y., Taylor, T.,
+  Weissenbach, J., Heilig, R., Saurin, W., Artiguenave, F., Brottier, P.,
+  Bruls, T., Pelletier, E., Robert, C., Wincker, P., Smith, D.~R.,
+  Doucette-Stamm, L., Rubenfield, M., Weinstock, K., Lee, H.~M., Dubois, J.,
+  Rosenthal, A., Platzer, M., Nyakatura, G., Taudien, S., Rump, A., Yang, H.,
+  Yu, J., Wang, J., Huang, G., Gu, J., Hood, L., Rowen, L., Madan, A., Qin, S.,
+  Davis, R.~W., Federspiel, N.~A., Abola, A.~P., Proctor, M.~J., Myers, R.~M.,
+  Schmutz, J., Dickson, M., Grimwood, J., Cox, D.~R., Olson, M.~V., Kaul, R.,
+  Shimizu, N., Kawasaki, K., Minoshima, S., Evans, G.~A., Athanasiou, M.,
+  Schultz, R., Roe, B.~A., Chen, F., Pan, H., Ramser, J., Lehrach, H.,
+  Reinhardt, R., McCombie, W.~R., de~la Bastide, M., Dedhia, N., Bl\"{o}cker,
+  H., Hornischer, K., Nordsiek, G., Agarwala, R., Aravind, L., Bailey, J.~A.,
+  Bateman, A., Batzoglou, S., Birney, E., Bork, P., Brown, D.~G., Burge, C.~B.,
+  Cerutti, L., Chen, H.~C., Church, D., Clamp, M., Copley, R.~R., Doerks, T.,
+  Eddy, S.~R., Eichler, E.~E., Furey, T.~S., Galagan, J., Gilbert, J.~G.,
+  Harmon, C., Hayashizaki, Y., Haussler, D., Hermjakob, H., Hokamp, K., Jang,
+  W., Johnson, L.~S., Jones, T.~A., Kasif, S., Kaspryzk, A., Kennedy, S., Kent,
+  W.~J., Kitts, P., Koonin, E.~V., Korf, I., Kulp, D., Lancet, D., Lowe, T.~M.,
+  McLysaght, A., Mikkelsen, T., Moran, J.~V., Mulder, N., Pollara, V.~J.,
+  Ponting, C.~P., Schuler, G., Schultz, J., Slater, G., Smit, A.~F., Stupka,
+  E., Szustakowski, J., Thierry-Mieg, D., Thierry-Mieg, J., Wagner, L., Wallis,
+  J., Wheeler, R., Williams, A., Wolf, Y.~I., Wolfe, K.~H., Yang, S.~P., Yeh,
+  R.~F., Collins, F., Guyer, M.~S., Peterson, J., Felsenfeld, A., Wetterstrand,
+  K.~A., Patrinos, A., Morgan, M.~J., de~Jong, P., Catanese, J.~J., Osoegawa,
+  K., Shizuya, H., Choi, S., Chen, Y.~J., and Szustakowki, J. (2001).
+\newblock {Initial sequencing and analysis of the human genome.}
+\newblock {\em Nature}, 409(6822):860--921.
+
+\bibitem[\protect\astroncite{Lerman et~al.}{2012}]{Lerman2012}
+Lerman, J.~A., Hyduke, D.~R., Latif, H., Portnoy, V.~A., Lewis, N.~E., Orth,
+  J.~D., Schrimpe-Rutledge, A.~C., Smith, R.~D., Adkins, J.~N., Zengler, K.,
+  and Palsson, B.~O. (2012).
 \newblock {In silico method for modelling metabolism and gene product
   expression at genome scale.}
-\newblock \emph{Nat. Commun.}, 3:\penalty0 929, January 2012.
-\newblock ISSN 2041-1723.
-\newblock \doi{10.1038/ncomms1928}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3827721\&tool=pmcentrez\&rendertype=abstract}.
+\newblock {\em Nat. Commun.}, 3:929.
 
-\bibitem[Sahoo et~al.(2008)Sahoo, Bodenreider, Rutter, Skinner, and
-  Sheth]{Sahoo2008}
-Satya~S Sahoo, Olivier Bodenreider, Joni~L Rutter, Karen~J Skinner, and Amit~P
-  Sheth.
-\newblock {An ontology-driven semantic mashup of gene and biological pathway
-  information: application to the domain of nicotine dependence.}
-\newblock \emph{J. Biomed. Inform.}, 41\penalty0 (5):\penalty0 752--65, October
-  2008.
-\newblock ISSN 1532-0480.
-\newblock \doi{10.1016/j.jbi.2008.02.006}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2766186\&tool=pmcentrez\&rendertype=abstract}.
+\bibitem[\protect\astroncite{McLaren et~al.}{2010}]{McLaren2010}
+McLaren, W., Pritchard, B., Rios, D., Chen, Y., Flicek, P., and Cunningham, F.
+  (2010).
+\newblock {Deriving the consequences of genomic variants with the Ensembl API
+  and SNP Effect Predictor.}
+\newblock {\em Bioinformatics}, 26(16):2069--70.
 
-\bibitem[Szpakowski et~al.(2009)Szpakowski, McCusker, and
-  Krauthammer]{Szpakowski2009}
-Sebastian Szpakowski, James McCusker, and Michael Krauthammer.
-\newblock {Using semantic web technologies to annotate and align microarray
-  designs.}
-\newblock \emph{Cancer Inform.}, 8:\penalty0 65--73, January 2009.
-\newblock ISSN 1176-9351.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4042255\&tool=pmcentrez\&rendertype=abstract}.
+\bibitem[\protect\astroncite{Munoz et~al.}{2011}]{Munoz2011}
+Munoz, J., Low, T.~Y., Kok, Y.~J., Chin, A., Frese, C.~K., Ding, V., Choo, A.,
+  and Heck, A. J.~R. (2011).
+\newblock {The quantitative proteomes of human-induced pluripotent stem cells
+  and embryonic stem cells.}
+\newblock {\em Mol. Syst. Biol.}, 7:550.
 
-\bibitem[Jupp et~al.(2014)Jupp, Malone, Bolleman, Brandizi, Davies, Garcia,
-  Gaulton, Gehant, Laibe, Redaschi, Wimalaratne, Martin, {Le Nov\`{e}re},
-  Parkinson, Birney, and Jenkinson]{Jupp2014}
-Simon Jupp, James Malone, Jerven Bolleman, Marco Brandizi, Mark Davies, Leyla
-  Garcia, Anna Gaulton, Sebastien Gehant, Camille Laibe, Nicole Redaschi,
-  Sarala~M Wimalaratne, Maria Martin, Nicolas {Le Nov\`{e}re}, Helen Parkinson,
-  Ewan Birney, and Andrew~M Jenkinson.
-\newblock {The EBI RDF platform: linked open data for the life sciences.}
-\newblock \emph{Bioinformatics}, 30\penalty0 (9):\penalty0 1338--9, May 2014.
-\newblock ISSN 1367-4811.
-\newblock \doi{10.1093/bioinformatics/btt765}.
-\newblock URL
-  \url{http://bioinformatics.oxfordjournals.org.proxy.library.uu.nl/content/30/9/1338}.
+\bibitem[\protect\astroncite{Ongen et~al.}{2014}]{Ongen2014}
+Ongen, H., Andersen, C.~L., Bramsen, J.~B., Oster, B., Rasmussen, M.~H.,
+  Ferreira, P.~G., Sandoval, J., Vidal, E., Whiffin, N., Planchon, A.,
+  Padioleau, I., Bielser, D., Romano, L., Tomlinson, I., Houlston, R.~S.,
+  Esteller, M., Orntoft, T.~F., and Dermitzakis, E.~T. (2014).
+\newblock {Putative cis-regulatory drivers in colorectal cancer}.
+\newblock {\em Nature}.
 
-\bibitem[Pavlopoulos et~al.(2008)Pavlopoulos, Wegener, and
-  Schneider]{Pavlopoulos2008}
-Georgios~A Pavlopoulos, Anna-Lynn Wegener, and Reinhard Schneider.
+\bibitem[\protect\astroncite{Pavlopoulos et~al.}{2008}]{Pavlopoulos2008}
+Pavlopoulos, G.~A., Wegener, A.-L., and Schneider, R. (2008).
 \newblock {A survey of visualization tools for biological network analysis.}
-\newblock \emph{BioData Min.}, 1:\penalty0 12, January 2008.
-\newblock ISSN 1756-0381.
-\newblock \doi{10.1186/1756-0381-1-12}.
-\newblock URL
-  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2636684\&tool=pmcentrez\&rendertype=abstract}.
+\newblock {\em BioData Min.}, 1:12.
 
-\bibitem[Thomas and Cook(2005)]{Thomas2005}
-JJ~Thomas and KA~Cook.
-\newblock {Illuminating the path: The research and development agenda for
-  visual analytics}.
-\newblock \emph{IEEE Comput. Soc.}, pages 19--32, 2005.
-\newblock URL
-  \url{http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Illuminating+the+Path:+The+Research+and+Development+Agenda+for+Visual+Analytics\#0
-  http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:Illuminating+the+path:+The+research+and+development+agenda+for+visual+analytics\#0}.
+\bibitem[\protect\astroncite{Pichon et~al.}{2012}]{Pichon2012}
+Pichon, X., {A. Wilson}, L., Stoneley, M., Bastide, A., {A King}, H., Somers,
+  J., and {E Willis}, A. (2012).
+\newblock {RNA Binding Protein/RNA Element Interactions and the Control of
+  Translation}.
+\newblock {\em Curr. Protein Pept. Sci.}, 13:294--304.
 
-\bibitem[Keim et~al.(2010)Keim, Mansmann, and Thomas]{Keim}
-Daniel Keim, Florian Mansmann, and Jim Thomas.
-\newblock {Visual analytics: how much visualization and how much analytics?}
-\newblock \emph{ACM SIGKDD Explor. \ldots}, 11\penalty0 (2):\penalty0 5--8,
-  2010.
-\newblock URL \url{http://dl.acm.org/citation.cfm?id=1809403}.
+\bibitem[\protect\astroncite{Poliseno et~al.}{2010}]{Poliseno2010}
+Poliseno, L., Salmena, L., Zhang, J., Carver, B., Haveman, W.~J., and Pandolfi,
+  P.~P. (2010).
+\newblock {A coding-independent function of gene and pseudogene mRNAs regulates
+  tumour biology.}
+\newblock {\em Nature}, 465(7301):1033--8.
 
-\bibitem[van Heesch et~al.(2014)van Heesch, van Iterson, Jacobi, Boymans,
-  Essers, de~Bruijn, Hao, Macinnes, Cuppen, and Simonis]{VanHeesch2014}
-Sebastiaan van Heesch, Maarten van Iterson, Jetse Jacobi, Sander Boymans,
-  Paul~B Essers, Ewart de~Bruijn, Wensi Hao, Alyson~W Macinnes, Edwin Cuppen,
-  and Marieke Simonis.
-\newblock {Extensive localization of long noncoding RNAs to the cytosol and
-  mono- and polyribosomal complexes.}
-\newblock \emph{Genome Biol.}, 15\penalty0 (1):\penalty0 R6, January 2014.
-\newblock ISSN 1465-6914.
-\newblock \doi{10.1186/gb-2014-15-1-r6}.
-\newblock URL \url{http://genomebiology.com/2014/15/1/R6}.
-
-\bibitem[Saleem et~al.(2014)Saleem, Padmanabhuni, {Ngonga Ngomo}, Iqbal,
-  Almeida, Decker, and Deus]{Saleem2014}
-Muhammad Saleem, Shanmukha~S. Padmanabhuni, Axel-Cyrille {Ngonga Ngomo}, Aftab
-  Iqbal, Jonas~S. Almeida, Stefan Decker, and Helena~F. Deus.
-\newblock {TopFed: TCGA Tailored Federated Query Processing and Linking to
-  LOD}.
-\newblock \emph{J. Biomed. Semantics}, 5\penalty0 (1):\penalty0 47, 2014.
-\newblock ISSN 2041-1480.
-\newblock \doi{10.1186/2041-1480-5-47}.
-\newblock URL \url{http://www.jbiomedsem.com/content/5/1/47}.
-
-\bibitem[Prahallad et~al.(2012)Prahallad, Sun, Huang, {Di Nicolantonio},
-  Salazar, Zecchin, Beijersbergen, Bardelli, and Bernards]{Prahallad2012}
-Anirudh Prahallad, Chong Sun, Sidong Huang, Federica {Di Nicolantonio}, Ramon
-  Salazar, Davide Zecchin, Roderick~L Beijersbergen, Alberto Bardelli, and
-  Ren\'{e} Bernards.
+\bibitem[\protect\astroncite{Prahallad et~al.}{2012}]{Prahallad2012}
+Prahallad, A., Sun, C., Huang, S., {Di Nicolantonio}, F., Salazar, R., Zecchin,
+  D., Beijersbergen, R.~L., Bardelli, A., and Bernards, R. (2012).
 \newblock {Unresponsiveness of colon cancer to BRAF(V600E) inhibition through
   feedback activation of EGFR.}
-\newblock \emph{Nature}, 483\penalty0 (7387):\penalty0 100--3, March 2012.
-\newblock ISSN 1476-4687.
-\newblock \doi{10.1038/nature10868}.
-\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/22281684}.
+\newblock {\em Nature}, 483(7387):100--3.
+
+\bibitem[\protect\astroncite{Prins}{2014}]{biorubyrdf}
+Prins, P. (2014).
+\newblock {Bioruby-rdf}.
+
+\bibitem[\protect\astroncite{Rands et~al.}{2014}]{Rands2014}
+Rands, C.~M., Meader, S., Ponting, C.~P., and Lunter, G. (2014).
+\newblock {8.2\% of the Human Genome Is Constrained: Variation in Rates of
+  Turnover across Functional Element Classes in the Human Lineage.}
+\newblock {\em PLoS Genet.}, 10(7):e1004525.
+
+\bibitem[\protect\astroncite{Sahoo et~al.}{2008}]{Sahoo2008}
+Sahoo, S.~S., Bodenreider, O., Rutter, J.~L., Skinner, K.~J., and Sheth, A.~P.
+  (2008).
+\newblock {An ontology-driven semantic mashup of gene and biological pathway
+  information: application to the domain of nicotine dependence.}
+\newblock {\em J. Biomed. Inform.}, 41(5):752--65.
+
+\bibitem[\protect\astroncite{Saleem et~al.}{2014}]{Saleem2014}
+Saleem, M., Padmanabhuni, S.~S., {Ngonga Ngomo}, A.-C., Iqbal, A., Almeida,
+  J.~S., Decker, S., and Deus, H.~F. (2014).
+\newblock {TopFed: TCGA Tailored Federated Query Processing and Linking to
+  LOD}.
+\newblock {\em J. Biomed. Semantics}, 5(1):47.
+
+\bibitem[\protect\astroncite{Schaefer et~al.}{2011}]{Schaefer2011}
+Schaefer, U., Schmeier, S., and Bajic, V.~B. (2011).
+\newblock {TcoF-DB: dragon database for human transcription co-factors and
+  transcription factor interacting proteins.}
+\newblock {\em Nucleic Acids Res.}, 39(Database issue):D106--10.
+
+\bibitem[\protect\astroncite{Searls}{2005}]{Searls2005}
+Searls, D.~B. (2005).
+\newblock {Data integration: challenges for drug discovery.}
+\newblock {\em Nat. Rev. Drug Discov.}, 4(1):45--58.
+
+\bibitem[\protect\astroncite{Strozzi}{2013}]{Strozzi2013}
+Strozzi, F. (2013).
+\newblock {Bioruby-vcf2rdf}.
+
+\bibitem[\protect\astroncite{Szpakowski et~al.}{2009}]{Szpakowski2009}
+Szpakowski, S., McCusker, J., and Krauthammer, M. (2009).
+\newblock {Using semantic web technologies to annotate and align microarray
+  designs.}
+\newblock {\em Cancer Inform.}, 8:65--73.
+
+\bibitem[\protect\astroncite{Tam et~al.}{2008}]{Tam2008}
+Tam, O.~H., Aravin, A.~A., Stein, P., Girard, A., Murchison, E.~P., Cheloufi,
+  S., Hodges, E., Anger, M., Sachidanandam, R., Schultz, R.~M., and Hannon,
+  G.~J. (2008).
+\newblock {Pseudogene-derived small interfering RNAs regulate gene expression
+  in mouse oocytes.}
+\newblock {\em Nature}, 453(7194):534--8.
+
+\bibitem[\protect\astroncite{Thomas and Cook}{2005}]{Thomas2005}
+Thomas, J. and Cook, K. (2005).
+\newblock {Illuminating the path: The research and development agenda for
+  visual analytics}.
+\newblock {\em IEEE Comput. Soc.}, pages 19--32.
+
+\bibitem[\protect\astroncite{van Heesch et~al.}{2014}]{VanHeesch2014}
+van Heesch, S., van Iterson, M., Jacobi, J., Boymans, S., Essers, P.~B.,
+  de~Bruijn, E., Hao, W., Macinnes, A.~W., Cuppen, E., and Simonis, M. (2014).
+\newblock {Extensive localization of long noncoding RNAs to the cytosol and
+  mono- and polyribosomal complexes.}
+\newblock {\em Genome Biol.}, 15(1):R6.
+
+\bibitem[\protect\astroncite{Weischenfeldt et~al.}{2013}]{Weischenfeldt2013}
+Weischenfeldt, J., Symmons, O., Spitz, F., and Korbel, J.~O. (2013).
+\newblock {Phenotypic impact of genomic structural variation: insights from and
+  for human disease.}
+\newblock {\em Nat. Rev. Genet.}, 14(2):125--38.
 
 \end{thebibliography}

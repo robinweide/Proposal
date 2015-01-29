@@ -1,48 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Proposal_V2.aux
-The style file: unsrtnat.bst
+The style file: apa.bst
 Database file #1: library.bib
-Warning--empty author in ENCODE
-You've used 33 entries,
-            2481 wiz_defined-function locations,
-            870 strings with 21521 characters,
-and the built_in function-call counts, 25652 in all, are:
-= -- 1370
-> -- 3310
-< -- 4
-+ -- 1138
-- -- 1072
-* -- 3083
-:= -- 4977
-add.period$ -- 191
-call.type$ -- 33
-change.case$ -- 66
-chr.to.int$ -- 33
-cite$ -- 35
-duplicate$ -- 633
-empty$ -- 1192
-format.name$ -- 1108
-if$ -- 4736
+You've used 39 entries,
+            1940 wiz_defined-function locations,
+            745 strings with 18659 characters,
+and the built_in function-call counts, 30138 in all, are:
+= -- 2467
+> -- 2993
+< -- 8
++ -- 1152
+- -- 1152
+* -- 3372
+:= -- 5543
+add.period$ -- 115
+call.type$ -- 39
+change.case$ -- 771
+chr.to.int$ -- 39
+cite$ -- 39
+duplicate$ -- 544
+empty$ -- 1070
+format.name$ -- 1197
+if$ -- 5300
 int.to.chr$ -- 1
-int.to.str$ -- 34
-missing$ -- 33
-newline$ -- 265
-num.names$ -- 96
-pop$ -- 143
+int.to.str$ -- 0
+missing$ -- 37
+newline$ -- 196
+num.names$ -- 117
+pop$ -- 692
 preamble$ -- 1
-purify$ -- 33
+purify$ -- 771
 quote$ -- 0
-skip$ -- 318
+skip$ -- 403
 stack$ -- 0
-substring$ -- 674
-swap$ -- 101
+substring$ -- 1157
+swap$ -- 83
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 231
-warning$ -- 1
-while$ -- 120
+type$ -- 234
+warning$ -- 0
+while$ -- 142
 width$ -- 0
-write$ -- 619
-(There was 1 warning)
+write$ -- 502

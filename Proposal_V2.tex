@@ -30,7 +30,8 @@
 \renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
 \usepackage[super, sort&compress]{natbib}
 \setlength{\bibsep}{0.0pt}
-\bibliographystyle{unsrtnat}
+%\bibliographystyle{unsrtnat}
+\bibliographystyle{apa}
 \usepackage{titlesec} % Allows customization of titles
 \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
 \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
@@ -52,7 +53,7 @@
 \renewcommand{\headrulewidth}{0pt}
 %\fancyhead[C]{Running title $\bullet$ November 2012 $\bullet$ Vol. XXI, No. 1} % Custom header text
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
-
+\renewcommand{\bibfont}{\footnotesize}
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
@@ -166,7 +167,7 @@ Combining these improvements in searching and linking networks with web-based vi
 \section*{Preliminary studies}
 During my Masters studies, I have already implemented graph-based methods for different purposes. As an illustration of the strengths of multilayer network-analysis, I describe a small example from the work I have done as an intern an the Sanger Institute\footnote{Unpublished data, discretion appreciated.}. Furthermore, we show trough a pilot-study the added efficiency of our proposed methods.
 \subsection*{Cis-regulatory regions: potential}
-When analysing predicted altered and/or de novo transcription factor binding sites (TFBS) by single-nucleotide polymorphisms (SNPs) in non-coding regions of over 1300 melanoma-patients, no overrepresented TFBS were found. We then discided to use graph-based data integration methods by linking the SNPs to regions in the TF-ChIP data of ENCODE\cite{ENCODE}. Furthermore, two triple stores were added: TcoF -containing TF-interacting proteins and co-factors- and gene ontology terms form the GO consortium. We found that there was a clear overrepresentation of TFs binding to transcription co-activators, like NCOA6, which have a functional role in \emph{\lstinline|vitamin D receptor binding|}. Further analyses showed more evidence of the importance of these findings in familial melanoma (e.g. co-segregation in melanoma-prone families). Without the multilayer network-analysis, in this case of genomics and epigenomics data, such new testable hypotheses are often not found. And without RDF, different databases and -sources would be much harder to integrate for (exploratory) analyses. 
+When analysing predicted altered and/or de novo transcription factor binding sites (TFBS) by single-nucleotide polymorphisms (SNPs) in non-coding regions of over 1300 melanoma-patients, no overrepresented TFBS were found. We then discided to use graph-based data integration methods by linking the SNPs to regions in the TF-ChIP data of ENCODE\cite{ENCODE}. Furthermore, two triple stores were added: TcoF\cite{Schaefer2011} -containing TF-interacting proteins and co-factors- and gene ontology terms form the GO consortium\cite{Ashburner2000}. We found that there was a clear overrepresentation of TFs binding to transcription co-activators, like NCOA6, which have a functional role in \emph{\lstinline|vitamin D receptor binding|}. Further analyses showed more evidence of the importance of these findings in familial melanoma (e.g. co-segregation in melanoma-prone families). Without the multilayer network-analysis, in this case of genomics and epigenomics data, such new testable hypotheses are often not found. And without RDF, different databases and -sources would be much harder to integrate for (exploratory) analyses. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.425\textwidth]{rondjeGraphs.pdf}
@@ -236,20 +237,18 @@ Ties with international leaders in biology-related semantic web and visualisatio
 \subsection*{Technical themes}
 %		RDF: gebruiken wat er is en waar nodig creeren (basis ligt er al, uitbreiden)
 %		Visual analytics voor de graphs
-Before any analysis on the effects of non-coding structural variants can occur, we firstly lay a strong technical foundation. Not only do we have to develop/adopt bioinformatical approaches, but we have to take into account the need for validation.
-
-The application of graph-based methods will be largely based on the RDF-platform. While biology-related triplestores (RDF-databases), conversion-tools and basic ontologies are already made, we only have to focus on the specific missing elements.
+Before any analysis on the effects of non-coding structural variants can occur, we firstly lay a strong technical foundation. The application of graph-based methods will be largely based on the RDF-platform. While biology-related triplestores (RDF-databases), conversion-tools and basic ontologies are already made, we only have to focus on the specific missing elements.
 \medskip
 
 \noindent
 \textbf{Data usage} \\
+Local data will be acquired per experiment (see \emph{biological themes}). Conversion of these datasets into triples is done after variant calling, as this is the earliest time in the experiment where we can filter and annotate. Post-calling integration keeps the size of the network to a minimum and allows us to create a general pipeline for conversion into RDF\footnote{Tools for VCF-file conversion to triples are already in development by both F. Strozzi and P. Prins\cite{Strozzi2013,biorubyrdf}}.
+ 
+As with the local data, public data sources will be linked on a per-experiment base. Relevant non-RDF databases (e.g. GO\cite{Ashburner2000}, KEGG\cite{Kanehisa2000}, TcoF\cite{Schaefer2011}, RegulomeDB\cite{Boyle2012}) have to be converted, most preferably with the aid of the database-curators (ensuring a compatible and a stable resource for the community). 
 
-\emph{ \color{red}vcf als start (miss fine-mapping van bams).. dus werken post-calling/filtering
-databases: encode als leidraad + rdf-dbs}\\
+The Cancer Genome Atlas (TCGA) has been translated into a RDF-resource in 2014\cite{Saleem2014}. The atlas includes whole-genome (\emph{Affy SNP 6.0-}) copy-number variation data. The fact that this resource also includes clinical, transcriptomic, epigenomic and proteomic data, makes it a very valuable resource for our experiments. Other existing triple-store, like from EBI\cite{Jupp2014}, will also be very valuable and used as-is.
 
-The Cancer Genome Atlas (TCGA) has been translated into a RDF-resource in 2014\cite{Saleem2014}. The atlas includes whole-genome (\emph{Affy SNP 6.0-}) copy-number variation data. The fact that this resource also includes clinical, transcriptomic, epigenomic and proteomic data, makes it a very valuable resource for our experiments.
 
-\emph{ \color{red}stukje over andere databases: EBI, GO, KEGG}
 
 
 
@@ -257,6 +256,9 @@ The Cancer Genome Atlas (TCGA) has been translated into a RDF-resource in 2014\c
 
 \noindent
 \textbf{Integration and visualisation} \\
+
+
+
 \emph{ \color{red}iets over wat we gaan doen voor visual analytics van de graphs en de mgelijkheid om een centraal -uitbreidbaar-platform te maken voor sparql-queries icm VA. (voortborduren op dingen als Epiviz en rdf:SynopsViz.  http://swui.semanticweb.org/swui06/papers/Karger/Pathetic\_Fallacy.html laat mooi een groot probleem zien: een rdf-hairball zit niemand op te wachten (i.e. de echte graph is dus niet goed voor analyse: VA is nodig: VA is het beste als een browser waarin je lekker op los kan klikken.)}
 
 
@@ -265,15 +267,11 @@ The Cancer Genome Atlas (TCGA) has been translated into a RDF-resource in 2014\c
 
 \noindent
 \textbf{\textit{In vitro} validation} \\
-
-\medskip
-
-\noindent
-\textbf{Validation strategy} \\
 \emph{ \color{red}crispr/cas9: mogelijkheid om een select aantal candidates in deatil uit te werken}
 
 
 \subsection*{Biological themes}
+
 %		Characterisation of the effects of SVs in cis- and trans-regulatory regions in disease. (TFBS, ncRNA, epistasis?)
 %		Non-coding structural factors of drug-resistance
 %		Single-cell analysis of SVs in cancer sub-populations
@@ -452,10 +450,10 @@ The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying th
 %\renewcommand{\refname}{\LARGE\scshape\centering References} %
 %\titleformat*{\section}{\LARGE\scshape\centering}
 %\titleformat{\section}[block]{\LARGE\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
-\begin{tiny}
+%\begin{tiny}
 
 \bibliography{library}
- \end{tiny}
+ %\end{tiny}
 %\end{thebibliography}
 %
 %%----------------------------------------------------------------------------------------
