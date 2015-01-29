@@ -41,6 +41,22 @@ Boyle, A.~P., Hong, E.~L., Hariharan, M., Cheng, Y., Schaub, M.~A., Kasowski,
   RegulomeDB.}
 \newblock {\em Genome Res.}, 22(9):1790--7.
 
+\bibitem[\protect\astroncite{Cao et~al.}{2008}]{Cao2008}
+Cao, X., Maloney, K.~B., and Brusic, V. (2008).
+\newblock {Data mining of cancer vaccine trials: a bird's-eye view.}
+\newblock {\em Immunome Res.}, 4:7.
+
+\bibitem[\protect\astroncite{Cerami et~al.}{2011}]{Cerami2011}
+Cerami, E.~G., Gross, B.~E., Demir, E., Rodchenkov, I., Babur, O., Anwar, N.,
+  Schultz, N., Bader, G.~D., and Sander, C. (2011).
+\newblock {Pathway Commons, a web resource for biological pathway data.}
+\newblock {\em Nucleic Acids Res.}, 39(Database issue):D685--90.
+
+\bibitem[\protect\astroncite{Chelaru et~al.}{2014}]{Chelaru2014}
+Chelaru, F., Smith, L., Goldstein, N., and Bravo, H.~C. (2014).
+\newblock {Epiviz: interactive visual analytics for functional genomics data}.
+\newblock {\em Nat. Methods}, 11(9):938--940.
+
 \bibitem[\protect\astroncite{{ENCODE Project Consortium}}{2004}]{ENCODE}
 {ENCODE Project Consortium} (2004).
 \newblock {The ENCODE (ENCyclopedia Of DNA Elements) Project.}
@@ -189,6 +205,13 @@ Lerman, J.~A., Hyduke, D.~R., Latif, H., Portnoy, V.~A., Lewis, N.~E., Orth,
   expression at genome scale.}
 \newblock {\em Nat. Commun.}, 3:929.
 
+\bibitem[\protect\astroncite{Liu et~al.}{2014}]{Liu2014a}
+Liu, Y., Ma, S., Wang, X., Chang, J., Gao, J., Shi, R., Zhang, J., Lu, W., Liu,
+  Y., Zhao, P., and Xia, Q. (2014).
+\newblock {Highly efficient multiplex targeted mutagenesis and genomic
+  structure variation in Bombyx mori cells using CRISPR/Cas9.}
+\newblock {\em Insect Biochem. Mol. Biol.}, 49:35--42.
+
 \bibitem[\protect\astroncite{McLaren et~al.}{2010}]{McLaren2010}
 McLaren, W., Pritchard, B., Rios, D., Chen, Y., Flicek, P., and Cunningham, F.
   (2010).
@@ -202,6 +225,12 @@ Munoz, J., Low, T.~Y., Kok, Y.~J., Chin, A., Frese, C.~K., Ding, V., Choo, A.,
 \newblock {The quantitative proteomes of human-induced pluripotent stem cells
   and embryonic stem cells.}
 \newblock {\em Mol. Syst. Biol.}, 7:550.
+
+\bibitem[\protect\astroncite{of~Athens}{2013}]{Athens2013}
+of~Athens, N. T.~U. (2013).
+\newblock {rdf:SynopsViz - A Framework for Hierarchical Linked Data Visual
+  Exploration and Analysis}.
+\newblock In {\em ESWC 2014}.
 
 \bibitem[\protect\astroncite{Ongen et~al.}{2014}]{Ongen2014}
 Ongen, H., Andersen, C.~L., Bramsen, J.~B., Oster, B., Rasmussen, M.~H.,
@@ -266,6 +295,11 @@ Schaefer, U., Schmeier, S., and Bajic, V.~B. (2011).
 \newblock {TcoF-DB: dragon database for human transcription co-factors and
   transcription factor interacting proteins.}
 \newblock {\em Nucleic Acids Res.}, 39(Database issue):D106--10.
+
+\bibitem[\protect\astroncite{Schraefel and Karger}{2007}]{Schraefel2006}
+Schraefel, M. and Karger, D. (2007).
+\newblock {The Pathetic Fallacy of RDF}.
+\newblock In {\em Int. Work. Semant. Web User Interact. 2006,}.
 
 \bibitem[\protect\astroncite{Searls}{2005}]{Searls2005}
 Searls, D.~B. (2005).

@@ -244,30 +244,21 @@ Before any analysis on the effects of non-coding structural variants can occur, 
 \textbf{Data usage} \\
 Local data will be acquired per experiment (see \emph{biological themes}). Conversion of these datasets into triples is done after variant calling, as this is the earliest time in the experiment where we can filter and annotate. Post-calling integration keeps the size of the network to a minimum and allows us to create a general pipeline for conversion into RDF\footnote{Tools for VCF-file conversion to triples are already in development by both F. Strozzi and P. Prins\cite{Strozzi2013,biorubyrdf}}.
  
-As with the local data, public data sources will be linked on a per-experiment base. Relevant non-RDF databases (e.g. GO\cite{Ashburner2000}, KEGG\cite{Kanehisa2000}, TcoF\cite{Schaefer2011}, RegulomeDB\cite{Boyle2012}) have to be converted, most preferably with the aid of the database-curators (ensuring a compatible and a stable resource for the community). 
+As with the local data, public data sources will be linked on a per-experiment base. Relevant non-RDF databases (e.g. Pathway Commons\cite{Cerami2011}, Reactome\cite{Jupp2014}, GO\cite{Ashburner2000}, KEGG\cite{Kanehisa2000}, TcoF\cite{Schaefer2011}, RegulomeDB\cite{Boyle2012}) have to be converted, most preferably with the aid of the database-curators (ensuring a compatible and a stable resource for the community). 
 
-The Cancer Genome Atlas (TCGA) has been translated into a RDF-resource in 2014\cite{Saleem2014}. The atlas includes whole-genome (\emph{Affy SNP 6.0-}) copy-number variation data. The fact that this resource also includes clinical, transcriptomic, epigenomic and proteomic data, makes it a very valuable resource for our experiments. Other existing triple-store, like from EBI\cite{Jupp2014}, will also be very valuable and used as-is.
-
-
-
-
-
+The Cancer Genome Atlas (TCGA) has been translated into a RDF-resource in 2014\cite{Saleem2014}. The atlas includes whole-genome (\emph{Affy SNP 6.0-}) copy-number variation data. The fact that this resource also includes clinical, transcriptomic, epigenomic and proteomic data, makes it a very valuable resource for our experiments. Other existing triple-stores, like from EBI\cite{Jupp2014}, will also be very valuable and used as-is.
 \medskip
 
 \noindent
 \textbf{Integration and visualisation} \\
+In the essay of Schraefel and Karger\citep{Schraefel2006}, the writers perfectly explain one of the main drawbacks of visualising graph-based integrated data: visualising the network in its natural form, a hairball, makes it hard to formalise an analytical problem to solve. A mix-and-match model, where display is dictated by the specifications of the queried data would be a much better fit. EpiViz2\cite{Chelaru2014} and rdf:SynopsViz\cite{Athens2013} are good examples of this. We will build upon these existing tools, by expanding their capabilities of handling different layers and dimensions.
 
-
-
-\emph{ \color{red}iets over wat we gaan doen voor visual analytics van de graphs en de mgelijkheid om een centraal -uitbreidbaar-platform te maken voor sparql-queries icm VA. (voortborduren op dingen als Epiviz en rdf:SynopsViz.  http://swui.semanticweb.org/swui06/papers/Karger/Pathetic\_Fallacy.html laat mooi een groot probleem zien: een rdf-hairball zit niemand op te wachten (i.e. de echte graph is dus niet goed voor analyse: VA is nodig: VA is het beste als een browser waarin je lekker op los kan klikken.)}
-
-
-
+To create interactive and dynamic visual representations of a dataset, we propose to use of the multidisciplinary theories and methods of \textit{visual analytics}. \citet{Thomas2005} describe this field in 2005 as "\textit{the science of analytical reasoning facilitated by interactive visual interfaces.}". It uses analytical and statistical methods from fields as computer science and statistics and visualisation-techniques from cognitive and design sciences. Visual analytics enables efficient exploratory analysis of the data by the user. Drug discovery is one of the leading areas in biological visual analytics, as it provides a more cost-effective method for analysing data of clinical trails\cite{Cao2008}.
 \medskip
 
 \noindent
 \textbf{\textit{In vitro} validation} \\
-\emph{ \color{red}crispr/cas9: mogelijkheid om een select aantal candidates in deatil uit te werken}
+Being in the Hubrecht Institute, we have direct access to (the technology of) Organoids and the Living BioBank from the Hubrecht Organoid Technology (HUB). For targeted mutagenesis of the candidate SVs, we will deploy the methods of Liu et al.\cite{Liu2014a} to introduce SVs in Organoids, specific for the experiment. Hereafter, data will be generated on the same levels and dimensions of the original patient-data, in order to verify our (graph-based) methods and results.
 
 
 \subsection*{Biological themes}

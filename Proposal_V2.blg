@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Proposal_V2.aux
 The style file: apa.bst
 Database file #1: library.bib
-You've used 39 entries,
+You've used 45 entries,
             1940 wiz_defined-function locations,
-            745 strings with 18659 characters,
-and the built_in function-call counts, 30138 in all, are:
-= -- 2467
-> -- 2993
-< -- 8
-+ -- 1152
-- -- 1152
-* -- 3372
-:= -- 5543
-add.period$ -- 115
-call.type$ -- 39
-change.case$ -- 771
-chr.to.int$ -- 39
-cite$ -- 39
-duplicate$ -- 544
-empty$ -- 1070
-format.name$ -- 1197
-if$ -- 5300
+            779 strings with 19889 characters,
+and the built_in function-call counts, 32887 in all, are:
+= -- 2717
+> -- 3160
+< -- 10
++ -- 1212
+- -- 1212
+* -- 3635
+:= -- 6032
+add.period$ -- 133
+call.type$ -- 45
+change.case$ -- 831
+chr.to.int$ -- 45
+cite$ -- 45
+duplicate$ -- 636
+empty$ -- 1238
+format.name$ -- 1265
+if$ -- 5815
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 37
-newline$ -- 196
-num.names$ -- 117
-pop$ -- 692
+missing$ -- 43
+newline$ -- 226
+num.names$ -- 135
+pop$ -- 752
 preamble$ -- 1
-purify$ -- 771
+purify$ -- 831
 quote$ -- 0
-skip$ -- 403
+skip$ -- 461
 stack$ -- 0
-substring$ -- 1157
-swap$ -- 83
+substring$ -- 1301
+swap$ -- 95
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 234
+type$ -- 270
 warning$ -- 0
-while$ -- 142
+while$ -- 161
 width$ -- 0
-write$ -- 502
+write$ -- 578
