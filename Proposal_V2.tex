@@ -85,7 +85,7 @@ Summary of the research
 
 \begin{abstract}
 \noindent
-Effects of structural variation in the non-coding regions of the human genome are rarely studied which is strong contrast to their known role in disease [ref: Phenotypic impact of genomic structural variation: insights from and for human disease]. Systematic approaches for elucidating their functional effects are rarely successful, mainly due to the complexity of non-coding regions (e.g. \textit{cis}- and \textit{trans}-acting elements, co-activation, non-coding RNA interaction). Predictions on functionality are further complicated by the diversity in types and consequences of structural variants. Integration and visualisation of complex, multi-layered datasets are needed to better understand the functional effects of these events\cite{Munoz2011}.
+Effects of structural variation in the non-coding regions of the human genome are rarely studied which is strong contrast to their known role in disease\cite{Weischenfeldt2013}. Systematic approaches for elucidating their functional effects are rarely successful, mainly due to the complexity of non-coding regions (e.g. \textit{cis}- and \textit{trans}-acting elements, co-activation, non-coding RNA interaction). Predictions on functionality are further complicated by the diversity in types and consequences of structural variants. Integration and visualisation of complex, multi-layered datasets are needed to better understand the functional effects of these events\cite{Munoz2011}.
 \medskip
 
 \noindent 
@@ -198,7 +198,7 @@ The 2014 survey of \citet{Gomez-Cabrero2014} showed that biomedical academics ha
 \medskip
 
 \noindent
-HIER NOG IETS OVER NON\_CODING\_NC
+\emph{ \color{red}HIER NOG IETS OVER NON\_CODING\_NC }
 \medskip
 
 \noindent
@@ -237,18 +237,40 @@ Ties with international leaders in biology-related semantic web and visualisatio
 %		RDF: gebruiken wat er is en waar nodig creeren (basis ligt er al, uitbreiden)
 %		Visual analytics voor de graphs
 Before any analysis on the effects of non-coding structural variants can occur, we firstly lay a strong technical foundation. Not only do we have to develop/adopt bioinformatical approaches, but we have to take into account the need for validation.
+
+The application of graph-based methods will be largely based on the RDF-platform. While biology-related triplestores (RDF-databases), conversion-tools and basic ontologies are already made, we only have to focus on the specific missing elements.
 \medskip
 
 \noindent
-\textbf{Computational methodology} \\
-vcf als start (miss fine-mapping van bams).. dus werken post-calling/filtering
+\textbf{Data usage} \\
 
-databases: encode als leidraad + rdf-dbs
+\emph{ \color{red}vcf als start (miss fine-mapping van bams).. dus werken post-calling/filtering
+databases: encode als leidraad + rdf-dbs}\\
+
+The Cancer Genome Atlas (TCGA) has been translated into a RDF-resource in 2014\cite{Saleem2014}. The atlas includes whole-genome (\emph{Affy SNP 6.0-}) copy-number variation data. The fact that this resource also includes clinical, transcriptomic, epigenomic and proteomic data, makes it a very valuable resource for our experiments.
+
+\emph{ \color{red}stukje over andere databases: EBI, GO, KEGG}
+
+
+
+\medskip
+
+\noindent
+\textbf{Integration and visualisation} \\
+\emph{ \color{red}iets over wat we gaan doen voor visual analytics van de graphs en de mgelijkheid om een centraal -uitbreidbaar-platform te maken voor sparql-queries icm VA. (voortborduren op dingen als Epiviz en rdf:SynopsViz.  http://swui.semanticweb.org/swui06/papers/Karger/Pathetic\_Fallacy.html laat mooi een groot probleem zien: een rdf-hairball zit niemand op te wachten (i.e. de echte graph is dus niet goed voor analyse: VA is nodig: VA is het beste als een browser waarin je lekker op los kan klikken.)}
+
+
+
+\medskip
+
+\noindent
+\textbf{\textit{In vitro} validation} \\
+
 \medskip
 
 \noindent
 \textbf{Validation strategy} \\
-crispr/cas9: mogelijkheid om een select aantal candidates in deatil uit te werken
+\emph{ \color{red}crispr/cas9: mogelijkheid om een select aantal candidates in deatil uit te werken}
 
 
 \subsection*{Biological themes}
@@ -259,8 +281,8 @@ This set of questions (ordered descending on $\frac{Pay}{Risc}$) shows the main 
 \medskip
 
 \noindent
-\textbf{Study (recurrent) non-coding SVs in TCGA?!} \\
-Is volgens mij de meest rijke dataset die we tot nu toe hebben.
+\textbf{Study recurrent non-coding SVs in public databases} \\
+adaasafssf
 \medskip
 
 \noindent
@@ -282,9 +304,7 @@ Due to the advances in single-cell sequencing (CELL-seq) of both DNA and RNA, we
 
 \noindent
 \textbf{Non-coding structural factors of drug-resistance} \\
-The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying the effects of variants in coding regions in cancer, including factors of drug resistance. However, the data has not been used to study the non-coding regions, primarily because of the aforementioned limitations in both non-coding analysis and data-integration. Firstly, we will analyse the (epi)genomic data to identify cancer-specific SVs that are cis-acting on specific genes. Secondly, the data of the products of these genes (e.g. transcripts, proteins and metabolites) is integrated to infer possible consequences on these levels. Linking specific drug-resistance information will also enable us find patterns between the SVs, the identified (consequences of) genes and specific drugs. Since treatment of a single drug often leads to resistance by a bypass in the drug-inhibited pathway\cite{Prahallad2012}, we also integrate public and CGC.nl-data on perturbed pathways in cancer. This will elucidate the mechanisms of non-coding SV-induced drug-resistance in cancer samples and potentially identify new targets for treatment. (!Korter!)
-
-CGC blijft altijd 1 cel / individue en dan nog wel een genomisch zeer fckd one.
+The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying the effects of variants in coding regions in cancer, including factors of drug resistance. However, the data has not been used to study the non-coding regions, primarily because of the aforementioned limitations in both non-coding analysis and data-integration. Firstly, we will analyse the (epi)genomic data to identify cancer-specific SVs that are cis-acting on specific genes. Secondly, the data of the products of these genes (e.g. transcripts, proteins and metabolites) is integrated to infer possible consequences on these levels. Linking specific drug-resistance information will also enable us find patterns between the SVs, the identified (consequences of) genes and specific drugs. Since treatment of a single drug often leads to resistance by a bypass in the drug-inhibited pathway\cite{Prahallad2012}, we also integrate public and CGC.nl-data on perturbed pathways in cancer. This will elucidate the mechanisms of non-coding SV-induced drug-resistance in cancer samples and potentially identify new targets for treatment.
 
 
 

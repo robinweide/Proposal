@@ -1,9 +1,20 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Weischenfeldt et~al.(2013)Weischenfeldt, Symmons, Spitz, and
+  Korbel]{Weischenfeldt2013}
+Joachim Weischenfeldt, Orsolya Symmons, Fran\c{c}ois Spitz, and Jan~O Korbel.
+\newblock {Phenotypic impact of genomic structural variation: insights from and
+  for human disease.}
+\newblock \emph{Nat. Rev. Genet.}, 14\penalty0 (2):\penalty0 125--38, February
+  2013.
+\newblock ISSN 1471-0064.
+\newblock \doi{10.1038/nrg3373}.
+\newblock URL \url{http://dx.doi.org/10.1038/nrg3373}.
 
 \bibitem[Munoz et~al.(2011)Munoz, Low, Kok, Chin, Frese, Ding, Choo, and
   Heck]{Munoz2011}
@@ -429,6 +440,17 @@ Sebastiaan van Heesch, Maarten van Iterson, Jetse Jacobi, Sander Boymans,
 \newblock ISSN 1465-6914.
 \newblock \doi{10.1186/gb-2014-15-1-r6}.
 \newblock URL \url{http://genomebiology.com/2014/15/1/R6}.
+
+\bibitem[Saleem et~al.(2014)Saleem, Padmanabhuni, {Ngonga Ngomo}, Iqbal,
+  Almeida, Decker, and Deus]{Saleem2014}
+Muhammad Saleem, Shanmukha~S. Padmanabhuni, Axel-Cyrille {Ngonga Ngomo}, Aftab
+  Iqbal, Jonas~S. Almeida, Stefan Decker, and Helena~F. Deus.
+\newblock {TopFed: TCGA Tailored Federated Query Processing and Linking to
+  LOD}.
+\newblock \emph{J. Biomed. Semantics}, 5\penalty0 (1):\penalty0 47, 2014.
+\newblock ISSN 2041-1480.
+\newblock \doi{10.1186/2041-1480-5-47}.
+\newblock URL \url{http://www.jbiomedsem.com/content/5/1/47}.
 
 \bibitem[Prahallad et~al.(2012)Prahallad, Sun, Huang, {Di Nicolantonio},
   Salazar, Zecchin, Beijersbergen, Bardelli, and Bernards]{Prahallad2012}
