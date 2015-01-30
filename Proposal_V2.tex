@@ -42,6 +42,8 @@
 \titleformat{\subsubsection}[block]{\bfseries\textit}{\thesubsubsection}{0.1mm}{} % Change the look of the section titles
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{caption}
+\usepackage{gantt}
+\usepackage{pdflscape}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \usepackage{setspace}
 \captionsetup[figure]{font={stretch=1}}
@@ -172,7 +174,7 @@ Combining these improvements in searching and linking networks with web-based vi
 \section*{Preliminary studies}
 During my Masters studies, I have already implemented graph-based methods for different purposes. As an illustration of the strengths of multilayer network-analysis, I describe a small example from the work I have done as an intern an the Sanger Institute\footnote{Unpublished data, discretion appreciated.}. Furthermore, we show trough a pilot-study the added efficiency of our proposed methods.
 \subsection*{Cis-regulatory regions: potential}
-When analysing predicted altered and/or de novo transcription factor binding sites (TFBS) by single-nucleotide polymorphisms (SNPs) in non-coding regions of over 1300 melanoma-patients, no overrepresented TFBS were found. We then discided to use graph-based data integration methods by linking the SNPs to regions in the TF-ChIP data of ENCODE\cite{ENCODE}. Furthermore, two triple stores were added: TcoF\cite{Schaefer2011} -containing TF-interacting proteins and co-factors- and gene ontology terms form the GO consortium\cite{Ashburner2000}. We found that there was a clear overrepresentation of TFs binding to transcription co-activators, like NCOA6, which have a functional role in \emph{\lstinline|vitamin D receptor binding|}. Further analyses showed  evidence of the importance of these findings in familial melanoma (e.g. co-segregation in melanoma-prone families). Without the multilayer network-analysis, in this case genomics and epigenomics data, such new testable hypotheses are often not found. And without RDF, different databases and -sources would be much harder to integrate for (exploratory) analyses. 
+When analysing predicted altered and/or de novo transcription factor binding sites (TFBS) by single-nucleotide polymorphisms (SNPs) in non-coding regions of over 1300 melanoma-patients, no overrepresented TFBS were found. We then discided to use graph-based data integration methods by linking the SNPs to regions in the TF-ChIP data of ENCODE\cite{ENCODE}. Furthermore, two triple stores were added: TcoF\cite{Schaefer2011} -containing TF-interacting proteins and co-factors- and gene ontology terms form the GO consortium\cite{Ashburner2000}. We found that there was a clear overrepresentation of TFs binding to transcription co-activators, like NCOA6, which have a functional role in \emph{\lstinline|vitamin D receptor binding|}. Further analyses showed evidence of the importance of these findings in familial melanoma (e.g. co-segregation in melanoma-prone families). Without the multilayer network-analysis, in this case genomics and epigenomics data, such new testable hypotheses are often not found. And without RDF, different databases and -sources would be much harder to integrate for (exploratory) analyses. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.425\textwidth]{rondjeGraphs.pdf}
@@ -299,44 +301,85 @@ Apart from data with a diseased state, it would also be very valuable to analyse
 %\textbf{Non-coding structural factors of drug-resistance} \\
 %The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying the effects of variants in coding regions in cancer, including factors of drug resistance. However, the data has not been used to study the non-coding regions, primarily because of the aforementioned limitations in both non-coding analysis and data-integration. Firstly, we will analyse the (epi)genomic data to identify cancer-specific SVs that are cis-acting on specific genes. Secondly, the data of the products of these genes (e.g. transcripts, proteins and metabolites) is integrated to infer possible consequences on these levels. Linking specific drug-resistance information will also enable us find patterns between the SVs, the identified (consequences of) genes and specific drugs. Since treatment of a single drug often leads to resistance by a bypass in the drug-inhibited pathway\cite{Prahallad2012}, we also integrate public and CGC.nl-data on perturbed pathways in cancer. This will elucidate the mechanisms of non-coding SV-induced drug-resistance in cancer samples and potentially identify new targets for treatment.
 
-
-
-
-
-
-
-
-
-
-
+\newpage
 \section*{Timetable}
-\begin{table}[h]
-\begin{center}
-\begin{tabular}{lllllll}
-                                                & \multicolumn{6}{c}{Semesters}                                                                                                                                                                                                                                                                                                                                                                                 \\ \cline{2-7} 
-                                                & S1                                              & S2                                              & S3                                              & S4                                              & S5                                              & S6                                                                                          \\ \hline
-\textbf{Data acquisition}               &           & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} }   \\
-\textbf{Aim 1: Data-integration}                & \cellcolor[HTML]{343434}                        & \cellcolor[HTML]{343434}                                             &                                                 &                                                 &                                                                                              \\
-\hspace*{1em} Developing omics-specific triples & \cellcolor[HTML]{656565}                        &                                                 &                                                 &                                                 &                                                 &                                                                                                 \\
-\hspace*{1em} Coding conversion-tools           &                                                 \cellcolor[HTML]{656565}               &     \cellcolor[HTML]{656565}         &                      &                                                 &                                                 &                                                                                                \\
-\hspace*{1em} Writing Best-Practices            &                                                 &                                                  \cellcolor[HTML]{656565}             &           &                                                 &                                                                                                  &                                                                                                \\
-\textbf{Aim 2: Visual analytics}                &                                                 &                                                  \cellcolor[HTML]{343434}                        & \cellcolor[HTML]{343434}                        &                                                                                                                        &                                                 \\
-\hspace*{1em} Coding SPARQL+D3 endpoint         &                                                 &                                                  \cellcolor[HTML]{656565}                        &                                                 &                                                                                                 &                                                 &                                                 \\
-\hspace*{1em} Adding visualisation-methods      &                                                                                               & \cellcolor[HTML]{656565}                        & \cellcolor[HTML]{656565}                                                                         &                                                 &                                                 &                                                 \\
-\hspace*{1em} Adding filtering and output                                                                                           &                                                 &  &                                                \cellcolor[HTML]{656565}   &                                                 &                                                 &                                                 \\
-\textbf{Aim 3: Multi-level analysis}            &                                                                                                  &                                                 &  & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } \\
-\hspace*{1em} Non-coding structural factors of drug-resistance                                                        &                                                 &                                                 &                        & \cellcolor[HTML]{656565}                  & \cellcolor[HTML]{656565}                     &                    \\
-\hspace*{1em} Single-cell analysis of SVs in cancer sub-populations                                                       &                                                 &                                                 &                        &                & \cellcolor[HTML]{656565}                     & \cellcolor[HTML]{656565}                   \\
-
-\textbf{Writing thesis}                         &                                                 &                                                 &                                                 &                                                 &                                                                        & \cellcolor[HTML]{343434}                       
-\end{tabular}
-\end{center}
-\end{table}
-
-
-
-
-
+\definecolor{DIOgroen}{HTML}{67AB9F}
+\definecolor{DIOblauw}{HTML}{7EA6E0}
+\definecolor{DIOrood}{HTML}{EA6B66}
+\definecolor{DIOgeel}{HTML}{FFD966}
+\begin{gantt}[xunitlength=0.5cm,fontsize=\scriptsize,titlefontsize=\small,drawledgerline=true]{28}{13}
+    \begin{ganttitle}
+      \titleelement{2015}{2}
+      \numtitle{2016}{1}{2017}{4}
+      \titleelement{2018}{3}
+    \end{ganttitle}
+%    \begin{ganttitle}
+%      \numtitle{3}{1}{4}{1}
+%      \numtitle{1}{1}{4}{1}
+%      \numtitle{1}{1}{4}{1}
+%      \numtitle{1}{1}{3}{1}
+%    \end{ganttitle}
+    \ganttgroup{Development of graph-based integration methods}{1}{9}
+    \ganttbar[color=DIOblauw]{Improving data-conversion to triplestores}{1}{5}
+    \ganttbar[color=DIOblauw]{Find and setup of optimal triplestore-storage and query engine}{3}{5}
+    \ganttbar[color=DIOblauw]{Developing best-practices for graph-based integration of nc-SV}{5}{3}
+    \ganttgroup{Visualisation and analytics}{2}{8}
+    \ganttbar[color=DIOrood]{Improving and/or developing mix-and-match RDF-explorer}{2}{6}
+    \ganttbar[color=DIOrood]{Adding visual analytics and code-less SPARQL}{6}{4}
+    \ganttgroup{Recurrent non-coding SVs in public databases}{2}{3}
+    \ganttbar[color=DIOgroen]{Finding co-segregated 'omics signals within region-CNV}{2}{1}
+    \ganttbar[color=DIOgroen]{Linking found signals to other databases}{2}{2}
+        \ganttbar[color=DIOgroen]{\textit{In silico} analysis of linked signals and downstream effects}{3}{1}
+     \ganttbar[color=DIOgroen]{\textit{In vitro} validation}{4}{1}
+    \ganttgroup{Identify effects of Chromotripsis-induced SVs}{5}{3}  
+    \ganttbar[color=DIOgroen]{Identifying mRNA- and epigenome-perturbations due to nc-SVs}{5}{1}
+        \ganttbar[color=DIOgroen]{Linking found transcripts and epigenome-regions to pathways}{5}{2}
+        \ganttbar[color=DIOgroen]{\textit{In silico} analysis of linked signals and downstream effects}{6}{1}
+     \ganttbar[color=DIOgroen]{\textit{In vitro} validation}{7}{1}
+    \ganttgroup{Single-cell analysis of SVs in cancer sub-populations}{6}{4} 
+    \ganttbar[color=DIOgroen]{Data acquisition and sub-population identification}{6}{1}
+\ganttbar[color=DIOgroen]{Linking nc-SVs to transcriptome-perturbations}{6}{2}
+    \ganttbar[color=DIOgroen]{Linking to public (pathway, target \& ontology) repositories}{7}{2}
+        \ganttbar[color=DIOgroen]{\textit{In silico} analysis of linked signals and downstream effects}{8}{1}
+     \ganttbar[color=DIOgroen]{\textit{In vitro} validation}{9}{1}    
+    \ganttgroup{Study non-coding SVs in healthy individuals/cells}{8}{4}        
+    \ganttbar[color=DIOgroen]{Linking nc-SVs to public (cancer, pathway, target \& ontology) repositories}{8}{2}
+        \ganttbar[color=DIOgroen]{\textit{In silico} analysis of linked signals and downstream effects}{10}{1}
+     \ganttbar[color=DIOgroen]{\textit{In vitro} validation}{11}{1}
+%    \ganttbar[color=yellow]{\textbf{Writing thesis}}{11}{1}
+%    \ganttbar{task 1}{2}{12}
+%    \ganttgroup{a group of tasks}{6}{8}
+%    \ganttbar{task 2}{5}{8}
+%    \ganttbar[color=DIOblauw]{task 3}{8}{3}
+%    \ganttbar{task 4}{8}{3}
+%    \ganttcon{7}{4}{8}{6}
+%    \ganttbar{task 5}{8}{5}
+%    \ganttbarcon[color=DIOrood]{task 6}{8}{5}
+%    \ganttbarcon{task 7}{8}{5}
+  \end{gantt}
+%
+%\begin{table}[h]
+%\begin{center}
+%\begin{tabular}{lllllll}
+%                                                & \multicolumn{6}{c}{Semesters}                                                                                                                                                                                                                                                                                                                                                                                 \\ \cline{2-7} 
+%                                                & S1                                              & S2                                              & S3                                              & S4                                              & S5                                              & S6                                                                                          \\ \hline
+%\textbf{Data acquisition}               &           & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} } & \cellcolor[HTML]{343434}{\color[HTML]{656565} }   \\
+%\textbf{Aim 1: Data-integration}                & \cellcolor[HTML]{343434}                        & \cellcolor[HTML]{343434}                                             &                                                 &                                                 &                                                                                              \\
+%\hspace*{1em} Developing omics-specific triples & \cellcolor[HTML]{656565}                        &                                                 &                                                 &                                                 &                                                 &                                                                                                 \\
+%\hspace*{1em} Coding conversion-tools           &                                                 \cellcolor[HTML]{656565}               &     \cellcolor[HTML]{656565}         &                      &                                                 &                                                 &                                                                                                \\
+%\hspace*{1em} Writing Best-Practices            &                                                 &                                                  \cellcolor[HTML]{656565}             &           &                                                 &                                                                                                  &                                                                                                \\
+%\textbf{Aim 2: Visual analytics}                &                                                 &                                                  \cellcolor[HTML]{343434}                        & \cellcolor[HTML]{343434}                        &                                                                                                                        &                                                 \\
+%\hspace*{1em} Coding SPARQL+D3 endpoint         &                                                 &                                                  \cellcolor[HTML]{656565}                        &                                                 &                                                                                                 &                                                 &                                                 \\
+%\hspace*{1em} Adding visualisation-methods      &                                                                                               & \cellcolor[HTML]{656565}                        & \cellcolor[HTML]{656565}                                                                         &                                                 &                                                 &                                                 \\
+%\hspace*{1em} Adding filtering and output                                                                                           &                                                 &  &                                                \cellcolor[HTML]{656565}   &                                                 &                                                 &                                                 \\
+%\textbf{Aim 3: Multi-level analysis}            &                                                                                                  &                                                 &  & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } & \cellcolor[HTML]{343434}{\color[HTML]{343434} } \\
+%\hspace*{1em} Non-coding structural factors of drug-resistance                                                        &                                                 &                                                 &                        & \cellcolor[HTML]{656565}                  & \cellcolor[HTML]{656565}                     &                    \\
+%\hspace*{1em} Single-cell analysis of SVs in cancer sub-populations                                                       &                                                 &                                                 &                        &                & \cellcolor[HTML]{656565}                     & \cellcolor[HTML]{656565}                   \\
+%
+%\textbf{Writing thesis}                         &                                                 &                                                 &                                                 &                                                 &                                                                        & \cellcolor[HTML]{343434}                       
+%\end{tabular}
+%\end{center}
+%\end{table}
 %
 %
 %
@@ -347,7 +390,6 @@ Apart from data with a diseased state, it would also be very valuable to analyse
 %\noindent
 %
 %
-
 %When data is incorporated in a Semantic Web RDF-database (TripleStore) and a relevant set of subjects, predicates and objects are extracted using SPARQL, the remaining dataset is still enormous. The abstract and complex nature of this "hairball" makes it hard to formalise an analytical problem to solve. \textbf{To create interactive and dynamic visual representations of a dataset, we propose to use of the multidisciplinary theories and methods of \textit{visual analytics}}. \citet{Thomas2005} describe this field in 2005 as "\textit{the science of analytical reasoning facilitated by interactive visual interfaces.}". It uses analytical and statistical methods from fields as computer science and statistics and visualisation-techniques from cognitive and design sciences. Visual analytics enables efficient exploratory analysis of the data by the user. Drug discovery is one of the leading areas in biological visual analytics, as it provides a more cost-effective method for analysing data of clinical trails\cite{Cao2008}.
 %
 %The JavaScript library "Data-Driven Documents" (\textit{D3.js}) is focussed on structuring data for dynamic web-based visualisation, which makes it well-suited for implementing linked data within visual analytics\cite{Bostock2011}. Moreover, since it is embedded in HTML, additional operators (e.g. buttons, SPARQL-forms) can be added (fig. \ref{fig:nya}). Due to these benefits, the use of D3.js in visual analytics is increasing: a notable biology-specific example of this is Epiviz2\cite{Chelaru2014}. However, this tool only takes an explicit set of data-formats and -levels and -more importantly- only shows a particular genomic region, instead of the complete scope. This can easily lead to cherry-picking, instead of data-focussed formulation and analysis of hypotheses.
@@ -387,11 +429,7 @@ Apart from data with a diseased state, it would also be very valuable to analyse
 %\noindent
 %
 %
-
 %\medskip
-
-
-
 %Data acquisition will be performed throughout the study. Ongoing sequencing efforts from the research group of Prof. Dr. Cuppen and collaborators will ensure more than adequate amounts of data will be at our disposal. Due to the accompanied scientific questions of this data, the method-development stages of this study will continue to be focussed and inspired by the end-goal: answering biological questions. Furthermore, continuing the data-acquisition in the second half of the study to will enable us to collaborate with the research community and showcase our innovative technology with new and exciting integrative biology studies.
 %\medskip
 %
@@ -418,24 +456,12 @@ Apart from data with a diseased state, it would also be very valuable to analyse
 %\begin{enumerate}
 %
 %
-
-
-
-
-
-
-
-
 %
 %linked data visual analystic zijn in alle velden te grebruiken, die RDf gebruiken. Ook voor bedrijven (pharma!). Super handig!
 %
 %Vrij snel te incorpporeren: de meeste dingen zijn er al
 %
 %cancer NC-SV is nog weinig over bekend: mogelijke nieuwe targets voor cancer screening and or treatment: sociaal en pharma.
-
-
-
-
 %-------------------------------------------------------
 %	REFERENCE LIST
 %----------------------------------------------------------------------------------------
@@ -445,10 +471,9 @@ Apart from data with a diseased state, it would also be very valuable to analyse
 %\renewcommand{\refname}{\LARGE\scshape\centering References} %
 %\titleformat*{\section}{\LARGE\scshape\centering}
 %\titleformat{\section}[block]{\LARGE\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
-%\begin{tiny}
-
+\begin{tiny}
 \bibliography{library}
- %\end{tiny}
+\end{tiny}
 %\end{thebibliography}
 %
 %%----------------------------------------------------------------------------------------
