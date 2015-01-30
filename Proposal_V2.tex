@@ -95,7 +95,7 @@ Effects of structural variation in the non-coding regions of the human genome ar
 \medskip
 
 \noindent 
-Within the realm of systems biology, graph-based approaches are well-known and -used for analysis of interaction-networks. The main benefits of abstracting complex data-sources to graphs are exploration through via visual analytics and the integration of datasets of different levels and dimensions. The ongoing cost reduction of various 'omics-approaches coupled to high throughput research, has led an explosion of available data. However, the complexity of integrating and analysing these large datasets increases with every added 'omics'-layer or dimension (e.g. time-series, treatments). 
+Within the realm of systems biology, graph-based approaches are well-known and -used for analysis of interaction-networks. The main benefits of abstracting complex data-sources to graphs are exploration through via visual analytics and the integration of datasets of different levels and dimensions. The ongoing cost reduction of various 'omics-approaches coupled to high throughput research, has led an explosion of available data. However, the complexity of integrating and analysing these large datasets increases with every added 'omics-layer or dimension (e.g. time-series, treatments). 
 
 For larger and more complex datasets like these, the bioinformatics community -following other \textit{big data} sciences- is starting to gravitate towards the Resource Description Framework (RDF). This is a simple and flexible graph-integration approach, which also allows for easy connection to (web-based) public repositories. The formation and testing of hypotheses on these  networks is enabled by using simple SPARQL-queries and subsequent visual analytics-methodologies.
 \medskip
@@ -172,7 +172,7 @@ Combining these improvements in searching and linking networks with web-based vi
 \section*{Preliminary studies}
 During my Masters studies, I have already implemented graph-based methods for different purposes. As an illustration of the strengths of multilayer network-analysis, I describe a small example from the work I have done as an intern an the Sanger Institute\footnote{Unpublished data, discretion appreciated.}. Furthermore, we show trough a pilot-study the added efficiency of our proposed methods.
 \subsection*{Cis-regulatory regions: potential}
-When analysing predicted altered and/or de novo transcription factor binding sites (TFBS) by single-nucleotide polymorphisms (SNPs) in non-coding regions of over 1300 melanoma-patients, no overrepresented TFBS were found. We then discided to use graph-based data integration methods by linking the SNPs to regions in the TF-ChIP data of ENCODE\cite{ENCODE}. Furthermore, two triple stores were added: TcoF\cite{Schaefer2011} -containing TF-interacting proteins and co-factors- and gene ontology terms form the GO consortium\cite{Ashburner2000}. We found that there was a clear overrepresentation of TFs binding to transcription co-activators, like NCOA6, which have a functional role in \emph{\lstinline|vitamin D receptor binding|}. Further analyses showed more evidence of the importance of these findings in familial melanoma (e.g. co-segregation in melanoma-prone families). Without the multilayer network-analysis, in this case of genomics and epigenomics data, such new testable hypotheses are often not found. And without RDF, different databases and -sources would be much harder to integrate for (exploratory) analyses. 
+When analysing predicted altered and/or de novo transcription factor binding sites (TFBS) by single-nucleotide polymorphisms (SNPs) in non-coding regions of over 1300 melanoma-patients, no overrepresented TFBS were found. We then discided to use graph-based data integration methods by linking the SNPs to regions in the TF-ChIP data of ENCODE\cite{ENCODE}. Furthermore, two triple stores were added: TcoF\cite{Schaefer2011} -containing TF-interacting proteins and co-factors- and gene ontology terms form the GO consortium\cite{Ashburner2000}. We found that there was a clear overrepresentation of TFs binding to transcription co-activators, like NCOA6, which have a functional role in \emph{\lstinline|vitamin D receptor binding|}. Further analyses showed  evidence of the importance of these findings in familial melanoma (e.g. co-segregation in melanoma-prone families). Without the multilayer network-analysis, in this case genomics and epigenomics data, such new testable hypotheses are often not found. And without RDF, different databases and -sources would be much harder to integrate for (exploratory) analyses. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.425\textwidth]{rondjeGraphs.pdf}
@@ -214,11 +214,11 @@ By enabling more users to use methods and sources of our approaches, this resear
 
 \section*{Experimental strategy}
 \subsection*{Placement and institute}
-Due to the affiliation with the University Medical Center Utrecht (UMCU), we are in a unique position to test our hypotheses and methods in both research and clinical settings. Furthermore, the HUB-biobank \url{http://hub4organoids.eu/} in the Hubrecht Institute  enables us to perform analyses on organoids, providing us a stable and homogeneous \textit{in vitro} platform for validations in (non)cancer-samples. With the proposed methods, we will be in a position to perform integrative studies with appropriate biological validation on the mechanisms and consequences of (structural) variation. 
+Due to the affiliation with the University Medical Center Utrecht (UMCU), we are in a unique position to test our hypotheses and methods in both research and clinical settings. Furthermore, the HUB-biobank \url{http://hub4organoids.eu/} in the Hubrecht Institute  enables us to perform analyses on organoids, providing us a stable and homogeneous \textit{in vitro} platform for validations in (non)cancer-samples. With the proposed methods, we will be in a position to perform integrative studies with appropriate biological validation on the mechanisms and consequences of SVs. 
 
 Groups in the Hubrecht are heavily involved in (inter)national consortia, like the \textit{Cancer Genomics Centre}. This national consortium of research-groups, predominantly of the Hubrecht Institute and the Netherlands Cancer Institute (NKI), focusses on cancer's (epi)genetic alterations and responses to drugs. Data from this project will include various levels (e.g. (epi)genomics, phospho-proteomics) and dimensions (e.g. drug-responses, time-series). For the cancer sub-population study, a collaboration between the \textit{van Oudenaarden}-group (lineage-tracing and CELL-seq) and the \textit{Clevers}-group (cancer-biobank) will be formed.
 
-A considerable amount of Dutch research groups make use of the Utrecht DNA-sequencing Facility(UDsF) and the Netherlands Proteomics Centre, which ensures adequate opportunities for collaborations and data-integration-based research questions. Furthermore, the newest generation of DNA-sequencing methods from Oxford NanoPore and Pacific Biosciences are being deployed in the UDsF. These technologies result in larger sequenced stretches of DNA, which will make a considerable impact in the identification and analysis of larger structural variants.
+A considerable amount of Dutch research groups make use of the Utrecht DNA-sequencing Facility(UDsF) and the Netherlands Proteomics Centre, which ensures adequate opportunities for collaborations and data-integration-based research questions. Furthermore, the newest generation of DNA-sequencing methods from Oxford NanoPore and Pacific Biosciences are being deployed in the UDsF. These technologies result in larger sequenced stretches of DNA, which will make a considerable impact in the identification and analysis of complex structural variants.
 
 Ties with international leaders in biology-related semantic web and visualisation technologies have been made and will continue to be expanded. Joachim Baran and Pjotr Prins have been heavily involved in the planning stages, being key players in handling various data-formats (into RDF) with \textit{BIO-Ruby}. Communications with Artem Tarasov of \textit{Sambamba} and Jerven Bolleman -key engineer of the \textit{UniProt-RDF} project- have also been established.
 %!!WGS!!
@@ -242,7 +242,7 @@ Ties with international leaders in biology-related semantic web and visualisatio
 \subsection*{Technical themes}
 %		RDF: gebruiken wat er is en waar nodig creeren (basis ligt er al, uitbreiden)
 %		Visual analytics voor de graphs
-Before any analysis on the effects of non-coding structural variants can occur, we firstly lay a strong technical foundation. The application of graph-based methods will be largely based on the RDF-platform. While biology-related triplestores (RDF-databases), conversion-tools and basic ontologies are already made, we only have to focus on the specific missing elements.
+Before analysis on the effects of non-coding structural variants can occur, we will lay a strong technical foundation. The application of graph-based methods will be largely based on the RDF-platform. While biology-related triplestores (RDF-databases), conversion-tools and basic ontologies are already made, we only have to focus on the specific missing elements.
 \medskip
 
 \noindent
@@ -275,13 +275,13 @@ This set of questions (ordered descending on $\frac{Pay}{Risc}$) shows the main 
 \medskip
 
 \noindent
-\textbf{Study recurrent non-coding SVs in public databases} \\
+\textbf{Recurrent non-coding SVs in public databases} \\
 By exploiting the available data of TCGA as primary source, we are in the ability to do our first experiment in parallel with primary method-development. Copy-number variation of patients will be compared to the transcript-expression, methylation, protein-expression and miRNA-target regions (where available). Our general expectation is that a large portion of the regions with recurrent variation in copy-number will have an effect on the other layers. For example the miRNA-layer: this variable (NGS-reads of miRNA's mapped to a region-subject) could identify changes in miRNA-generation, due to SVs (CNVs).
 \medskip
 
 \noindent
 \textbf{Identify effects of Chromotripsis-induced SVs} \\
-The researchgroup of Dr. W. Kloosterman of the UMC Utrecht has genomic, epigenomic (HiC) and transcriptomic data available from patients (including relatives) with chromotripsis: since this event results in a extremely large number of SVs\cite{Kloosterman2014}, it is a very valuable datasource for us. Found SVs will be linked TGCA, but also to pathway-resources (i.e. GO, KEGG, Reactome). Finding perturbed pathways due to changes in transcription by non-coding SVs is one of the most favourable results from this theme.
+The researchgroup of Dr. W. Kloosterman of the UMC Utrecht has genomic, epigenomic (HiC) and transcriptomic data available from patients (including relatives) with chromotripsis: since this event results in a extremely large number of SVs\cite{Kloosterman2014}, it is a very valuable datasource for us. Identified SVs will be linked to TGCA data, as wells as to pathway-resources (i.e. GO, KEGG, Reactome). Finding perturbed pathways due to changes in transcription by non-coding SVs is one of the most favourable results from this theme.
 \medskip
 
 \noindent
@@ -291,7 +291,7 @@ Due to the advances in single-cell sequencing (CELL-seq) of both DNA and RNA, we
 \medskip
 
 \noindent
-\textbf{Study non-coding SVs in healthy individuals/cells} \\
+\textbf{Non-coding SVs in healthy individuals/cells} \\
 Apart from data with a diseased state, it would also be very valuable to analyse non-coding SVs in healthy individuals. Recently published papers by Huch et al. and Behjati et al.\cite{Huch2014,Behjati2014} show that the are cell/lineage-specific differences in mutational patterns of Organoids, derived from normal stem cells. With upcoming data of Organoids, derived from stem cells of young an old individuals, we will be in the position to identify the effects of non-deleterious non-coding structural variants.
 %\medskip
 %
