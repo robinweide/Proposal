@@ -16,6 +16,16 @@ Barrett, L.~W., Fletcher, S., and Wilton, S.~D. (2012).
   regions and other non-coding elements.}
 \newblock {\em Cell. Mol. Life Sci.}, 69(21):3613--34.
 
+\bibitem[\protect\astroncite{Behjati et~al.}{2014}]{Behjati2014}
+Behjati, S., Huch, M., van Boxtel, R., Karthaus, W., Wedge, D.~C., Tamuri,
+  A.~U., Martincorena, I.~n., Petljak, M., Alexandrov, L.~B., Gundem, G.,
+  Tarpey, P.~S., Roerink, S., Blokker, J., Maddison, M., Mudie, L., Robinson,
+  B., Nik-Zainal, S., Campbell, P., Goldman, N., van~de Wetering, M., Cuppen,
+  E., Clevers, H., and Stratton, M.~R. (2014).
+\newblock {Genome sequencing of normal cells reveals developmental lineages and
+  mutational processes}.
+\newblock {\em Nature}, 513(7518):422--5.
+
 \bibitem[\protect\astroncite{Benko et~al.}{2009}]{Benko2009}
 Benko, S., Fantes, J.~A., Amiel, J., Kleinjan, D.-J., Thomas, S., Ramsay, J.,
   Jamshidi, N., Essafi, A., Heaney, S., Gordon, C.~T., McBride, D., Golzio, C.,
@@ -82,6 +92,16 @@ Huang, F.~W., Hodis, E., Xu, M.~J., Kryukov, G.~V., Chin, L., and Garraway,
 \newblock {Highly recurrent TERT promoter mutations in human melanoma.}
 \newblock {\em Science}, 339(6122):957--9.
 
+\bibitem[\protect\astroncite{Huch et~al.}{2014}]{Huch2014}
+Huch, M., Gehart, H., van Boxtel, R., Hamer, K., Blokzijl, F., Verstegen, M.,
+  Ellis, E., van Wenum, M., Fuchs, S., de Ligt, J., van de Wetering, M.,
+  Sasaki, N., Boers, S., Kemperman, H., de Jonge, J., Ijzermans, J.,
+  Nieuwenhuis, E., Hoekstra, R., Strom, S., Vries, R., van der Laan, L.,
+  Cuppen, E., and Clevers, H. (2014).
+\newblock {Long-Term Culture of Genome-Stable Bipotent Stem Cells from Adult
+  Human Liver}.
+\newblock {\em Cell}, 160(1-2):299--312.
+
 \bibitem[\protect\astroncite{Huttenhower and Hofmann}{2010}]{Huttenhower2010}
 Huttenhower, C. and Hofmann, O. (2010).
 \newblock {A quick guide to large-scale genomic data mining.}
@@ -138,6 +158,13 @@ Kircher, M., Witten, D.~M., Jain, P., O'Roak, B.~J., Cooper, G.~M., and
 \newblock {A general framework for estimating the relative pathogenicity of
   human genetic variants.}
 \newblock {\em Nat. Genet.}, 46(3):310--5.
+
+\bibitem[\protect\astroncite{Kloosterman and
+  Hochstenbach}{2014}]{Kloosterman2014}
+Kloosterman, W.~P. and Hochstenbach, R. (2014).
+\newblock {Deciphering the pathogenic consequences of chromosomal aberrations
+  in human genetic disease}.
+\newblock {\em Mol. Cytogenet.}, 7(1):100.
 
 \bibitem[\protect\astroncite{Kurth et~al.}{2009}]{Kurth2009}
 Kurth, I., Klopocki, E., Stricker, S., van Oosterwijk, J., Vanek, S., Altmann,
@@ -258,13 +285,6 @@ Poliseno, L., Salmena, L., Zhang, J., Carver, B., Haveman, W.~J., and Pandolfi,
 \newblock {A coding-independent function of gene and pseudogene mRNAs regulates
   tumour biology.}
 \newblock {\em Nature}, 465(7301):1033--8.
-
-\bibitem[\protect\astroncite{Prahallad et~al.}{2012}]{Prahallad2012}
-Prahallad, A., Sun, C., Huang, S., {Di Nicolantonio}, F., Salazar, R., Zecchin,
-  D., Beijersbergen, R.~L., Bardelli, A., and Bernards, R. (2012).
-\newblock {Unresponsiveness of colon cancer to BRAF(V600E) inhibition through
-  feedback activation of EGFR.}
-\newblock {\em Nature}, 483(7387):100--3.
 
 \bibitem[\protect\astroncite{Prins}{2014}]{biorubyrdf}
 Prins, P. (2014).

@@ -71,12 +71,17 @@
 }
 \date{}
 
+
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
 \maketitle % Insert title
-
+%\begin{figure}[h!]
+%    \centering
+%    \includegraphics[width=0.85\textwidth]{bender}
+%    \label{fig:awesome_image}
+%\end{figure}
 \thispagestyle{fancy} % All pages have headers and footers
 
 \newpage
@@ -199,7 +204,7 @@ The 2014 survey of \citet{Gomez-Cabrero2014} showed that biomedical academics ha
 \medskip
 
 \noindent
-\emph{ \color{red}HIER NOG IETS OVER NON\_CODING\_NC }
+With the increasing amount of data, elucidating the effects of non-coding structural variants is no long impossible (given the correct methodology). Finding events, such as the Svs in Pierre Robin Syndrome (PRS), in cancer and congenital disease would further the scientific knowledge of those diseases, resulting in another step to therapy and/or prevention. But also understanding the effects that non-deleterious non-coding SVs have in healthy individuals could lead to increased understanding in areas as immunity, developmental biology and stem-cell research.
 \medskip
 
 \noindent
@@ -271,29 +276,28 @@ This set of questions (ordered descending on $\frac{Pay}{Risc}$) shows the main 
 
 \noindent
 \textbf{Study recurrent non-coding SVs in public databases} \\
-adaasafssf
+By exploiting the available data of TCGA as primary source, we are in the ability to do our first experiment in parallel with primary method-development. Copy-number variation of patients will be compared to the transcript-expression, methylation, protein-expression and miRNA-target regions (where available). Our general expectation is that a large portion of the regions with recurrent variation in copy-number will have an effect on the other layers. For example the miRNA-layer: this variable (NGS-reads of miRNA's mapped to a region-subject) could identify changes in miRNA-generation, due to SVs (CNVs).
 \medskip
 
 \noindent
-\textbf{Identify effects of Chromotripsis induced SVs ??} \\
-Wigard heeft data van chromotripsis data patienten die volgens mij deels publiek is.
-[ref: Deciphering the pathogenic consequences of chromosomal aberrations in human genetic disease.]
-Wij willen dit natuurlijk verder trekken maar is een waardevolle dataset.
-\medskip
-
-\noindent
-\textbf{Study non-coding SVs in healthy Adult Stemcells} \\
-Volgens mij zou Ruben dat helemaal cool vinden ......
+\textbf{Identify effects of Chromotripsis-induced SVs} \\
+The researchgroup of Dr. W. Kloosterman of the UMC Utrecht has genomic, epigenomic (HiC) and transcriptomic data available from patients (including relatives) with chromotripsis: since this event results in a extremely large number of SVs\cite{Kloosterman2014}, it is a very valuable datasource for us. Found SVs will be linked TGCA, but also to pathway-resources (i.e. GO, KEGG, Reactome). Finding perturbed pathways due to changes in transcription by non-coding SVs is one of the most favourable results from this theme.
 \medskip
 
 \noindent
 \textbf{Single-cell analysis of SVs in cancer sub-populations} \\
 Due to the advances in single-cell sequencing (CELL-seq) of both DNA and RNA, we are able to look at consequences of SVs on transcription in single cells. The innovation here is the fact that signals are not averaged out by multiple (asynchronous) cells and we can thus analyse the cell as part of a sub-population. By integrating CELL-seq DNA- and RNA-data of different sub-populations of (heterogeneous) cancer-samples, we can find the previously obscured direct (i.e. cis-acting) and indirect (i.e. trans-acting) consequences of SVs in specific sub-populations. Furthermore, integrating data of lineage-tracing between and within different sub-populations could identify causal non-coding SV-events in the progression of cancer. Linking the public data of ontology- and pathway-databases will enable us to infer specific sub-population changes in pathways as the consequence of SVs or de-regulated genes due to SVs.
+
 \medskip
 
 \noindent
-\textbf{Non-coding structural factors of drug-resistance} \\
-The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying the effects of variants in coding regions in cancer, including factors of drug resistance. However, the data has not been used to study the non-coding regions, primarily because of the aforementioned limitations in both non-coding analysis and data-integration. Firstly, we will analyse the (epi)genomic data to identify cancer-specific SVs that are cis-acting on specific genes. Secondly, the data of the products of these genes (e.g. transcripts, proteins and metabolites) is integrated to infer possible consequences on these levels. Linking specific drug-resistance information will also enable us find patterns between the SVs, the identified (consequences of) genes and specific drugs. Since treatment of a single drug often leads to resistance by a bypass in the drug-inhibited pathway\cite{Prahallad2012}, we also integrate public and CGC.nl-data on perturbed pathways in cancer. This will elucidate the mechanisms of non-coding SV-induced drug-resistance in cancer samples and potentially identify new targets for treatment.
+\textbf{Study non-coding SVs in healthy individuals/cells} \\
+Apart from data with a diseased state, it would also be very valuable to analyse non-coding SVs in healthy individuals. Recently published papers by Huch et al. and Behjati et al.\cite{Huch2014,Behjati2014} show that the are cell/lineage-specific differences in mutational patterns of Organoids, derived from normal stem cells. With upcoming data of Organoids, derived from stem cells of young an old individuals, we will be in the position to identify the effects of non-deleterious non-coding structural variants.
+%\medskip
+%
+%\noindent
+%\textbf{Non-coding structural factors of drug-resistance} \\
+%The Cancer Genomics Centre Netherlands (CGC.nl) is in the process of studying the effects of variants in coding regions in cancer, including factors of drug resistance. However, the data has not been used to study the non-coding regions, primarily because of the aforementioned limitations in both non-coding analysis and data-integration. Firstly, we will analyse the (epi)genomic data to identify cancer-specific SVs that are cis-acting on specific genes. Secondly, the data of the products of these genes (e.g. transcripts, proteins and metabolites) is integrated to infer possible consequences on these levels. Linking specific drug-resistance information will also enable us find patterns between the SVs, the identified (consequences of) genes and specific drugs. Since treatment of a single drug often leads to resistance by a bypass in the drug-inhibited pathway\cite{Prahallad2012}, we also integrate public and CGC.nl-data on perturbed pathways in cancer. This will elucidate the mechanisms of non-coding SV-induced drug-resistance in cancer samples and potentially identify new targets for treatment.
 
 
 
