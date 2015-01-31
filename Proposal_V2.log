@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.30)  30 JAN 2015 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.30)  30 JAN 2015 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -972,11 +972,11 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 483.
  ) 
 Here is how much of TeX's memory you used:
- 22098 strings out of 493117
- 407256 string characters out of 6135433
+ 22094 strings out of 493117
+ 407212 string characters out of 6135433
  607788 words of memory out of 5000000
  24876 multiletter control sequences out of 15000+600000
- 31648 words of font info for 156 fonts, out of 8000000 for 9000
+ 31410 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,75p,1373b,940s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
@@ -1018,7 +1018,7 @@ pe1/public/cm-super/sfti0700.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 public/cm-super/sfti0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
 ic/cm-super/sftt1000.pfb>
-Output written on Proposal_V2.pdf (17 pages, 1769057 bytes).
+Output written on Proposal_V2.pdf (17 pages, 1769039 bytes).
 PDF statistics:
  559 PDF objects out of 1000 (max. 8388607)
  365 compressed objects within 4 object streams
