@@ -93,13 +93,13 @@ Summary of the research
 
 \begin{abstract}
 \noindent
-Effects of structural variation in the non-coding regions of the human genome are rarely studied which is in strong contrast to their known role in disease\cite{Weischenfeldt2013}. Systematic approaches for elucidating their functional effects are rarely successful, mainly due to the complexity of non-coding regions (e.g. \textit{cis}- and \textit{trans}-acting elements, co-activation, non-coding RNA interaction). Predictions on functionality are further complicated by the diversity in types and consequences of structural variants. Integration and visualisation of complex, multi-layered datasets are needed to better understand the functional effects of these events\cite{Munoz2011}.
+Effects of structural variation in the non-coding regions of the human genome are rarely studied, which is in strong contrast to their known role in disease\cite{Weischenfeldt2013}. Systematic approaches for elucidating their functional effects are rarely successful, mainly due to the complexity of non-coding regions (e.g. \textit{cis}- and \textit{trans}-acting elements, co-activation, non-coding RNA interaction). Predictions on functionality are further complicated by the diversity of types and consequences of structural variants. Integration and visualisation of complex, multi-layered datasets are needed to better understand the functional effects of these events\cite{Munoz2011}.
 \medskip
 
 \noindent 
-Within the realm of systems biology, graph-based approaches are well-known and -used for analysis of interaction-networks. The main benefits of abstracting complex data-sources to graphs are exploration via visual analytics and the integration of datasets of different levels and dimensions. The ongoing cost reduction of various 'omics-approaches coupled to high throughput research, has led an explosion of available data. However, the complexity of integrating and analysing these large datasets increases with every added 'omics-layer or dimension (e.g. time-series, treatments). 
+Within the realm of systems biology, graph-based approaches are well-known and -used for analysis of interaction-networks. The main benefits of abstracting complex data-sources to graphs are exploration via visual analytics and the integration of datasets of different levels and dimensions. The ongoing cost reduction of various 'omics-approaches coupled with high throughput research, has led an explosion of available data. However, the complexity of integrating and analysing these large datasets increases with every added 'omics-layer or dimension (e.g. time-series, treatments). 
 
-For larger and more complex datasets like these, the bioinformatics community -following other \textit{big data} sciences- is starting to gravitate towards the Resource Description Framework (RDF). This is a simple and flexible graph-integration approach, which also allows for easy connection to (web-based) public repositories. The formation and testing of hypotheses on these  networks is enabled by using simple SPARQL-queries and subsequent visual analytics-methodologies.
+For larger and more complex datasets like these, the bioinformatics community -following other \textit{big data} sciences- is starting to gravitate towards the Resource Description Framework (RDF). This is a simple and flexible graph-integration approach, which also allows for easy connection to (web-based) public repositories. The formation and testing of hypotheses on basis of these networks is enabled by using simple SPARQL-queries and subsequent visual analytics-methodologies.
 \medskip
 
 \noindent Here, we propose the use of graph-based methods to decrease the complexity of integrating and visualizing multi-level and -dimensional biological data. By integrating both public and patient-derived data, we are in the premier position to uncover new biological insights into the complex biology of non-coding structural variants. Our resulting methodologies and discoveries could aid a large community of both scientists and patients, by enabling further elucidation in congenital disease and cancer. 
@@ -118,7 +118,7 @@ For larger and more complex datasets like these, the bioinformatics community -f
 %Er is veel data om te gebuiken! Maar het is wel erg veel... en heterogeen
 The amount of (public) biological data has exploded in the last years (even outpacing Moore's law\footnote{A two-fold in- or decrease of a variable (here: dollar/nt) per two years.}). This is the result of the advances in omics-technologies like Next-Generation Sequencing (NGS) and Mass-Spectrometry (MS), in both performance and costs. The addition of other dimensions, like time-series or treatments, is a second factor for the highly complex nature of current biomedical research. While there are plenty of studies on single-level data analysis, both academia and industry agree that data-integration is essential to understand the complex nature of biology more thoroughly \citep{Gomez-Cabrero2014, Huttenhower2010, Searls2005, Hamid2009}. 
 
-The vast majority of large-scale integrative studies have been conducted on the coding-regions of the genome\cite{ENCODE}. Although finding functional genetic variation in the protein-coding regions of the genome has thus been the focus, these regions only amount to approximately two percent of the genome\cite{Lander2001}. Of the remaining 98\%, approximately 6.2\% is theorized to be biologically functional (i.e. under selective pressure)\cite{Rands2014}. One of the primary reasons behind this focus is the relatively uncomplicated nature of studying coding regions, as consequences on lower levels (e.g. transcription, proteins) are often linearly traceable\cite{McLaren2010}. 
+The vast majority of large-scale integrative studies have been conducted on the coding-regions of the genome\cite{ENCODE}. Although finding functional genetic variation in the protein-coding regions of the genome has thus been the focus, these regions only amount to approximately two percent of the genome\cite{Lander2001}. Of the remaining 98\%, approximately 6.2\% is theorized to be biologically functional (i.e. under selective pressure)\cite{Rands2014}. One of the primary reasons for this focus is the relatively uncomplicated nature of studying coding regions, as consequences on lower levels (e.g. transcription, proteins) are often linearly traceable\cite{McLaren2010}. 
 
 This is in contrast to the non-coding regions, which often do not show a linear effect on other levels\cite{Bird2006}. A good illustration of the complexity of the non-coding regions is the ENCyclopedia Of DNA Elements (ENCODE)-project\cite{ENCODE}, which contains over fifty different signals (e.g. histone methylation, DNase1 hypersensitivity). The fact that non-coding regions have roles in the regulation of both close and distant genes (i.e. \textit{cis-} and \textit{trans-}acting) provides great complexity to the analysis of structural variants (SVs) in these regions. For example, the Pierre Robin Syndrome (PRS): SVs (deletions or duplications) in the 3Mb surrounding the SOX9-gene in particular tissues are causative of the striking phenotype of undeveloped mandibles and tongue in children\cite{Benko2009,Kurth2009}. 
 \medskip
@@ -127,7 +127,7 @@ This is in contrast to the non-coding regions, which often do not show a linear 
 %\subsection*{	wat valt er te halen? uitleg NC}
 %Non-coding: lastig en weinig onderzocht
 % Grootste winst is te halen in het combineren van lagen (distant relationships)
-Genome-Wide Association Studies (GWASs) on a broad range of congenital and acquired diseases (e.g. cancer) have shown that non-coding locations are associated with these diseases. This led to the discoveries of various functions of the non-coding regions: from (in)directly regulating the transcription-machinery, to playing mayor roles in mRNA-degradation and from post-transcriptional modifications, to directly affecting the localisation of the transcript\cite{Pichon2012,Barrett2012}. Pseudogenes are also categorised as non-coding, but can be resurrected by gene conversion due to structural variants\cite{Kidd2010}. Pseudogenes can act as a decoy for their coding homologs\cite{Poliseno2010} (as was found to be the case in both oncogenes and tumour suppressors) and lead to RNA-interference by pseudogene-transcribed endo-siRNAs\cite{Tam2008}.
+Genome-Wide Association Studies (GWASs) on a broad range of congenital and acquired diseases (e.g. cancer) have shown that non-coding locations are associated with these diseases. This led to the discoveries of various functions of the non-coding regions: from (in)directly regulating the transcription-machinery, to playing major roles in mRNA-degradation and from post-transcriptional modifications, to directly affecting the localisation of the transcript\cite{Pichon2012,Barrett2012}. Pseudogenes are also categorised as non-coding but can be resurrected by gene conversion due to structural variants\cite{Kidd2010}. Pseudogenes can act as a decoy for their coding homologs\cite{Poliseno2010} (as was found to be the case in both oncogenes and tumour suppressors) and lead to RNA-interference by pseudogene-transcribed endo-siRNAs\cite{Tam2008}.
 
 Until 2013 tools and sources to systemically explore and analyse the functional consequences of variations in non-coding genomic regions were limited. In the last two years, several advances have made it possible to assess the consequences of individual variations in non-coding regions\cite{Ongen2014,Khurana2013}. Studies on cancer-specific causative non-coding variation are beginning to emerge in the last two years, including colorectal- and skin-cancer\cite{Ongen2014,Huang2013}, and computational methods for non-coding regions are just starting to come up in the literature of 2014\cite{Khurana2013,Kircher2014}. %However, no large-scale integrative studies have been performed, which is partly due to the current state of integrative methods. 
 \medskip
@@ -155,15 +155,13 @@ There have been various studies on the integration of biological signals with th
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{rdf.pdf}
-    \caption{\textbf{General outline of RDF.} \textbf{A}) By linking two triples by their common subjects, \textbf{B}) one can infer the relationship between the two objects via the predicates and find patterns%: a gene, responsible for calcium ion binding, has a low phosphorylation level in the investigated sample
-    .}
+    \caption{\textbf{General outline of RDF.} \textbf{A}) By linking two triples by their common subjects, \textbf{B}) one can infer the relationship between the two objects via the predicates and find patterns.}
     \label{fig:rdf}
 \end{figure}
 \noindent
 Extracting relevant information from this "hairball" of linked objects and subjects has been an important issue and challenge since the beginning of big data, as \citet{Pavlopoulos2008} stated in 2008. SPARQL provides the ability to filter on an arbitrary number of (human-readable) expressions and can combine multiple databases to query, like the RDF-databases of EMBL-EBI \citep{Jupp2014}. Another advantage of using SPARQL is the increase in scalability by including multiple triplestores in the same query. By enabling the use of small and specific triplestores, such a federated query results in faster retrieval of the data.
 
-Combining these improvements in searching and linking networks with web-based visual analytics will create a paradigm shift in the way integrative analysis of (biological) data is done. Visual analytics has been shown to result in the most optimal analysis-effectivity as it allows the user to combine the data with their own background and intuition %(fig. \ref{fig:ae})
-. Not only can data be more effectively analysed, but it can also be better understood and presented, due to the ability to provide a comprehensive overview of the complete dataset\cite{Thomas2005, Keim}. 
+Combining these improvements in searching and linking networks with web-based visual analytics will create a paradigm shift in the way integrative analysis of (biological) data is done. Visual analytics has been shown to result in the most optimal analysis-effectivity as it allows the user to combine the data with their own background and intuition. Not only can data be more effectively analysed, but it can also be better understood and presented, due to the ability to provide a comprehensive overview of the complete dataset\cite{Thomas2005, Keim}. 
 %\begin{figure}[h!]
 %    \centering
 %    \includegraphics[width=0.5\textwidth]{autoVSexplo.pdf}
@@ -172,7 +170,7 @@ Combining these improvements in searching and linking networks with web-based vi
 %\end{figure}
 \newpage
 \section*{Preliminary studies}
-During my Masters studies, I have already implemented graph-based methods for different purposes. As an illustration of the strengths of multilayer network-analysis, I describe a small example from the work I have done as an intern an the Sanger Institute\footnote{Unpublished data, discretion appreciated.}. Furthermore, we show trough a pilot-study the added efficiency of our proposed methods.
+During my Masters studies, I have already implemented graph-based methods for different purposes. As an illustration of the strengths of multilayer network-analysis, I describe a small example from the work I have done as an intern at the Sanger Institute\footnote{Unpublished data, discretion appreciated.}. Furthermore, we show trough a pilot-study the added efficiency of our proposed methods.
 \subsection*{Cis-regulatory regions: potential}
 When analysing predicted altered and/or de novo transcription factor binding sites (TFBS) by single-nucleotide polymorphisms (SNPs) in non-coding regions of over 1300 melanoma-patients, no overrepresented TFBS were found. We then discided to use graph-based data integration methods by linking the SNPs to regions in the TF-ChIP data of ENCODE\cite{ENCODE}. Furthermore, two triple stores were added: TcoF\cite{Schaefer2011} -containing TF-interacting proteins and co-factors- and gene ontology terms form the GO consortium\cite{Ashburner2000}. We found that there was a clear overrepresentation of TFs binding to transcription co-activators, like NCOA6, which have a functional role in \emph{\lstinline|vitamin D receptor binding|}. Further analyses showed evidence of the importance of these findings in familial melanoma (e.g. co-segregation in melanoma-prone families). Without the multilayer network-analysis, in this case genomics and epigenomics data, such new testable hypotheses are often not found. And without RDF, different databases and -sources would be much harder to integrate for (exploratory) analyses. 
 \begin{figure}[H]
@@ -186,8 +184,7 @@ A small-scale pilot-study was performed on the data of \citet{VanHeesch2014}. Th
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.85\textwidth]{DifferencesInDoingThings}
-    \caption{\textbf{Differences between current integration techniques and RDF.} For a question like \textbf{A}, series of parsing and interception steps are needed ( \textbf{B}). External sources have to be fully downloaded and converted. When using RDF, all data is converted into triples once (\textbf{C}) and subsequent queries can be made in SPARQL (\textbf{D})%, incorporating relevant outside sources, which can be easily changed without having to juggle/download the data again
-    .}
+    \caption{\textbf{Differences between current integration techniques and RDF.} For a question like \textbf{A}, series of parsing and interception steps are needed ( \textbf{B}). External sources have to be fully downloaded and converted. When using RDF, all data is converted into triples once (\textbf{C}) and subsequent queries can be made in SPARQL (\textbf{D}).}
     \label{fig:awesome_image}
 \end{figure}
 
@@ -197,12 +194,12 @@ Thus, this proposal has two sub-projects, which rely heavily on each other:
 
 \begin{enumerate}
 \item \textbf{Graph-based data integration \& visualisation} 
-Generation and adaptation of novel methodologies for integration and analysis of large scale, multi-dimensional biological data. And, more specifically, for structural variants in non-coding regions.
+Generation and adaptation of novel methodologies for integration and analysis of large-scale, multi-dimensional biological data. And, more specifically, for structural variants in non-coding regions.
 \item \textbf{Multi-level analysis} 
 Multi-level and -dimensional integrative analysis to elucidate the consequences of genomic structural variations in non-coding regions, which are found in patients with congenital disease and cancer. 
 \end{enumerate}
 \section*{Relevance}
-The 2014 survey of \citet{Gomez-Cabrero2014} showed that biomedical academics had the highest interest (78.2 percent) in the integration of multiple omics-datasets and that there was a high need for standardized tools and data-types. Data-storage, -exploration and -exploitation were found the be key. Their conclusions were best summarized by \textit{the need for having exploration tools, which combine summary statistics and interactive visualisations, to analyse heterogeneous data-sets}.
+The 2014 survey of \citet{Gomez-Cabrero2014} showed that biomedical academics had the highest interest (78.2 percent) in the integration of multiple omics-datasets and that there was a high need for standardized tools and data-types. Data-storage, -exploration and -exploitation were found the be key. Their conclusions were best summarized by \textit{the need for having exploration tools, which combine summary statistics and interactive visualisations, to analyse heterogeneous datasets}.
 \medskip
 
 \noindent
@@ -212,7 +209,7 @@ With the increasing amount of data, elucidating the effects of non-coding struct
 \noindent
 The implementation of our proposed graph-based methods will be swift since RDF already is a web-standard and a significant number of public biology-related sources are already in RDF-format. This will enable users of our methodologies to efficiently connect and integrate their data with public resources. Current statistical software, like the R environment, have packages to extract and further analyse SPARQL-output. This means that users only have to learn SPARQL-queries, in order to use the proposed methods.
 
-By enabling more users to use methods and sources of our approaches, this research will, in a broader perspective, have a direct effect on the semantic web and biological databases. By lowering the (bioinformatical) threshold for analysis, more data can be faster analysed by more people, further accelerating research. Users will also be able to tell their story (i.e. results) better. Psychologist will, for example, be able to get a better visualisation and thus understanding of a neuroscientist's work. Big pharmaceutical companies will be able to further include and analyse data of basic science, clinical trails and business-statistics with more efficiency. Moreover, the research-community will be one significant step further in dissecting the complex biology of (structural variation in) non-coding regions of the genome.
+By enabling more users to use methods and sources of our approaches, this research will, in a broader perspective, have a direct effect on the semantic web and biological databases. By lowering the (bioinformatical) threshold for analysis, more data can be faster analysed by more people, further accelerating research. Users will also be able to tell their story (i.e. results) better. Psychologist will, for example, be able to get a better visualisation and thus understanding of a neuroscientist's work. Big pharmaceutical companies will be able to further include and analyse data of basic science, clinical trials and business-statistics with more efficiency. Moreover, the research-community will be one significant step further in dissecting the complex biology of (structural variation in) non-coding regions of the genome.
 
 \section*{Experimental strategy}
 \subsection*{Placement and institute}
@@ -220,7 +217,7 @@ Due to the affiliation with the University Medical Center Utrecht (UMCU), we are
 
 Groups in the Hubrecht are heavily involved in (inter)national consortia, like the \textit{Cancer Genomics Centre}. This national consortium of research-groups, predominantly of the Hubrecht Institute and the Netherlands Cancer Institute (NKI), focusses on cancer's (epi)genetic alterations and responses to drugs. Data from this project will include various levels (e.g. (epi)genomics, phospho-proteomics) and dimensions (e.g. drug-responses, time-series). For the cancer sub-population study, a collaboration between the \textit{van Oudenaarden}-group (lineage-tracing and CELL-seq) and the \textit{Clevers}-group (cancer-biobank) will be formed.
 
-A considerable amount of Dutch research groups make use of the Utrecht DNA-sequencing Facility(UDsF) and the Netherlands Proteomics Centre, which ensures adequate opportunities for collaborations and data-integration-based research questions. Furthermore, the newest generation of DNA-sequencing methods from Oxford NanoPore and Pacific Biosciences are being deployed in the UDsF. These technologies result in larger sequenced stretches of DNA, which will make a considerable impact in the identification and analysis of complex structural variants.
+A considerable amount of Dutch research groups make use of the Utrecht DNA-sequencing Facility(UDsF) and the Netherlands Proteomics Centre, which ensures adequate opportunities for collaborations and data-integration-based research questions. Furthermore, the newest generation of DNA-sequencing methods from Oxford NanoPore and Pacific Biosciences are being deployed in the UDsF. These technologies result in larger sequenced stretches of DNA, which will make a considerable impact on the identification and analysis of complex structural variants.
 
 Ties with international leaders in biology-related semantic web and visualisation technologies have been made and will continue to be expanded. Joachim Baran and Pjotr Prins have been heavily involved in the planning stages, being key players in handling various data-formats (into RDF) with \textit{BIO-Ruby}. Communications with Artem Tarasov of \textit{Sambamba} and Jerven Bolleman -key engineer of the \textit{UniProt-RDF} project- have also been established.
 %!!WGS!!
@@ -244,7 +241,7 @@ Ties with international leaders in biology-related semantic web and visualisatio
 \subsection*{Technical themes}
 %		RDF: gebruiken wat er is en waar nodig creeren (basis ligt er al, uitbreiden)
 %		Visual analytics voor de graphs
-Before analysis on the effects of non-coding structural variants can occur, we will lay a strong technical foundation. The application of graph-based methods will be largely based on the RDF-platform. While biology-related triplestores (RDF-databases), conversion-tools and basic ontologies are already made, we only have to focus on the specific missing elements.
+Before an analysis on the effects of non-coding structural variants can occur, we will lay a strong technical foundation. The application of graph-based methods will be largely based on the RDF-platform. While biology-related triplestores (RDF-databases), conversion-tools and basic ontologies are already made, we only have to focus on the specific missing elements.
 \medskip
 
 \noindent
@@ -253,14 +250,14 @@ Local data will be acquired per experiment (see \emph{biological themes}). Conve
  
 As with the local data, public data sources will be linked on a per-experiment base. Relevant non-RDF databases (e.g. Pathway Commons\cite{Cerami2011}, Reactome\cite{Jupp2014}, GO\cite{Ashburner2000}, KEGG\cite{Kanehisa2000}, TcoF\cite{Schaefer2011}, RegulomeDB\cite{Boyle2012}) have to be converted, most preferably with the aid of the database-curators (ensuring a compatible and a stable resource for the community). 
 
-The Cancer Genome Atlas (TCGA) has been translated into a RDF-resource in 2014\cite{Saleem2014}. The atlas includes whole-genome (\emph{Affy SNP 6.0-}) copy-number variation data. The fact that this resource also includes clinical, transcriptomic, epigenomic and proteomic data, makes it a very valuable resource for our experiments. Other existing triple-stores, like from EBI\cite{Jupp2014}, will also be very valuable and used as-is.
+The Cancer Genome Atlas (TCGA) has been translated into an RDF-resource in 2014\cite{Saleem2014}. The atlas includes whole-genome (\emph{Affy SNP 6.0-}) copy-number variation data. The fact that this resource also includes clinical, transcriptomic, epigenomic and proteomic data, makes it a very valuable resource for our experiments. Other existing triple-stores, like from EBI\cite{Jupp2014}, will also be very valuable and used as-is.
 \medskip
 
 \noindent
 \textbf{Integration and visualisation} \\
 In the essay of Schraefel and Karger\citep{Schraefel2006}, the writers perfectly explain one of the main drawbacks of visualising graph-based integrated data: visualising the network in its natural form, a hairball, makes it hard to formalise an analytical problem to solve. A mix-and-match model, where display is dictated by the specifications of the queried data would be a much better fit. EpiViz2\cite{Chelaru2014} and rdf:SynopsViz\cite{Athens2013} are good examples of this. We will build upon these existing tools, by expanding their capabilities of handling different layers and dimensions.
 
-To create interactive and dynamic visual representations of a dataset, we propose to use of the multidisciplinary theories and methods of \textit{visual analytics}. \citet{Thomas2005} describe this field in 2005 as "\textit{the science of analytical reasoning facilitated by interactive visual interfaces.}". It uses analytical and statistical methods from fields as computer science and statistics and visualisation-techniques from cognitive and design sciences. Visual analytics enables efficient exploratory analysis of the data by the user. Drug discovery is one of the leading areas in biological visual analytics, as it provides a more cost-effective method for analysing data of clinical trails\cite{Cao2008}.
+To create interactive and dynamic visual representations of a dataset, we propose to use the multidisciplinary theories and methods of \textit{visual analytics}. \citet{Thomas2005} describe this field in 2005 as "\textit{the science of analytical reasoning facilitated by interactive visual interfaces.}". It uses analytical and statistical methods from fields as computer science and statistics and visualisation-techniques from cognitive and design sciences. Visual analytics enables efficient exploratory analysis of the data by the user. Drug discovery is one of the leading areas in biological visual analytics, as it provides a more cost-effective method for analysing data of clinical trials\cite{Cao2008}.
 \medskip
 
 \noindent
@@ -278,12 +275,12 @@ This set of questions (ordered descending on $\frac{Pay}{Risc}$) shows the main 
 
 \noindent
 \textbf{Recurrent non-coding SVs in public databases} \\
-By exploiting the available data of TCGA as primary source, we are in the ability to do our first experiment in parallel with primary method-development. Copy-number variation of patients will be compared to the transcript-expression, methylation, protein-expression and miRNA-target regions (where available). Our general expectation is that a large portion of the regions with recurrent variation in copy-number will have an effect on the other layers. For example the miRNA-layer: this variable (NGS-reads of miRNA's mapped to a region-subject) could identify changes in miRNA-generation, due to SVs (CNVs).
+By exploiting the available data of TCGA as the primary source, we are in the ability to do our first experiment in parallel with primary method-development. Copy-number variation of patients will be compared to the transcript-expression, methylation, protein-expression and miRNA-target regions (where available). Our general expectation is that a large portion of the regions with recurrent variation in copy-number will have an effect on the other layers. For example the miRNA-layer: this variable (NGS-reads of miRNA's mapped to a region-subject) could identify changes in miRNA-generation, due to SVs (CNVs).
 \medskip
 
 \noindent
 \textbf{Identify effects of Chromotripsis-induced SVs} \\
-The researchgroup of Dr. W. Kloosterman of the UMC Utrecht has genomic, epigenomic (HiC) and transcriptomic data available from patients (including relatives) with chromotripsis: since this event results in a extremely large number of SVs\cite{Kloosterman2014}, it is a very valuable datasource for us. Identified SVs will be linked to TGCA data, as wells as to pathway-resources (i.e. GO, KEGG, Reactome). Finding perturbed pathways due to changes in transcription by non-coding SVs is one of the most favourable results from this theme.
+The research group of Dr. W. Kloosterman of the UMC Utrecht has genomic, epigenomic (HiC) and transcriptomic data available from patients (including relatives) with chromotripsis: since this event results in a extremely large number of SVs\cite{Kloosterman2014}, it is a very valuable data-resource for us. Identified SVs will be linked to TGCA data, as wells as to pathway-resources (i.e. GO, KEGG, Reactome). Finding perturbed pathways due to changes in transcription by non-coding SVs is one of the most favourable results from this theme.
 \medskip
 
 \noindent
@@ -294,7 +291,7 @@ Due to the advances in single-cell sequencing (CELL-seq) of both DNA and RNA, we
 
 \noindent
 \textbf{Non-coding SVs in healthy individuals/cells} \\
-Apart from data with a diseased state, it would also be very valuable to analyse non-coding SVs in healthy individuals. Recently published papers by Huch et al. and Behjati et al.\cite{Huch2014,Behjati2014} show that the are cell/lineage-specific differences in mutational patterns of Organoids, derived from normal stem cells. With upcoming data of Organoids, derived from stem cells of young an old individuals, we will be in the position to identify the effects of non-deleterious non-coding structural variants.
+Apart from data with a diseased state, it would also be very valuable to analyse non-coding SVs in healthy individuals. Recently published papers by Huch et al. and Behjati et al.\cite{Huch2014,Behjati2014} show that the are cell/lineage-specific differences in mutational patterns of Organoids, derived from normal stem cells. With upcoming data of Organoids, derived from stem cells of young and old individuals, we will be in the position to identify the effects of non-deleterious non-coding structural variants.
 %\medskip
 %
 %\noindent
